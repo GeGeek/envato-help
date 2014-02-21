@@ -1,0 +1,355 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Thumbnail Scroller (with PHP Admin)</title>
+
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="description" content="" />
+        <meta name="keywords" content="" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+
+        <link rel="stylesheet" type="text/css" href="http://envato-help.dotonpaper.net/assets/gui/css/style.css" />
+        <link href='http://fonts.googleapis.com/css?family=Antic+Didone|Sintony' rel='stylesheet' type='text/css' />
+        <link rel="shortcut icon" href="http://envato-help.dotonpaper.net/assets/gui/images/icon.ico" />
+
+        <script type="text/JavaScript" src="http://code.jquery.com/jquery-latest.js"></script>
+        <script type="text/javascript" src="http://envato-help.dotonpaper.net/libraries/js/syntax-highlighter/shCore.js"></script>
+	<script type="text/javascript" src="http://envato-help.dotonpaper.net/libraries/js/syntax-highlighter/shBrushCss.js"></script>
+	<script type="text/javascript" src="http://envato-help.dotonpaper.net/libraries/js/syntax-highlighter/shBrushJScript.js"></script>
+	<script type="text/javascript" src="http://envato-help.dotonpaper.net/libraries/js/syntax-highlighter/shBrushPhp.js"></script>
+	<script type="text/javascript" src="http://envato-help.dotonpaper.net/libraries/js/syntax-highlighter/shBrushSql.js"></script>
+	<script type="text/javascript" src="http://envato-help.dotonpaper.net/libraries/js/syntax-highlighter/shBrushXml.js"></script>
+        <script type="text/Javascript" src="http://envato-help.dotonpaper.net/assets/js/main.js"></script>
+    </head>
+    <body>
+        <div id="wrapper">
+            <div id="sidebar">
+                <a href="javascript:toggleMenu()" id="menu-button">
+                    <span class="icon hide"></span>
+                </a>
+                <ul id="menu">
+                    <li>
+                        <a href="#getting-started">Getting Started</a>
+                    </li>
+                    <li>
+                    	<a href="#licence">Licence</a>
+                    </li>
+                    <li>
+                        <a href="#how-to-install-it">How to install it</a>
+                    </li>
+                    <li>
+                        <a href="#how-to-use-it">How to use it</a>
+                    </li>
+                    <li>
+                        <a href="#faq">FAQ</a>
+                    </li>
+                    <li>
+                        <a href="#known-issues">Known issues</a>
+                    </li>
+                    <li>
+                    	<a href="#how-to-update">How to update</a>
+                    </li>
+                    <li>
+                        <a href="#support">Support</a>
+                    </li>
+                </ul>
+            </div>
+            
+            <div id="content">
+            	<h1>
+                   Thumbnail Scroller<br />
+                   with PHP Admin
+                </h1>
+                
+                <section id="getting-started">
+                    <h2>Getting Started</h2>
+                    <p>
+                        A very customizable Thumbnail Scroller, which can be edited from a PHP Admin. The scroller is completely resizable and is compatible with all browsers and devices (iPhone, iPad and Android smartphones). You will be able to insert it into your website with an inbuilt HTML code generator.
+                    </p>
+                    <p>
+                        If you like this plugin, feel free to rate it five stars
+                        &nbsp;<img alt="" class="star" src="http://2.envato-static.com/assets/common/icons-buttons/rating/star-on-24a8d2589eca9f34bc2ff72a59bd9af7.png" />
+                        <img alt="" class="star" src="http://2.envato-static.com/assets/common/icons-buttons/rating/star-on-24a8d2589eca9f34bc2ff72a59bd9af7.png" />
+                        <img alt="" class="star" src="http://2.envato-static.com/assets/common/icons-buttons/rating/star-on-24a8d2589eca9f34bc2ff72a59bd9af7.png" />
+                        <img alt="" class="star" src="http://2.envato-static.com/assets/common/icons-buttons/rating/star-on-24a8d2589eca9f34bc2ff72a59bd9af7.png" />
+                        <img alt="" class="star" src="http://2.envato-static.com/assets/common/icons-buttons/rating/star-on-24a8d2589eca9f34bc2ff72a59bd9af7.png" />&nbsp;
+                        at your <a href="http://codecanyon.net/?ref=DOTonPAPER" target="_blank">CodeCanyon</a> account in <strong>Downloads</strong> section.
+                        If you encounter any problems, before rating the item, <a href="http://envato-support.dotonpaper.net/" target="_blank">contact us</a> so we can help you fix them.
+                    </p>
+                </section>
+
+                <section id="licence">
+                    <h2>Licence</h2>
+                    <p>
+                        This item is sold under <a href="http://themeforest.net/licenses" target="_blank">Envato Licences</a>. Please read them and contact <a href="http://support.envato.com/" target="_blank">Envato Support</a> if you have any questions.
+                    </p>
+                </section>
+
+                <section id="how-to-install-it">
+                    <h2>How to install it</h2>
+                    <p>
+                        Copy the folder <strong>dopts</strong> somewhere on your server (preferably in the same folder as of the page you want to add the gallery to).
+                    </p>
+                    <p>
+                        Change the permission of the <strong>dopts/data</strong> &  <strong>dopts/uploads</strong> with <strong>all subfolders</strong> to <strong>777</strong>.
+                    </p>
+                    <p>
+                        Change the following setings in <strong>dopts/config.php</strong>:<br />
+                        <script type="syntaxhighlighter" class="brush: php; toolbar: false;">
+                                <![CDATA[
+                                    define("DOPTS_ADMIN_USERNAME", "add username here"); // Add admin username.
+                                    define("DOPTS_ADMIN_PASSWORD", "add password here"); // Add admin password.
+                                    define("DOPTS_URL", "add url here"); // Add URL to dopts folder (must end with /).
+                                    define("DOPTS_ABSOLUTE_PATH", "add absolute path here"); // Add ABSOLUTE PATH to dopts folder (must end with /).
+                                ]]>
+                        </script>
+                    <strong>Note</strong>: The URL and ABSOLUTE PATH are found in the <strong>dopts/paths.php</strong> that is opened by your browser.    
+                    </p>
+                    <p>
+                       Go to <strong>http://www.your_url.com/dopts/admin</strong> to login.
+ 
+                    </p>
+                </section>
+
+                <section id="how-to-use-it">
+                    <h2>How to use it</h2>
+                    <p>
+                        After installation login with the username and password from the 3rd installation step and hover/click the mouse over the Question Mark icons for instructions.
+                    </p>
+                </section>
+
+                <section id="faq">
+                    <h2>FAQ</h2>
+                    <ul class="faq">
+                        <li>
+                            <p class="question">
+                                1. How to install the scroller?
+                            </p>
+                            <p class="answer">
+                                Please watch this <a href="https://vimeo.com/62719396" target="_blank">video</a>.
+                            </p>
+                        </li>
+                        <li>
+                            <p class="question">
+                                2. How do I create a scroller and add images to it?
+                            </p>
+                            <p class="answer">
+                                Please watch this <a href="https://vimeo.com/62719400" target="_blank">video</a>.
+                            </p>
+                        </li>
+                        <li>
+                            <p class="question">
+                                3. How do I create a new thumbnail?
+                            </p>
+                            <p class="answer">
+                                Please watch this <a href="https://vimeo.com/62719398" target="_blank">video</a>.
+                            </p>
+                        </li>
+                        <li>
+                            <p class="question">
+                                4. How do I add media to a scroller item? (Embed videos - YouTube, Vimeo - , add HTML code etc.)
+                            </p>
+                            <p class="answer">
+                                Please watch this <a href="https://vimeo.com/62719399" target="_blank">video</a>.
+                            </p>
+                        </li>
+                        <li>
+                            <p class="question">
+                                5. How do I change scroller settings? (Some examples)
+                            </p>
+                            <p class="answer">
+                                Please watch this <a href="https://vimeo.com/62719401" target="_blank">video</a>.
+                            </p>
+                        </li>
+                        <li>
+                            <p class="question">
+                                6. How can I integrate this admin into my own CMS?
+                            </p>
+                            <p class="answer">
+                                You change the session condition in <strong>dopts/admin/index.php.</strong>.
+                            </p>
+                        </li>
+                        <li>
+                            <p class="question">
+                                7. Why cannot I upload images to my scroller?	
+                            </p>
+                            <p class="answer">
+                                Make sure that folders <strong>dopts/uploads</strong> with <strong>all subfolders</strong> inside it & <strong>dopts/data/</strong> have the permissions set to <strong>777</strong>. If the folder has the right permissions, try another upload method from the ones provided (AJAX, Uploadify, FTP).
+                            </p>
+                        </li>
+                        <li>
+                            <p class="question">
+                                8. Why do not the images appear after the upload is complete?
+                            </p>
+                            <p class="answer">
+                                Make sure that you have the GD Library enabled in PHP.
+                            </p>
+                        </li>
+                        <li>
+                            <p class="question">
+                                9. Why do I receive an IO Error when I upload images using Uploadify?
+                            </p>
+                            <p class="answer">
+                                The IO Error is a Flash error caused when the upload connection gets cut short. This usually happens with slow internet connections.
+                            </p>
+                        </li>
+                        <li>
+                            <p class="question">
+                                10. Why does not the scroller appear in my website?
+                            </p>
+                            <p class="answer">
+                                If the gallery does not appear, it might be because there is a problem with the JavaScript in your website. If you cannot identify the problem, contact us, including in the message a link to the page where the problem appears. We will identify and fix the issue for you. However, we will not fix the problems that are not caused by this plugin.<br />
+                                <br />
+                                Another reason might be that you load more than one jQuery file into your theme. The proper way to load jQuery into your theme or plugin is the following:
+                                <script type="syntaxhighlighter" class="brush: php; toolbar: false;">
+                                    <![CDATA[
+                                        if (!wp_script_is('jquery', 'queue')){
+                                             wp_enqueue_script('jquery');
+                                        }
+                                    ]]>
+                                </script>
+                            </p>
+                        </li>
+                        <li>
+                            <p class="question">
+                                2. How do I remove rounded corners from thumbnails & images?
+                            </p>
+                            <p class="answer">
+                                Open file <em>dopts/assets/gui/css/jquery.dop.ThumbnailScroller.css</em> in an editor and change or remove <strong>border-radius</strong> properties.
+                                <br /><br />
+                                <script type="syntaxhighlighter" class="brush: css; toolbar: false;">
+                                <![CDATA[
+                                    -webkit-border-radius: ;
+                                    -moz-border-radius: ;
+                                    border-radius: ;
+                                ]]>
+                                </script>
+                            </p>
+                        </li>
+                        <li>
+                            <p class="question">
+                                11. How do I change the language?
+                            </p>
+                            <p class="answer">
+                                You can change the translation in the file <strong>dopts/admin/assets/php/translation.php</strong>.
+                            </p>
+                        </li>
+                    </ul>
+                </section>
+                
+                 <section id="known-issues">
+                    <h2>Known issues</h2>
+                    <p>
+                        1. On localhost servers, depending on the configuration admin might be slow, you will not be able to upload media files as pictures or videos.
+                    </p>
+                    <p>
+                        2. Uploadify will not display the progress bar and image processing will go slower if you have a firewall enabled.
+                    </p>
+                    <p>
+                        3. On some servers the images names that contain other characters different from alphanumeric ones will not be uploaded. Change the names in order for them to work.
+                    </p>
+                    <p>
+                        4. The Back End section has some display issues in IE 7 (please update to a new version).
+                    </p>
+                </section>
+                
+<!--                <section id="what-I-can-do-when-nothing-works">
+                    <h2>What I can do when nothing works? </h2>
+                    <p> 
+                        <a href="http://envato-support.dotonpaper.net/" target="_blank">Contact our Support Team</a> :)
+                    </p> 
+                    <p>
+                        Before we can offer support we will need to <strong>confirm your purchase</strong>. The reason why we need this is because we receive a lot of support requests from people that get the items from other websites and it is a great way to sort the tickets and offer faster support to the actual buyers.
+                    </p>
+                    <p>
+                        There are 2 ways to do this:<br />
+                        1. Send us a Private Message from our <a href="http://envato-support.dotonpaper.net/" target="_blank">Profile Page</a> (the right-bottom form). If you do not see it, you need to Sign In into your Envato Account.<br />
+                        2. Send your Envato Username & Item Purchase Code that came with the Licence Certificate when you bought the item to our <a href="http://envato-support.dotonpaper.net/" target="_blank">Support Team</a>. You can get it from CodeCanyon -> Sign In into your Account -> Downloads -> Licence Certificate on the purchased item.<br />
+                        <br />
+                        <strong>Please add in your message </strong>a link were you use the item, admin and/or FTP log in info, or any other stuff that might be relevant.
+                    </p>
+                    <p>
+                        We will try to answer your questions in less than 48 hours. If you do not receive an answer in 48 hours please view our <a href="http://envato-support.dotonpaper.net/" target="_blank">Profile Page</a> for a reason why.
+                    </p>
+                </section>-->
+
+                <section id="support">
+                    <h2>Support</h2>
+                    <p>
+                    	If you did not find the answer you were looking for in the given documentation, please access our <a href="http://envato-support.dotonpaper.net/" target="_blank">Support Forums</a>. If you cannot find the answer to your issue, post a new topic, describing the problem you are having. Please add in your message a link to where you use the item or any other stuff that might be relevant (don’t include any passwords or any confidential information).
+                    </p>
+                    <p>
+                        <strong>Note:</strong>
+                        <br />
+                        On our <a href="http://envato-support.dotonpaper.net/" target="_blank">Support Forums</a> you need to login and confirm the <strong>Item Purchase Code</strong> for the item you need help with.
+                    </p>
+                    <p>
+                        <img src="http://envato-help.dotonpaper.net/assets/gui/images/purchase-code.png" alt="" />
+                    </p>
+                    <p>
+                        <strong>Work time:</strong>
+                        <br />
+                        07:00 (07:00 AM) – 16:00 (04:00 PM) GMT | Working days only (Monday – Friday)
+                    </p>
+                    <p>
+                        <strong>We do NOT provide support in comments section. Please use it for presale questions only.</strong>
+                    </p>
+                    <h3>Disclaymer</h3>
+                    <p class="disclaymer">
+                        <em>
+                            If you buy an Envato item, according to Envato rules, you are not entitled to support or free customizations.<br />
+                            WE WILL OFFER FREE SUPPORT only for bugs, item related issues and very small modifications(a few minutes of work). Everything else will be considered as custom work, for which we charge $35/hour.<br /> 
+                            Offering support will help us improve and fix the bugs in our products and a great way to do this is to see what problem appear when people use them.<br />
+                            If your request for a feature has been made by other people is it possible, but not a rule, to add that feature in a future update. Please don't buy the item if a feature doesn't exist and you need it. We will not add it for you in record time. If you are not sure if the feature exists please ask first.  
+                        </em>
+                    </p>
+                </section>
+<!--
+                <section id="how-to-update">
+                    <h2>How to update</h2>
+                    <p>
+                    	
+                    </p>
+                </section>
+
+                <section id="licences-credits">
+                    <h2>Licences & Credits</h2>
+                    <p>
+                    	
+                    </p>                
+                </section>
+-->
+                <section>
+                    <p class="info">
+                        <strong>PS: Do not forget to rate this item
+                        &nbsp;<img alt="" class="star" src="http://2.envato-static.com/assets/common/icons-buttons/rating/star-on-24a8d2589eca9f34bc2ff72a59bd9af7.png" />
+                        <img alt="" class="star" src="http://2.envato-static.com/assets/common/icons-buttons/rating/star-on-24a8d2589eca9f34bc2ff72a59bd9af7.png" />
+                        <img alt="" class="star" src="http://2.envato-static.com/assets/common/icons-buttons/rating/star-on-24a8d2589eca9f34bc2ff72a59bd9af7.png" />
+                        <img alt="" class="star" src="http://2.envato-static.com/assets/common/icons-buttons/rating/star-on-24a8d2589eca9f34bc2ff72a59bd9af7.png" />
+                        <img alt="" class="star" src="http://2.envato-static.com/assets/common/icons-buttons/rating/star-on-24a8d2589eca9f34bc2ff72a59bd9af7.png" />.</strong>
+                    </p>                
+                </section>
+            </div>
+        </div>
+        <!-- http://bohemianalps.com/tools/grid/ -->
+        <link href="headsupgrid/hugrid.css" type="text/css" rel="stylesheet" />
+
+        <script src="headsupgrid/hugrid.js"></script>
+
+        <script type="text/javascript">
+            $(document).ready(function(){
+                pageUnits = 'px';
+                colUnits = 'px';
+                pagewidth = 640;
+                columns = 12;
+                columnwidth = 40;
+                gutterwidth = 20;
+                pagetopmargin = 0;
+                rowheight = 24;
+                gridonload = 'off';
+                makehugrid();
+                setgridonload();
+            });
+        </script>
+    </body>
+</html>

@@ -1,0 +1,290 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Image Loader (jQuery Plugin)</title>
+
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="description" content="" />
+        <meta name="keywords" content="" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+
+        <link rel="stylesheet" type="text/css" href="http://envato-help.dotonpaper.net/assets/gui/css/style.css" />
+        <link href='http://fonts.googleapis.com/css?family=Antic+Didone|Sintony' rel='stylesheet' type='text/css' />
+        <link rel="shortcut icon" href="http://envato-help.dotonpaper.net/assets/gui/images/icon.ico" />
+
+        <script type="text/JavaScript" src="http://code.jquery.com/jquery-latest.js"></script>
+        <script type="text/javascript" src="http://envato-help.dotonpaper.net/libraries/js/syntax-highlighter/shCore.js"></script>
+	<script type="text/javascript" src="http://envato-help.dotonpaper.net/libraries/js/syntax-highlighter/shBrushCss.js"></script>
+	<script type="text/javascript" src="http://envato-help.dotonpaper.net/libraries/js/syntax-highlighter/shBrushJScript.js"></script>
+	<script type="text/javascript" src="http://envato-help.dotonpaper.net/libraries/js/syntax-highlighter/shBrushPhp.js"></script>
+	<script type="text/javascript" src="http://envato-help.dotonpaper.net/libraries/js/syntax-highlighter/shBrushSql.js"></script>
+	<script type="text/javascript" src="http://envato-help.dotonpaper.net/libraries/js/syntax-highlighter/shBrushXml.js"></script>
+        <script type="text/Javascript" src="http://envato-help.dotonpaper.net/assets/js/main.js"></script>
+    </head>
+    <body>
+        <div id="wrapper">
+            <div id="sidebar">
+                <a href="javascript:toggleMenu()" id="menu-button">
+                    <span class="icon hide"></span>
+                </a>
+                <ul id="menu">
+                    <li>
+                        <a href="#getting-started">Getting Started</a>
+                    </li>
+                    <li>
+                    	<a href="#licence">Licence</a>
+                    </li>
+                    <li>
+                        <a href="#how-to-use-it">How to use/install il</a>
+                    </li>
+                    <li>
+                        <a href="#faq">FAQ</a>
+                    </li>
+                    <li>
+                    	<a href="#how-to-update">How to update</a>
+                    </li>
+                    <li>
+                        <a href="#support">Support</a>
+                    </li>
+                </ul>
+            </div>
+            
+            <div id="content">
+            	<h1>
+                    Image Loader<br />
+                    jQuery Plugin
+                </h1>
+                
+                <section id="getting-started">
+                    <h2>Getting Started</h2>
+                    <p>
+                        This jQuery Plugin is ideal to load, preload, and resize the images on your website. The Plugin is compatible with all browsers and devices (iPhone, iPad and Android smartphones). 
+                    </p>
+                    <p>
+                        If you like this plugin, feel free to rate it five stars
+                        &nbsp;<img alt="" class="star" src="http://2.envato-static.com/assets/common/icons-buttons/rating/star-on-24a8d2589eca9f34bc2ff72a59bd9af7.png" />
+                        <img alt="" class="star" src="http://2.envato-static.com/assets/common/icons-buttons/rating/star-on-24a8d2589eca9f34bc2ff72a59bd9af7.png" />
+                        <img alt="" class="star" src="http://2.envato-static.com/assets/common/icons-buttons/rating/star-on-24a8d2589eca9f34bc2ff72a59bd9af7.png" />
+                        <img alt="" class="star" src="http://2.envato-static.com/assets/common/icons-buttons/rating/star-on-24a8d2589eca9f34bc2ff72a59bd9af7.png" />
+                        <img alt="" class="star" src="http://2.envato-static.com/assets/common/icons-buttons/rating/star-on-24a8d2589eca9f34bc2ff72a59bd9af7.png" />&nbsp;
+                        at your <a href="http://codecanyon.net/?ref=DOTonPAPER" target="_blank">CodeCanyon</a> account in <strong>Downloads</strong> section.
+                        If you encounter any problems, before rating the item, <a href="http://envato-support.dotonpaper.net/" target="_blank">contact us</a> so we can help you fix them.
+                    </p>
+                </section>
+
+                <section id="licence">
+                    <h2>Licence</h2>
+                    <p>
+                        This item is sold under <a href="http://themeforest.net/licenses" target="_blank">Envato Licences</a>. Please read them and contact <a href="http://support.envato.com/" target="_blank">Envato Support</a> if you have any questions.
+                    </p>
+                </section>
+
+                <section id="how-to-use-it">
+                    <h2>How to use/install it</h2>
+                    <ul class="faq">
+                        <li>
+                            <p class="question">
+                                You can find an example in the source files, in the following folder <strong>sources/index.xml</strong>:
+                            </p>
+                            <p class="answer">
+                                Copy the folder <strong>ImageLoader</strong> somewhere on your server (preferably in the same folder with the page you want to add the gallery to).
+                                <br />
+                                Add the following <strong>js</strong> files in the head section of your website: <a href="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js" target="_blank">https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js</a>  (any jQueary 1.3 or bigger will do) ImageLoader/js/jquery.dop.ImageLoader.js 
+                                <br />
+                                <strong>Note</strong>: The files can be anywhere on your server or web. Just make sure that they are loaded by your web page.
+                            </p> 
+                        </li>
+                        <li>
+                            <p class="question">
+                                Add the plugin to a container:
+                            </p>
+                            <p class="answer">
+                                 <script type="syntaxhighlighter" class="brush: php; toolbar: false;">
+                                    <![CDATA[
+                                        $(“#image”).DOPImageLoader();
+                                        $('body').DOPImageLoader({'Container':'#image'});
+                                    ]]>
+                                </script>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                You can give this options:
+                            </p>
+                            <p class="question">
+                                1. <strong>'Container': ''</strong>
+                            </p>
+                            <p class="answer">
+                                - set the container for the images that will be loaded; ideally to use it like this if you add the Plugin to classes;
+                            </p>
+                        </li>
+                        <li>
+                            <p class="question">
+                                2. <strong> 'LoaderURL': 'ImageLoader/images/loader.gif'</strong>
+                            </p>
+                            <p class="answer">
+                                - set the path to the loader gif file;
+                            </p>
+                        </li>
+                        <li>
+                            <p class="question">
+                                3. <strong> 'NoImageURL': 'ImageLoader/images/no-image.png'</strong>
+                            </p>
+                            <p class="answer">
+                                - set the path to the image that will be displayed if the initial path is invalid;
+                            </p>
+                        </li>
+                        <li>
+                            <p class="question">
+                                4. <strong> 'LoadingInOrder': 'true'</strong>
+                            </p>
+                            <p class="answer">
+                               - set the value to true if you want to load the images one after another false otherwise;
+                            </p>
+                        </li>
+                        <li>
+                            <p class="question">
+                                5. <strong> 'ImageSize': 'fill'</strong>
+                            </p>
+                            <p class="answer">
+                               - resize the image;
+                                    <strong>none</strong>: does not resize the image;
+                                    <br />
+                                    <strong>container</strong>: resizes to the width and height of the parent;
+                                    <br />
+                                    <strong>fill</strong>: fills the parent and keep the proportions;
+                                    <br />
+                                    <strong>proportionally</strong>: shows all the images from parent;
+                            </p>
+                        </li>
+                        <li>
+                            <p class="question">
+                                6.  <strong>'ImageDelay': '600'</strong>
+                            </p>
+                            <p class="answer">
+                                - time in milliseconds for the fade effect;
+                            </p>
+                        </li>
+                        <li>
+                            <p class="question">
+                                7.  <strong>'CacheBuster': 'false'</strong>
+                            </p>
+                            <p class="answer">
+                                - if true, it loads the image from the server and not the one from the cache;
+                            </p>
+                        </li>
+                        <li>
+                            <p class="question">
+                                8.  <strong> 'SuccessCallback': ''</strong>
+                            </p>
+                            <p class="answer">
+                                - enters the callback function for when the image is loaded;
+                            </p>
+                        </li>
+                        <li>
+                            <p class="question">
+                                9.  <strong> 'ErrorCallback': ''</strong>
+                            </p>
+                            <p class="answer">
+                                - enters the callback function for when the image is not loaded;
+                            </p>
+                        </li>
+                    </ul>
+                </section>
+
+                <section id="faq">
+                    <h2>FAQ</h2>
+                    <ul class="faq">
+                        <li>
+                            <p class="question">
+                                1. Why does not the plugin work?
+                            </p>
+                            <p class="answer">
+                                The plugin files are not loaded on your page.
+                                <br />
+                                If the gallery does not appear, it might be because there is a problem with the JavaScript in your website. If you cannot identify the problem, contact us, including in the message a link to the page where the problem appears. We will identify and fix the issue for you. However, we will not fix the problems that are not caused by this plugin.
+                            </p>
+                        </li>
+                    </ul>
+                </section>
+
+                <section id="support">
+                    <h2>Support</h2>
+                    <p>
+                    	If you did not find the answer you were looking for in the given documentation, please access our <a href="http://envato-support.dotonpaper.net/" target="_blank">Support Forums</a>. If you cannot find the answer to your issue, post a new topic, describing the problem you are having. Please add in your message a link to where you use the item or any other stuff that might be relevant (don’t include any passwords or any confidential information).
+                    </p>
+                    <p>
+                        <strong>Note:</strong>
+                        <br />
+                        On our <a href="http://envato-support.dotonpaper.net/" target="_blank">Support Forums</a> you need to login and confirm the <strong>Item Purchase Code</strong> for the item you need help with.
+                    </p>
+                    <p>
+                        <img src="http://envato-help.dotonpaper.net/assets/gui/images/purchase-code.png" alt="" />
+                    </p>
+                    <p>
+                        <strong>Work time:</strong>
+                        <br />
+                        07:00 (07:00 AM) – 16:00 (04:00 PM) GMT | Working days only (Monday – Friday)
+                    </p>
+                    <p>
+                        <strong>We do NOT provide support in comments section. Please use it for presale questions only.</strong>
+                    </p>
+                    <h3>Disclaymer</h3>
+                    <p class="disclaymer">
+                        <em>
+                            If you buy an Envato item, according to Envato rules, you are not entitled to support or free customizations.<br />
+                            WE WILL OFFER FREE SUPPORT only for bugs, item related issues and very small modifications(a few minutes of work). Everything else will be considered as custom work, for which we charge $35/hour.<br /> 
+                            Offering support will help us improve and fix the bugs in our products and a great way to do this is to see what problem appear when people use them.<br />
+                            If your request for a feature has been made by other people is it possible, but not a rule, to add that feature in a future update. Please don't buy the item if a feature doesn't exist and you need it. We will not add it for you in record time. If you are not sure if the feature exists please ask first.  
+                        </em>
+                    </p>
+                </section>
+<!--
+                <section id="how-to-update">
+                    <h2>How to update</h2>
+                    <p>
+                    	
+                    </p>
+                </section>
+
+                <section id="licences-credits">
+                    <h2>Licences & Credits</h2>
+                    <p>
+                    	
+                    </p>                
+                </section>
+-->
+                <section>
+                    <p class="info">
+                        <strong>PS: Do not forget to rate this item
+                        &nbsp;<img alt="" class="star" src="http://2.envato-static.com/assets/common/icons-buttons/rating/star-on-24a8d2589eca9f34bc2ff72a59bd9af7.png" />
+                        <img alt="" class="star" src="http://2.envato-static.com/assets/common/icons-buttons/rating/star-on-24a8d2589eca9f34bc2ff72a59bd9af7.png" />
+                        <img alt="" class="star" src="http://2.envato-static.com/assets/common/icons-buttons/rating/star-on-24a8d2589eca9f34bc2ff72a59bd9af7.png" />
+                        <img alt="" class="star" src="http://2.envato-static.com/assets/common/icons-buttons/rating/star-on-24a8d2589eca9f34bc2ff72a59bd9af7.png" />
+                        <img alt="" class="star" src="http://2.envato-static.com/assets/common/icons-buttons/rating/star-on-24a8d2589eca9f34bc2ff72a59bd9af7.png" />.</strong>
+                    </p>                
+                </section>
+            </div>
+        </div>
+        <!-- http://bohemianalps.com/tools/grid/ -->
+        <link href="headsupgrid/hugrid.css" type="text/css" rel="stylesheet" />
+
+        <script src="headsupgrid/hugrid.js"></script>
+
+        <script type="text/javascript">
+            $(document).ready(function(){
+                pageUnits = 'px';
+                colUnits = 'px';
+                pagewidth = 640;
+                columns = 12;
+                columnwidth = 40;
+                gutterwidth = 20;
+                pagetopmargin = 0;
+                rowheight = 24;
+                gridonload = 'off';
+                makehugrid();
+                setgridonload();
+            });
+        </script>
+    </body>
+</html>

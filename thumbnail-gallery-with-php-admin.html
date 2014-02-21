@@ -1,0 +1,328 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Thumbnail Gallery (with PHP Admin)	</title>
+
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="description" content="" />
+        <meta name="keywords" content="" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+
+        <link rel="stylesheet" type="text/css" href="http://envato-help.dotonpaper.net/assets/gui/css/style.css" />
+        <link href='http://fonts.googleapis.com/css?family=Antic+Didone|Sintony' rel='stylesheet' type='text/css' />
+        <link rel="shortcut icon" href="http://envato-help.dotonpaper.net/assets/gui/images/icon.ico" />
+
+        <script type="text/JavaScript" src="http://code.jquery.com/jquery-latest.js"></script>
+        <script type="text/javascript" src="http://envato-help.dotonpaper.net/libraries/js/syntax-highlighter/shCore.js"></script>
+	<script type="text/javascript" src="http://envato-help.dotonpaper.net/libraries/js/syntax-highlighter/shBrushCss.js"></script>
+	<script type="text/javascript" src="http://envato-help.dotonpaper.net/libraries/js/syntax-highlighter/shBrushJScript.js"></script>
+	<script type="text/javascript" src="http://envato-help.dotonpaper.net/libraries/js/syntax-highlighter/shBrushPhp.js"></script>
+	<script type="text/javascript" src="http://envato-help.dotonpaper.net/libraries/js/syntax-highlighter/shBrushSql.js"></script>
+	<script type="text/javascript" src="http://envato-help.dotonpaper.net/libraries/js/syntax-highlighter/shBrushXml.js"></script>
+        <script type="text/Javascript" src="http://envato-help.dotonpaper.net/assets/js/main.js"></script>
+    </head>
+    <body>
+        <div id="wrapper">
+            <div id="sidebar">
+                <a href="javascript:toggleMenu()" id="menu-button">
+                    <span class="icon hide"></span>
+                </a>
+                <ul id="menu">
+                    <li>
+                        <a href="#getting-started">Getting Started</a>
+                    </li>
+                    <li>
+                    	<a href="#licence">Licence</a>
+                    </li>
+                    <li>
+                        <a href="#how-to-install-it">How to install it</a>
+                    </li>
+                    <li>
+                        <a href="#how-to-use-it">How to use it</a>
+                    </li>
+                    <li>
+                        <a href="#faq">FAQ</a>
+                    </li>
+                    <li>
+                        <a href="#known-issues">Known issues</a>
+                    </li>
+                    <li>
+                    	<a href="#how-to-update">How to update</a>
+                    </li>
+                    <li>
+                        <a href="#support">Support</a>
+                    </li>
+                </ul>
+            </div>
+            
+            <div id="content">
+            	<h1>
+                   Thumbnail Gallery<br />
+                   with PHP Admin
+                </h1>
+                
+                <section id="getting-started">
+                    <h2>Getting Started</h2>
+                    <p>
+                        A very customizable Thumbnail Gallery, which can be edited from a PHP Admin. The gallery is completely resizable and it is compatible with all browsers and devices (iPhone, iPad and Android smartphones). You will be able to insert it into your website with an inbuilt HTML code generator.
+                    </p>
+                    <p>
+                        If you like this plugin, feel free to rate it five stars
+                        &nbsp;<img alt="" class="star" src="http://2.envato-static.com/assets/common/icons-buttons/rating/star-on-24a8d2589eca9f34bc2ff72a59bd9af7.png" />
+                        <img alt="" class="star" src="http://2.envato-static.com/assets/common/icons-buttons/rating/star-on-24a8d2589eca9f34bc2ff72a59bd9af7.png" />
+                        <img alt="" class="star" src="http://2.envato-static.com/assets/common/icons-buttons/rating/star-on-24a8d2589eca9f34bc2ff72a59bd9af7.png" />
+                        <img alt="" class="star" src="http://2.envato-static.com/assets/common/icons-buttons/rating/star-on-24a8d2589eca9f34bc2ff72a59bd9af7.png" />
+                        <img alt="" class="star" src="http://2.envato-static.com/assets/common/icons-buttons/rating/star-on-24a8d2589eca9f34bc2ff72a59bd9af7.png" />&nbsp;
+                        at your <a href="http://codecanyon.net/?ref=DOTonPAPER" target="_blank">CodeCanyon</a> account in <strong>Downloads</strong> section.
+                        If you encounter any problems, before rating the item, <a href="http://envato-support.dotonpaper.net/" target="_blank">contact us</a> so we can help you fix them.
+                    </p>
+                </section>
+
+                <section id="licence">
+                    <h2>Licence</h2>
+                    <p>
+                        This item is sold under <a href="http://themeforest.net/licenses" target="_blank">Envato Licences</a>. Please read them and contact <a href="http://support.envato.com/" target="_blank">Envato Support</a> if you have any questions.
+                    </p>
+                </section>
+
+                <section id="how-to-install-it">
+                    <h2>How to install it</h2>
+                    <p>
+                        Copy the folder <strong>doptg</strong> somewhere on your server (preferably in the same folder with the page you want to add the gallery to).
+                    </p>
+                    <p>
+                        Change the permission of the <strong>doptg/data</strong> &  <strong>doptg/uploads</strong> with <strong>all subfolders</strong> to <strong>777</strong>.
+                    </p>
+                    <p>
+                        Change the following setings in <strong>doptg/config.php</strong>:<br />
+                        <script type="syntaxhighlighter" class="brush: php; toolbar: false;">
+                                <![CDATA[
+                                    define("DOPTG_ADMIN_USERNAME", "add username here"); // Add admin username.
+                                    define("DOPTG_ADMIN_PASSWORD", "add password here"); // Add admin password.
+                                    define("DOPTG_URL", "add url here"); // Add URL to doptg folder (must end with /).
+                                    define("DOPTG_ABSOLUTE_PATH", "add absolute path here"); // Add ABSOLUTE PATH to doptg folder (it must end with /).
+                                ]]>
+                        </script>
+                    <strong>Note</strong>: The URL and ABSOLUTE PATH are found in the <strong>doptg/paths.php</strong> that is opened by your browser.    
+                    </p>
+                    <p>
+                       Go to <strong>http://www.your_url.com/doptg/admin</strong> to login.
+ 
+                    </p>
+                </section>
+
+                <section id="how-to-use-it">
+                    <h2>How to use it</h2>
+                    <p>
+                        After installation, login with the username and password from the 3rd installation step and hover/click the mouse over the Question Mark icons for instructions.
+                    </p>
+                </section>
+
+                <section id="faq">
+                    <h2>FAQ</h2>
+                    <ul class="faq">
+                        <li>
+                            <p class="question">
+                                1. How do I install the gallery?
+                            </p>
+                            <p class="answer">
+                                Please watch this <a href="https://vimeo.com/62699084" target="_blank">video</a>.
+                            </p>
+                        </li>
+                        <li>
+                            <p class="question">
+                                2. How do I create a gallery and add images to it?
+                            </p>
+                            <p class="answer">
+                                Please watch this <a href="https://vimeo.com/62699085" target="_blank">video</a>.
+                            </p>
+                        </li>
+                        <li>
+                            <p class="question">
+                                3. How do I create a new thumbnail?
+                            </p>
+                            <p class="answer">
+                                Please watch this <a href="https://vimeo.com/62699086" target="_blank">video</a>.
+                            </p>
+                        </li>
+                        <li>
+                            <p class="question">
+                                4. How do I add media to a gallery item? Embed videos (YouTube, Vimeo, ...), and HTML code, ...
+                            </p>
+                            <p class="answer">
+                                Please watch this <a href="https://vimeo.com/62699088" target="_blank">video</a>.
+                            </p>
+                        </li>
+                        <li>
+                            <p class="question">
+                                5. How do I change Gallery settings? (Some examples)
+                            </p>
+                            <p class="answer">
+                                Please watch this <a href="https://vimeo.com/62701774" target="_blank">video</a>.
+                            </p>
+                        </li>
+                        <li>
+                            <p class="question">
+                                6. How can I integrate this admin into my own CMS?
+                            </p>
+                            <p class="answer">
+                                You change the session condition in <strong>doptg/admin/index.php</strong>.
+                            </p>
+                        </li>
+                        <li>
+                            <p class="question">
+                                7. Why I cannot upload images to my gallery?	
+                            </p>
+                            <p class="answer">
+                                Make sure that folders <strong>doptg/uploads</strong> with <strong>all subfolders</strong> inside it & <strong>doptg/data/</strong> have the permissions set to <strong>777</strong>. If the folder has the right permissions, try another upload method from the ones provided (AJAX, Uploadify, FTP).
+                            </p>
+                        </li>
+                        <li>
+                            <p class="question">
+                                8. Why do not the images appear after upload is complete?
+                            </p>
+                            <p class="answer">
+                                Make sure that you have the GD Library enabled in PHP.
+                            </p>
+                        </li>
+                        <li>
+                            <p class="question">
+                                9. Why do I receive an IO Error when I upload images using Uploadify?
+                            </p>
+                            <p class="answer">
+                                The IO Error is a Flash error caused when the upload connection gets cut short. This usually happens with slow internet connections.
+                            </p>
+                        </li>
+                        <li>
+                            <p class="question">
+                                10. Why does not the gallery appear on my website?
+                            </p>
+                            <p class="answer">
+                                If the gallery does not appear, it might be because there is a problem with the JavaScript in your website. If you cannot identify the problem, contact us, including in the message a link to the page where the problem appears. We will identify and fix the issue for you. However, we will not fix the problems that are not caused by this plugin.<br />
+                                <br />
+                                Another reason might be that you load more than one jQuery file into your theme.
+                            </p>
+                        </li>
+                        <li>
+                            <p class="question">
+                                11. How do I remove rounded corners from thumbnails & images?
+                            </p>
+                            <p class="answer">
+                                Open file <em>doptg/assets/gui/css/jquery.dop.ThumbnailGallery.css</em> in an editor and change or remove <strong>border-radius</strong> properties.
+                                <br /><br />
+                                <script type="syntaxhighlighter" class="brush: css; toolbar: false;">
+                                <![CDATA[
+                                    -webkit-border-radius: ;
+                                    -moz-border-radius: ;
+                                    border-radius: ;
+                                ]]>
+                                </script>
+                            </p>
+                        </li>
+                        <li>
+                            <p class="question">
+                                12. How do I change the language?
+                            </p>
+                            <p class="answer">
+                                You can change the translation in the file <strong>doptg/admin/assets/php/translation.php</strong>.
+                            </p>
+                        </li>
+                    </ul>
+                </section>
+                
+                 <section id="known-issues">
+                    <h2>Known issues</h2>
+                    <p>
+                        1. On localhost servers, depending on the configuration admin might be slow, you will not be able to upload media files as pictures or videos.
+                    </p>
+                    <p>
+                        2. Uploadify will not display the progress bar and image processing will go slower if you have a firewall enabled.
+                    </p>
+                    <p>
+                        3. On some servers the images names that contain other characters different from alphanumeric ones will not be uploaded. Change the names in order for them to work.
+                    </p>
+                    <p>
+                        4. The Back End section has some display issues in IE 7 (please update to a new version).
+                    </p>
+                </section>
+
+                <section id="support">
+                    <h2>Support</h2>
+                    <p>
+                    	If you did not find the answer you were looking for in the given documentation, please access our <a href="http://envato-support.dotonpaper.net/" target="_blank">Support Forums</a>. If you cannot find the answer to your issue, post a new topic, describing the problem you are having. Please add in your message a link to where you use the item or any other stuff that might be relevant (don’t include any passwords or any confidential information).
+                    </p>
+                    <p>
+                        <strong>Note:</strong>
+                        <br />
+                        On our <a href="http://envato-support.dotonpaper.net/" target="_blank">Support Forums</a> you need to login and confirm the <strong>Item Purchase Code</strong> for the item you need help with.
+                    </p>
+                    <p>
+                        <img src="http://envato-help.dotonpaper.net/assets/gui/images/purchase-code.png" alt="" />
+                    </p>
+                    <p>
+                        <strong>Work time:</strong>
+                        <br />
+                        07:00 (07:00 AM) – 16:00 (04:00 PM) GMT | Working days only (Monday – Friday)
+                    </p>
+                    <p>
+                        <strong>We do NOT provide support in comments section. Please use it for presale questions only.</strong>
+                    </p>
+                    <h3>Disclaymer</h3>
+                    <p class="disclaymer">
+                        <em>
+                            Once you buy an Envato item, after Envato rules, you are not entitled to support or free customizations.<br />
+                            WE WILL OFFER FREE SUPPORT only for bugs, item related issues and very small modifications(a few minutes of work). Everything else will be considered as custom work, for which we charge $35/hour.<br /> 
+                            Offering support will help us improve and fix the bugs in our products and a great way to do this is to see what problem appear when people use them.<br />
+                            If your request for a feature has been made by other people is it possible, but not a rule, to add that feature in a future update. Please don't buy the item if a feature doesn't exist and you need it. We will not add it for you in record time. If you are not sure if the feature exists please ask first.  
+                        </em>
+                    </p>
+                </section>
+<!--
+                <section id="how-to-update">
+                    <h2>How to update</h2>
+                    <p>
+                    	
+                    </p>
+                </section>
+
+                <section id="licences-credits">
+                    <h2>Licences & Credits</h2>
+                    <p>
+                    	
+                    </p>                
+                </section>
+-->
+                <section>
+                    <p class="info">
+                        <strong>PS: Do not forget to rate this item
+                        &nbsp;<img alt="" class="star" src="http://2.envato-static.com/assets/common/icons-buttons/rating/star-on-24a8d2589eca9f34bc2ff72a59bd9af7.png" />
+                        <img alt="" class="star" src="http://2.envato-static.com/assets/common/icons-buttons/rating/star-on-24a8d2589eca9f34bc2ff72a59bd9af7.png" />
+                        <img alt="" class="star" src="http://2.envato-static.com/assets/common/icons-buttons/rating/star-on-24a8d2589eca9f34bc2ff72a59bd9af7.png" />
+                        <img alt="" class="star" src="http://2.envato-static.com/assets/common/icons-buttons/rating/star-on-24a8d2589eca9f34bc2ff72a59bd9af7.png" />
+                        <img alt="" class="star" src="http://2.envato-static.com/assets/common/icons-buttons/rating/star-on-24a8d2589eca9f34bc2ff72a59bd9af7.png" />.</strong>
+                    </p>                
+                </section>
+            </div>
+        </div>
+        <!-- http://bohemianalps.com/tools/grid/ -->
+        <link href="headsupgrid/hugrid.css" type="text/css" rel="stylesheet" />
+
+        <script src="headsupgrid/hugrid.js"></script>
+
+        <script type="text/javascript">
+            $(document).ready(function(){
+                pageUnits = 'px';
+                colUnits = 'px';
+                pagewidth = 640;
+                columns = 12;
+                columnwidth = 40;
+                gutterwidth = 20;
+                pagetopmargin = 0;
+                rowheight = 24;
+                gridonload = 'off';
+                makehugrid();
+                setgridonload();
+            });
+        </script>
+    </body>
+</html>

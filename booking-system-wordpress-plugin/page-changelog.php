@@ -23,12 +23,15 @@
                                 <li>Custom post types do not appear anymore in blog posts by default.</li>
                                 <li>Data save/load speed & server memory usage has been optimized.</li>
                                 <li>Different levels of checking availability have been added in the booking process.</li>
-                                <li>Front end UI/CSS has been changed. A new design has been created for front end calendar.</li>
+                                <li>Front end UI/CSS has been changed. A new design has been created for front end calendar and all classes and ids are unique.</li>
                                 <li>Language is not saved anymore in sessions in front end.</li>
                                 <li>Language codes have been changed to international codes for: Albanian (al->sq), Basque (bs->eu), Belarusian (by->be), Chinese (cn->zh), Croatian (cr->hr), Czech (cz->cs), Danish (dk->da), Dutch (du->nl), Greek (gr->el), Haitian Creole(ha->ht), Irish (ir->ga), Malay (mg->ms), Maltese (ma->mt), Persian (pe->fa), Spanish (sp->es), Swedish (se->sv), Welsh (we->cy).</li>
                                 <li>Languages can be enabled/disabled in back end.</li>
                                 <li>Major database changes. Column changes and more indexes created.</li>
+                                <li>Notifications can be enabled/disabled in administration area.</li>
+                                <li>Notifications can be sent to multiple admins.</li>
                                 <li>PHPMailer class is used when sending notifications.</li>
+                                <li>Possibility to select more than one group of days/hours in a reservation has been added.</li>
                                 <li>Translation works with special characters.</li>
                                 <li>Verification if calendar has been attached to WooCommerce product has been added.</li>
                                 <li>UAE Dirham currency added.</li>
@@ -42,7 +45,7 @@
                                 <li>Reservations back end add/edit.</li>
                                 <li>Reservations calendar.</li>
                                 <li>WooCommerce</li>
-                                <li>Demo website</li>
+                                <li>Demo website.</li>
                                 <li>Documentation</li>
                             </ul>
 
@@ -50,6 +53,7 @@
                             <ul>
                                 <li>Availability text is visible on special days, bug fixed.</li>
                                 <li>Current year changes on calendar resize, bug fixed.</li>
+                                <li>IE bugs fixed.</li>
                                 <li>Required checkbox validation bug fixed.</li>
                                 <li>User capabilities fixed.</li>
                             </ul>

@@ -1,0 +1,350 @@
+@charset "utf-8";
+
+@import "../../../../libraries/css/reset.css";
+@import "../../../../libraries/css/shCoreDefault.css";
+
+body{
+    background: #ffffff;
+    color: #666666;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+}
+
+.clear{
+    clear: both;
+}
+
+strong{
+    font-weight: normal;
+}
+
+em{
+    font-style: italic;
+    word-break: break-all;
+}
+
+#wrapper{
+    margin: 44px auto;
+    width: 1200px;
+}
+
+/*
+ * ***************************************************************************** Begin header.
+ */
+#header{
+    background: #464646;
+    padding: 22px 30px;
+}
+
+#header h1{
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: normal;
+    line-height: 44px;
+}
+/*
+ * ***************************************************************************** End header.
+ */
+
+/*
+ * ***************************************************************************** Begin sidebar.
+ */
+#sidebar{
+    float: right;
+    width: 270px;
+    z-index: 100;
+}
+
+/*
+ * Menu
+ */
+#menu{
+    background: #464646;
+    padding: 0 0 22px 0;
+    /*position: fixed;*/
+    top: 0;
+    width: 270px;
+}
+
+#menu li{
+    background: #464646;
+    display: block;
+    padding: 0;
+    position: relative;
+    -webkit-transition: background 300ms linear;
+    -moz-transition: background 300ms linear;
+    -o-transition: background 300ms linear;
+    transition: background 300ms linear;
+}
+
+#menu li .icon{
+    background-image: url('../images/sprite.png');
+    display: block;
+    float: left;
+    height: 44px;
+    width: 60px;
+}
+
+#menu li a{
+    color: #ffffff;
+    display: block;
+    font-size: 13px;
+    padding: 11px 0;
+    position: relative;
+    text-decoration: none;
+}
+
+#menu li:hover,
+#menu li.selected{
+    background: #6b6b6b;
+}
+
+#menu li.home .icon{
+    background-position: 0 0;
+}
+
+#menu li.how-to .icon{
+    background-position: -60px 0;
+}
+                    
+#menu li.woocommerce .icon{
+    background-position: -120px 0;
+}
+                    
+#menu li.settings .icon{
+    background-position: -180px 0;
+}
+                    
+#menu li.hooks .icon{
+    background-position: -240px 0;
+}
+                    
+#menu li.faq .icon{
+    background-position: -300px 0;
+}
+                    
+#menu li.update .icon{
+    background-position: -360px 0;
+}
+                    
+#menu li.changelog .icon{
+    background-position: -420px 0;
+}
+                    
+#menu li.assets .icon{
+    background-position: -480px 0;
+}
+                    
+#menu li.support .icon{
+    background-position: -540px 0;
+}
+/*
+ * ***************************************************************************** End sidebar.
+ */
+
+/*
+ * ***************************************************************************** Begin content.
+ */
+#main{
+    border: 1px solid #e5e5e5;
+    float: left;
+    padding: 43px 29px;
+    width: 870px;
+}
+
+#main section{
+    border-bottom: 1px solid #e5e5e5;
+    margin: 0 0 43px 0;
+}
+
+#main section:last-child{
+    border: none;
+    margin: 0;
+}
+
+#main section h1,
+#main section h2,
+#main section h3,
+#main section h4,
+#main section h5,
+#main section h6{
+    color: #464646;
+    line-height: 22px;
+    padding: 22px 0;
+}
+
+#main section h1{
+    font-size: 30px;
+    line-height: 44px;
+}
+
+#main section h2{
+    font-size: 26px;
+    line-height: 44px;
+}
+
+#main section h3{
+    font-size: 21px;
+}
+
+#main section h4{
+    font-size: 18px;
+}
+
+#main section h5{
+    font-size: 16px;
+}
+
+#main section h6{
+    color: #666666;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 0 0 22px 0;
+}
+
+#main section p{
+    margin: 0 0 22px 0;
+}
+
+#main section p:last-child{
+    margin: 0;
+}
+
+#main section p a{
+    color: #ff6300;
+    text-decoration: underline;
+    -webkit-transition: color 300ms linear;
+    -moz-transition: color 300ms linear;
+    -o-transition: color 300ms linear;
+    transition: color 300ms linear;
+}
+
+#main section p a:hover{
+    color: #464646;
+}
+
+#main section p img{
+    height: auto;
+    margin: 0 0 24px 0;
+    width: 100%;
+}
+
+#main section p img.star{
+    display: inline-block;
+    margin: 0;
+    width: auto;
+}
+
+#main section p img:last-child{
+    margin: 0;
+}
+
+/*
+ * List
+ */
+#main section ul{
+    margin: 0 0 22px 30px;
+}
+
+#main section ul:last-child{
+    margin: 0 0 0 30px;
+}
+
+#main section ul li{
+    font-size: 13px;
+    list-style-image: url(../images/list-disc.png); 
+    padding: 0 0 0 10px;
+}
+
+/*
+ * Toggle
+ */
+#main section .toggle-wrapper{
+    margin: 0 0 22px 0;
+}
+
+#main section .toggle-wrapper.hidden{
+    margin: 0 0 5.5px 0;
+}
+
+#main section .toggle-wrapper:last-child{
+    margin: 0;
+}
+
+#main section .toggle-wrapper .toggle{
+    background: #464646;
+    color: #ffffff;
+    display: block;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 22px;
+    padding: 11px 30px;
+    -webkit-transition: background 300ms linear;
+    -moz-transition: background 300ms linear;
+    -o-transition: background 300ms linear;
+    transition: background 300ms linear;
+}
+
+#main section .toggle-wrapper .toggle:hover{
+    background: #ff6300;
+}
+
+#main section .toggle-wrapper .toggle .icon{
+    background-image: url('../images/sprite.png');
+    background-position: -60px -44px;
+    display: block;
+    height: 44px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 60px;
+}
+
+#main section .toggle-wrapper.hidden .toggle .icon{
+    background-position: 0 -44px;
+}
+
+
+#main section .toggle-wrapper .toggle-content{
+    border: 1px solid #e5e5e5;
+    padding: 21px 19px;
+}
+
+#main section .toggle-wrapper.hidden .toggle-content{
+    display: none;
+}
+
+/*
+ * Syntax highlighter.
+ */
+.syntaxhighlighter{
+    margin: 0 !important;
+    padding: 6px 0 !important;
+}
+/*
+ * ***************************************************************************** Begin content.
+ */
+
+/* ----- Begin Navigation Responsive ----- */
+
+@media (max-width: 640px){
+    #content{
+        margin: auto;
+        width: 100%;
+    }
+    
+    #content h1{
+        font-size: 36px;
+        line-height: 48px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    
+    .assets li .text .credits{
+        float: left;
+        line-height: 16px;
+        margin: 0 0 24px 0;
+    }
+}

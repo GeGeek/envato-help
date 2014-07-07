@@ -6,7 +6,10 @@
                     <div class="toggle-wrapper">
                         <a class="toggle" href="javascript:void(0)">Version 2.0 - Beta <span class="icon"></span></a>
                         <div class="toggle-content">
-                            <h6>New features (incomplete list):</h6>
+                            <ul>
+                                <li>NOTICE! If you intend to update from an older version most of the translation you added will be lost.</li>
+                            </ul>
+                            
                             <ul>
                                 <li>"Coupons" added. Create voucher codes for your clients.</li>
                                 <li>"Discounts" added. Give discounts for the booked period, in different time periods.</li>
@@ -33,20 +36,20 @@
                                 <li>PHPMailer class is used when sending notifications.</li>
                                 <li>Possibility to select more than one group of days/hours in a reservation has been added.</li>
                                 <li>Translation works with special characters.</li>
-                                <li>Verification if calendar has been attached to WooCommerce product has been added.</li>
                                 <li>UAE Dirham currency added.</li>
+                                <li>Verification if calendar has been attached to WooCommerce product has been added.</li>
+                                <li>WooCommerce integration has been changed. This should fix all incompatibility problems that were in previous version.</li>
                             </ul>
                             
                             <h6>What needs to be finished before final release (if you do not need them you can use 2.0):</h6>
                             <ul>
-                                <li>Update from older versions. DO NOT UPDATE YET. Is it possible you will loose, reservations, settings & translated text.</li>
                                 <li>Custom post types</li>
                                 <li>General/global settings.</li>
                                 <li>Reservations back end add/edit.</li>
                                 <li>Reservations calendar.</li>
-                                <li>WooCommerce</li>
                                 <li>Demo website.</li>
                                 <li>Documentation</li>
+                                <li>Some new features may appear ...</li>
                             </ul>
 
                             <h6>Bug fixes (incomplete list):</h6>

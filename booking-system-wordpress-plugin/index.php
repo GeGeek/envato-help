@@ -5,13 +5,12 @@
 <?php 
     
     if (file_exists('page-'.$_GET['page'].'.php')){
-//        include_once 'page-'.$_GET['page'].'.php';
+        include_once 'page-'.$_GET['page'].'.php';
     }
     else{
+        include_once 'page-changelog.php';
 //        include_once 'page-home.php';
     }
-    
-    include_once 'page-changelog.php';
     
 ?>
 

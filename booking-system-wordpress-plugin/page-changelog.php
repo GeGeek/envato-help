@@ -9,7 +9,7 @@
                             <ul>
                                 <li>NOTICE! If you intend to update from an older version most of the translation you added will be lost.</li>
                             </ul>
-                            
+
                             <ul>
                                 <li>"Coupons" added. Create voucher codes for your clients.</li>
                                 <li>"Discounts" added. Give discounts for the booked period, in different time periods.</li>
@@ -26,15 +26,22 @@
                                 <li>Custom post types do not appear anymore in blog posts by default.</li>
                                 <li>Data save/load speed & server memory usage has been optimized.</li>
                                 <li>Different levels of checking availability have been added in the booking process.</li>
+                                <li>Front end calendar info messages hide after a few seconds.</li>
+                                <li>Front end calendar speed has been improved.</li>
                                 <li>Front end UI/CSS has been changed. A new design has been created for front end calendar and all classes and ids are unique.</li>
                                 <li>Language is not saved anymore in sessions in front end.</li>
                                 <li>Language codes have been changed to international codes for: Albanian (al->sq), Basque (bs->eu), Belarusian (by->be), Chinese (cn->zh), Croatian (cr->hr), Czech (cz->cs), Danish (dk->da), Dutch (du->nl), Greek (gr->el), Haitian Creole(ha->ht), Irish (ir->ga), Malay (mg->ms), Maltese (ma->mt), Persian (pe->fa), Spanish (sp->es), Swedish (se->sv), Welsh (we->cy).</li>
                                 <li>Languages can be enabled/disabled in back end.</li>
                                 <li>Major database changes. Column changes and more indexes created.</li>
+                                <li>Notifications are sent without SMTP if SMTP does not work.</li>
                                 <li>Notifications can be enabled/disabled in administration area.</li>
                                 <li>Notifications can be sent to multiple admins.</li>
                                 <li>PHPMailer class is used when sending notifications.</li>
                                 <li>Possibility to select more than one group of days/hours in a reservation has been added.</li>
+                                <li>Redirect after a booking has been made, has been added.</li>
+                                <li>Redirect after a payment has been made with PayPal, has been added.</li>
+                                <li>Set the number of months to be initially displayed.</li>
+                                <li>Stop booking in advance added.</li>
                                 <li>Translation works with special characters.</li>
                                 <li>UAE Dirham currency added.</li>
                                 <li>Verification if calendar has been attached to WooCommerce product has been added.</li>
@@ -55,16 +62,21 @@
                             <h6>Bug fixes (incomplete list):</h6>
                             <ul>
                                 <li>Availability text is visible on special days, bug fixed.</li>
+                                <li>Compatibility with PHP 5.3 or higher has been fixed.</li>
                                 <li>Current year changes on calendar resize, bug fixed.</li>
+                                <li>Days availability is restored when you cancel a reservation.</li>
                                 <li>IE bugs fixed.</li>
+                                <li>Minimum booking period error message does not display randomly when you select only check in date.</li>
+                                <li>Payment transaction ID is displayed in notification emails.</li>
                                 <li>Required checkbox validation bug fixed.</li>
+                                <li>Translation for dynamic items display correctly.</li>
                                 <li>User capabilities fixed.</li>
                             </ul>
                         </div>
                     </div>
 
                     <div class="toggle-wrapper hidden">
-                        <a class="toggle" href="javascript:void(0)">Version 1.9.5 - 01 March 2013 <span class="icon"></span></a>
+                        <a class="toggle" href="javascript:void(0)">Version 1.9.5 - 01 March 2014 <span class="icon"></span></a>
                         <div class="toggle-content">
                             <h6>New features:</h6>
                             <ul>

@@ -52,7 +52,6 @@
                             <ul>
                                 <li>Custom post types</li>
                                 <li>General/global settings.</li>
-                                <li>Reservations back end add/edit.</li>
                                 <li>Reservations calendar.</li>
                                 <li>Demo website.</li>
                                 <li>Documentation</li>

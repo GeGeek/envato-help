@@ -35,7 +35,8 @@ em{
  */
 #header{
     background: #464646;
-    padding: 22px 30px;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 22px 30px 21px 30px;
 }
 
 #header h1{
@@ -62,15 +63,13 @@ em{
  */
 #menu{
     background: #464646;
-    padding: 0 0 22px 0;
-    /*position: fixed;*/
+    padding: 22px 0;
     top: 0;
     width: 270px;
 }
 
 #menu li{
     background: #464646;
-    display: block;
     padding: 0;
     position: relative;
     -webkit-transition: background 300ms linear;
@@ -109,12 +108,12 @@ em{
     background-position: -60px 0;
 }
                     
-#menu li.woocommerce .icon{
-    background-position: -120px 0;
+#menu li.back-end .icon{
+    background-position: -180px 0;
 }
                     
-#menu li.settings .icon{
-    background-position: -180px 0;
+#menu li.woocommerce .icon{
+    background-position: -120px 0;
 }
                     
 #menu li.hooks .icon{
@@ -140,6 +139,42 @@ em{
 #menu li.support .icon{
     background-position: -540px 0;
 }
+
+/*
+ * Submenu
+ */
+#menu li ul{
+    background: #252525;
+    padding: 11px 0;
+}
+
+#menu li ul.hidden{
+    display: none;
+}
+
+#menu li ul.displayed{
+    display: block;
+}
+
+#menu li ul li{
+    background: #252525;
+}
+
+#menu li ul li a .icon{
+    background: none;
+    height: 22px;
+    text-align: center;
+}
+
+#menu li ul li a .icon:before{
+    content: '\2022';
+    font-size: 18px;
+}
+
+#menu li ul li a:hover,
+#menu li ul li a.selected{
+    background: #464646;
+}
 /*
  * ***************************************************************************** End sidebar.
  */
@@ -149,19 +184,22 @@ em{
  */
 #main{
     border: 1px solid #e5e5e5;
+    border-top: none;
     float: left;
-    padding: 43px 29px;
+    padding: 44px 29px 43px 29px;
     width: 870px;
 }
 
 #main section{
     border-bottom: 1px solid #e5e5e5;
     margin: 0 0 43px 0;
+    padding: 0 0 66px 0;
 }
 
 #main section:last-child{
     border: none;
     margin: 0;
+    padding: 0;
 }
 
 #main section h1,
@@ -261,6 +299,48 @@ em{
 /*
  * Toggle
  */
+#main section .toggle-all{
+    background: #464646;
+    display: block;
+    float: right;
+    height: 22px;
+    margin: 0 0 5.5px 5px;
+    overflow: hidden;
+    padding: 0 0 0 15px;
+    -webkit-transition: background 300ms linear;
+    -moz-transition: background 300ms linear;
+    -o-transition: background 300ms linear;
+    transition: background 300ms linear;
+}
+
+#main section .toggle-all:hover{
+    background: #ff6300;
+}
+
+#main section .toggle-all .label{
+    color: #ffffff;
+    display: block;
+    font-size: 12px;
+    float: left;
+    line-height: 22px;
+}
+
+#main section .toggle-all .icon{
+    background-image: url('../images/sprite.png');
+    display: block;
+    float: right;
+    height: 22px;
+    width: 30px;
+}
+
+#main section .toggle-all.display .icon{
+    background-position: -120px -44px;
+}
+
+#main section .toggle-all.hide .icon{
+    background-position: -120px -66px;
+}
+
 #main section .toggle-wrapper{
     margin: 0 0 22px 0;
 }
@@ -326,25 +406,3 @@ em{
 /*
  * ***************************************************************************** Begin content.
  */
-
-/* ----- Begin Navigation Responsive ----- */
-
-@media (max-width: 640px){
-    #content{
-        margin: auto;
-        width: 100%;
-    }
-    
-    #content h1{
-        font-size: 36px;
-        line-height: 48px;
-        padding-left: 30px;
-        padding-right: 30px;
-    }
-    
-    .assets li .text .credits{
-        float: left;
-        line-height: 16px;
-        margin: 0 0 24px 0;
-    }
-}

@@ -6,7 +6,6 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta name="description" content="" />
         <meta name="keywords" content="" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
 
         <link rel="stylesheet" type="text/css" href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,800,700,600' />
         <link rel="stylesheet" type="text/css" href="http://envato-help.dotonpaper.net/booking-system-wordpress-plugin/assets/gui/css/style.css" />

@@ -2,14 +2,25 @@
             <div id="main">
                 <section>
                     <h2>Changelog</h2>
-
-                    <div class="toggle-wrapper">
+                    
+                    <a href="javascript:toggle('changelog', 'hide')" class="toggle-all hide">
+                        <span class="label">Close all</span>
+                        <span class="icon"></span>
+                    </a>
+                    <a href="javascript:toggle('changelog', 'display')" class="toggle-all display">
+                        <span class="label">Open all</span>
+                        <span class="icon"></span>
+                    </a>
+                    <br class="clear" />
+                    
+                    <div class="toggle-wrapper toggle-changelog displayed">
                         <a class="toggle" href="javascript:void(0)">Version 2.0 - Beta <span class="icon"></span></a>
                         <div class="toggle-content">
                             <ul>
                                 <li>NOTICE! If you intend to update from an older version most of the translation you added will be lost.</li>
                             </ul>
 
+                            <h6>New features:</h6>
                             <ul>
                                 <li>"Coupons" added. Create voucher codes for your clients.</li>
                                 <li>"Discounts" added. Give discounts for the booked period, in different time periods.</li>
@@ -50,8 +61,6 @@
                             
                             <h6>What needs to be finished before final release (if you do not need them you can use 2.0):</h6>
                             <ul>
-                                <li>Custom post types</li>
-                                <li>General/global settings.</li>
                                 <li>Reservations calendar.</li>
                                 <li>Demo website.</li>
                                 <li>Documentation</li>
@@ -74,7 +83,7 @@
                         </div>
                     </div>
 
-                    <div class="toggle-wrapper hidden">
+                    <div class="toggle-wrapper toggle-changelog hidden">
                         <a class="toggle" href="javascript:void(0)">Version 1.9.5 - 01 March 2014 <span class="icon"></span></a>
                         <div class="toggle-content">
                             <h6>New features:</h6>
@@ -95,7 +104,7 @@
                         </div>
                     </div>
 
-                    <div class="toggle-wrapper hidden">
+                    <div class="toggle-wrapper toggle-changelog hidden">
                         <a class="toggle" href="javascript:void(0)">Version 1.9 - 16 December 2013 <span class="icon"></span></a>
                         <div class="toggle-content">
                             <h6>New features:</h6>
@@ -132,7 +141,7 @@
                         </div>
                     </div>
 
-                    <div class="toggle-wrapper hidden">
+                    <div class="toggle-wrapper toggle-changelog hidden">
                         <a class="toggle" href="javascript:void(0)">Version 1.8 - 01 November 2013 <span class="icon"></span></a>
                         <div class="toggle-content">
                             <h6>New features:</h6>
@@ -161,7 +170,7 @@
                         </div>
                     </div>
 
-                    <div class="toggle-wrapper hidden">
+                    <div class="toggle-wrapper toggle-changelog hidden">
                         <a class="toggle" href="javascript:void(0)">Version 1.7 - 31 July 2013 <span class="icon"></span></a>
                         <div class="toggle-content">
                             <h6>New features:</h6>
@@ -194,7 +203,7 @@
                         </div>
                     </div>
 
-                    <div class="toggle-wrapper hidden">
+                    <div class="toggle-wrapper toggle-changelog hidden">
                         <a class="toggle" href="javascript:void(0)">Version 1.6 - 15 June 2013 <span class="icon"></span></a>
                         <div class="toggle-content">
                             <h6>New features:</h6>
@@ -217,7 +226,7 @@
                         </div>
                     </div>
 
-                    <div class="toggle-wrapper hidden">
+                    <div class="toggle-wrapper toggle-changelog hidden">
                         <a class="toggle" href="javascript:void(0)">Version 1.5 - 08 June 2013 <span class="icon"></span></a>
                         <div class="toggle-content">
                             <h6>New features:</h6>
@@ -236,7 +245,7 @@
                         </div>
                     </div>
 
-                    <div class="toggle-wrapper hidden">
+                    <div class="toggle-wrapper toggle-changelog hidden">
                         <a class="toggle" href="javascript:void(0)">Version 1.4 - 03 June 2013 <span class="icon"></span></a>
                         <div class="toggle-content">
                             <h6>New features:</h6>
@@ -267,7 +276,7 @@
                         </div>
                     </div>
 
-                    <div class="toggle-wrapper hidden">
+                    <div class="toggle-wrapper toggle-changelog hidden">
                         <a class="toggle" href="javascript:void(0)">Version 1.3 - 13 December 2012 <span class="icon"></span></a>
                         <div class="toggle-content">
                             <h6>New features:</h6>
@@ -288,7 +297,7 @@
                         </div>
                     </div>
 
-                    <div class="toggle-wrapper hidden">
+                    <div class="toggle-wrapper toggle-changelog hidden">
                         <a class="toggle" href="javascript:void(0)">Version 1.2 - 01 November 2012 <span class="icon"></span></a>
                         <div class="toggle-content">
                             <h6>New features:</h6>
@@ -313,7 +322,7 @@
                         </div>
                     </div>
 
-                    <div class="toggle-wrapper hidden">
+                    <div class="toggle-wrapper toggle-changelog hidden">
                         <a class="toggle" href="javascript:void(0)">Version 1.1 - 05 September 2012 <span class="icon"></span></a>
                         <div class="toggle-content">
                             <h6>New features:</h6>
@@ -340,7 +349,7 @@
                         </div>
                     </div>
 
-                    <div class="toggle-wrapper hidden">
+                    <div class="toggle-wrapper toggle-changelog hidden">
                         <a class="toggle" href="javascript:void(0)">Version 1.0 - 15 July 2012 <span class="icon"></span></a>
                         <div class="toggle-content">
                             <ul>

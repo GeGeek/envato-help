@@ -2,19 +2,69 @@
 $(document).ready(function(){
     SyntaxHighlighter.all();
 
+    /*
+     * Menu
+     */
+    $('#menu li').unbind('click');
+    $('#menu li').bind('click', function(){
+        var $submenu = $('ul', this);
+        
+        if ($submenu.hasClass('displayed')){
+            $submenu.slideUp('fast', function(){
+                $submenu.removeClass('displayed')
+                        .addClass('hidden');
+            });
+        }
+        else{
+            $submenu.slideDown('fast', function(){
+                $submenu.removeClass('hidden')
+                        .addClass('displayed');
+            });
+        }
+    });
+    
+    /*
+     * Toggle.
+     */
     $('#main .toggle-wrapper .toggle').unbind('click');
     $('#main .toggle-wrapper .toggle').bind('click', function(){
-        var $wrapper = $(this).closest('.toggle-wrapper');
+        var $toggleWrapper = $(this).closest('.toggle-wrapper');
         
-        $wrapper.find('.toggle-content').toggle('fast', function(){
-            if ($wrapper.hasClass('hidden')){
-                $wrapper.removeClass('hidden')
-                        .addClass('displayed');
+        $toggleWrapper.find('.toggle-content').toggle('fast', function(){
+            if ($toggleWrapper.hasClass('hidden')){
+                $toggleWrapper.removeClass('hidden')
+                              .addClass('displayed');
             }
             else{
-                $wrapper.removeClass('displayed')
-                        .addClass('hidden');
+                $toggleWrapper.removeClass('displayed')
+                              .addClass('hidden');
             }
         });
     });
 });
+
+/*
+ * Bulk toggle.
+ */
+function toggle(id,
+                action){
+    $('.toggle-wrapper.toggle-'+id).each(function(){
+        var $toggleWrapper = $(this);
+        
+        if (action === 'display'
+                && $toggleWrapper.hasClass('hidden')){
+            $('.toggle-content', this).toggle('fast', function(){
+                $toggleWrapper.removeClass('hidden')
+                              .addClass('displayed');
+            });
+        }
+        
+        if (action === 'hide'
+                && $toggleWrapper.hasClass('displayed')){
+            $('.toggle-content', this).toggle('fast', function(){
+                $toggleWrapper.removeClass('displayed')
+                              .addClass('hidden');
+            });
+        }
+    });
+}

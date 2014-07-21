@@ -1,69 +1,5 @@
             
             <div id="main">
-                <section id="getting-started">
-                    <h2>Getting Started</h2>
-                    
-                    <p>
-                        This Plugin will help you to easily create a booking/reservation system on your WordPress website or blog.
-                    </p>
-                    <p>
-                        If you like this plugin, feel free to rate it five stars
-                        &nbsp;<img alt="" class="star" src="http://2.envato-static.com/assets/common/icons-buttons/rating/star-on-24a8d2589eca9f34bc2ff72a59bd9af7.png" />
-                        <img alt="" class="star" src="http://2.envato-static.com/assets/common/icons-buttons/rating/star-on-24a8d2589eca9f34bc2ff72a59bd9af7.png" />
-                        <img alt="" class="star" src="http://2.envato-static.com/assets/common/icons-buttons/rating/star-on-24a8d2589eca9f34bc2ff72a59bd9af7.png" />
-                        <img alt="" class="star" src="http://2.envato-static.com/assets/common/icons-buttons/rating/star-on-24a8d2589eca9f34bc2ff72a59bd9af7.png" />
-                        <img alt="" class="star" src="http://2.envato-static.com/assets/common/icons-buttons/rating/star-on-24a8d2589eca9f34bc2ff72a59bd9af7.png" />&nbsp;
-                        at your <a href="http://codecanyon.net/?ref=DOTonPAPER" target="_blank">CodeCanyon</a> account in <strong>Downloads</strong> section.
-                        If you encounter any problems, before rating the item, <a href="http://envato-support.dotonpaper.net/" target="_blank">contact us</a> so we can help you fix them.
-                    </p>
-                    <p>
-                       <strong>This is intended to book anything anywhere anytime. So if you need functions or settings tell me and I will add them (no extra charge). Please don’t buy the script unless I add the function you requested (because the number of feature requests is so big a new request might take at least one month to show).</strong>
-                    </p>
-                    <p>
-                        <strong>WARNING:</strong> If you intend to use the plugin for a reservation system where people <strong>Check In</strong> in the <strong>afternoon</strong> and <strong>Check Out</strong> in the <strong>morning</strong>, like hotels, please make sure you have the option <strong>Morning Check Out</strong> Enabled.
-                    </p>
-                </section>
-
-                <section id="licence">
-                    <h2>Licence</h2>
-                    <p>
-                        This item is sold under <a href="http://themeforest.net/licenses" target="_blank">Envato Licences</a>. Please read them and contact <a href="http://support.envato.com/" target="_blank">Envato Support</a> if you have any questions.
-                    </p>
-                </section>
-
-                <section id="installation">
-                    <h2>Installation</h2>
-                    <p>
-                        Upload the folder <strong>dopbsp</strong> from the zip file to <strong>wp-content/plugins/</strong> and activate the plugin in your admin panel or upload <strong>dopbsp.zip</strong> in the Add new section. 
-                    </p>
-                </section>
-
-                <section id="how-to-use-it">
-                    <h2>How to use it</h2>
-                    <p>
-                        After installation, go to Booking System PRO Area (left menu bottom) and hover/click the mouse over the Question Mark icons for instructions.
-                    </p>
-                    <p>
-                        <img src="http://envato-help.dotonpaper.net/content/booking-system-pro-wordpress-plugin/documentation1.jpg" alt="" />
-                        <img src="http://envato-help.dotonpaper.net/content/booking-system-pro-wordpress-plugin/documentation2.jpg" alt="" />
-                        <img src="http://envato-help.dotonpaper.net/content/booking-system-pro-wordpress-plugin/documentation3.jpg" alt="" />
-                        <img src="http://envato-help.dotonpaper.net/content/booking-system-pro-wordpress-plugin/documentation4.jpg" alt="" />
-                        <img src="http://envato-help.dotonpaper.net/content/booking-system-pro-wordpress-plugin/documentation5.jpg" alt="" />
-                    </p>
-                </section>
-
-                <section id="how-to-use-it-with-woocommerce">
-                    <h2>How to use it with WooCommerce</h2>
-                    <p>
-                        Click on the image to view the steps ...
-                    </p>
-                    <p>
-                        <a href="http://envato-help.dotonpaper.net/content/booking-system-pro-wordpress-plugin/woocommerce.png" target="_blank">
-                            <img src="http://envato-help.dotonpaper.net/content/booking-system-pro-wordpress-plugin/woocommerce.png" alt="" />
-                        </a>
-                    </p>
-                </section>
-                
                 <section id="calendar-settings">
                     <h2>Calendar Settings</h2>
                     
@@ -569,31 +505,6 @@
                     </ul>
                 </section>
                 
-
-                <section id="how-to-update">
-                    <h2>How to update</h2>
-                    <p>
-                        <strong>Latest Version: 1.9</strong>
-                    </p>
-                    <p>
-                        <strong>Please note:</strong><br />
-                        Make a <strong>backup</strong> of the Plugin inside your WordPress installation folder <strong>/wp-content/plugins/dopbsp/</strong>
-                    </p>
-                    <p>
-                        <strong>
-                            Warning:<br />
-                            DO NOT DELETE THE OLD FILES BECAUSE IT IS POSSIBLE TO LOSE ALL YOUR DATA.
-                        </strong>
-                    </p>
-                    <p>
-                        To update the Plugin, login to <a href="http://www.codecanyon.net/?ref=DOTonPAPER">CodeCanyon</a>, head over to your <strong>Downloads</strong> section and re-download the plugin like you did when you bought it.
-                    </p>
-                    <p>
-                        Extract the zip's contents, look for the extracted plugin folder, and after you have all the new files upload them using FTP to the <strong>/wp-content/plugins/dopbsp/</strong> folder overwriting the old ones (this is why it's important to backup any changes you've made to the plugin files).
-                        <br />
-                        If you didn't make any changes to the plugin files, you are free to overwrite them with the new ones without the risk of losing any plugins settings, and backwards compatibility is guaranteed.
-                    </p>
-                </section>
 
                 <section id="assets">
                     <h2>Assets</h2>

@@ -17,7 +17,11 @@
                         If you encounter any problems, before rating the item, <a href="http://envato-support.dotonpaper.net/" target="_blank">contact us</a> so we can help you fix them.
                     </p>
                     <p>
-                       <strong>This plugin is intended to be used for booking anything, anywhere, anytime, but because of the number of business models out there please ask before you buy this item, in the comments section, if it contains the features you need. We take your suggestions seriously and will try to add them in future updates, but please do not buy this item if it does not have the functionalities you require. Because Envato requires the quality of the code to be very high, we can not give an estimate when new features will be added and based on past experience we do not want to release untested and/or buggy code. Thank you</strong>
+                       <strong>
+                           This plugin is intended to be used for booking anything, anywhere, anytime, but because of the number of business models out there please ask before you buy this item, in the comments section, if it contains the features you need. We take your suggestions seriously and will try to add them in future updates, but please do not buy this item if it does not have the functionalities you require. Because Envato requires the quality of the code to be very high, we can not give an estimate when new features will be added and based on past experience we do not want to release untested and/or buggy code.
+                           <br /><br />
+                           Thank you
+                       </strong>
                     </p>
                 </section>
 

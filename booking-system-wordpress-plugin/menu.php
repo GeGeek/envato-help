@@ -16,7 +16,8 @@
                         <span class="icon"></span>
                         <a href="javascript:void(0)">Back end<span class="icon-toggle "></span></a>
                         <ul class="<?php echo strpos($page, 'back-end') !== false ? 'displayed':'hidden'; ?>">
-                            <li><a href="?page=back-end-calendars"<?php echo strpos($page, 'back-end-calednars') !== false ? ' class="selected"':''; ?>><span class="icon"></span>Calendars</a></li>
+                            <li><a href="?page=back-end-general"<?php echo strpos($page, 'back-end-general') !== false ? ' class="selected"':''; ?>><span class="icon"></span>General informations</a></li>
+                            <li><a href="?page=back-end-calendars"<?php echo strpos($page, 'back-end-calendars') !== false ? ' class="selected"':''; ?>><span class="icon"></span>Calendars</a></li>
                             <li><a href="?page=back-end-coupons"<?php echo strpos($page, 'back-end-coupons') !== false ? ' class="selected"':''; ?>><span class="icon"></span>Coupons</a></li>
                             <li><a href="?page=back-end-discounts"<?php echo strpos($page, 'back-end-discounts') !== false ? ' class="selected"':''; ?>><span class="icon"></span>Discounts</a></li>
                             <li><a href="?page=back-end-emails"<?php echo strpos($page, 'back-end-emails') !== false ? ' class="selected"':''; ?>><span class="icon"></span>Email templates</a></li>

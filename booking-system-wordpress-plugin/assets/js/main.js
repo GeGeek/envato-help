@@ -5,9 +5,9 @@ $(document).ready(function(){
     /*
      * Menu
      */
-    $('#menu li').unbind('click');
-    $('#menu li').bind('click', function(){
-        var $submenu = $('ul', this);
+    $('#menu > li > a').unbind('click');
+    $('#menu > li > a').bind('click', function(e){
+        var $submenu = $(this).parent().find('ul');
         
         if ($submenu.hasClass('displayed')){
             $submenu.slideUp('fast', function(){

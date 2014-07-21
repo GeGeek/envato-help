@@ -53,6 +53,45 @@ em{
     font-weight: normal;
     line-height: 44px;
 }
+
+/*
+ * Support
+ */
+#support{
+    color: #ffffff;
+    font-size: 11px;
+    position: absolute;
+    right: 0;
+    top: 22px;
+    width: 270px;
+}
+
+#support .icon{
+    background-color: #6b6b6b;
+    background-image: url('../images/sprite.png');
+    background-position: -8px 0;
+    -webkit-border-radius: 44px;
+    -moz-border-radius: 44px;
+    border-radius: 44px;
+    display: block;
+    float: left;
+    height: 44px;
+    margin: 0 11px;
+    width: 44px;
+    -webkit-transition: background 300ms linear;
+    -moz-transition: background 300ms linear;
+    -o-transition: background 300ms linear;
+    transition: background 300ms linear;
+}
+
+#support .title{
+    display: block;
+    font-size: 15px;
+}
+
+#support:hover .icon{
+    background-color: #ff6300;
+}
 /*
  * ***************************************************************************** End header.
  */
@@ -109,43 +148,43 @@ em{
 }
 
 #menu li.home .icon{
-    background-position: 0 0;
+    background-position: -60px 0;
 }
 
 #menu li.how-to .icon{
-    background-position: -60px 0;
-}
-                    
-#menu li.back-end .icon{
-    background-position: -180px 0;
-}
-                    
-#menu li.woocommerce .icon{
     background-position: -120px 0;
 }
                     
-#menu li.hooks .icon{
+#menu li.front-end .icon{
+    background-position: -180px 0;
+}
+                    
+#menu li.back-end .icon{
     background-position: -240px 0;
 }
                     
-#menu li.faq .icon{
+#menu li.woocommerce .icon{
     background-position: -300px 0;
 }
                     
-#menu li.update .icon{
+#menu li.hooks .icon{
     background-position: -360px 0;
 }
                     
-#menu li.changelog .icon{
+#menu li.faq .icon{
     background-position: -420px 0;
 }
                     
-#menu li.assets .icon{
+#menu li.update .icon{
     background-position: -480px 0;
 }
                     
-#menu li.support .icon{
+#menu li.changelog .icon{
     background-position: -540px 0;
+}
+                    
+#menu li.assets .icon{
+    background-position: -600px 0;
 }
 
 /*
@@ -259,7 +298,8 @@ em{
     margin: 0;
 }
 
-#main section p a{
+#main section p a,
+#main section ul li a{
     color: #ff6300;
     text-decoration: underline;
     -webkit-transition: color 300ms linear;
@@ -268,7 +308,8 @@ em{
     transition: color 300ms linear;
 }
 
-#main section p a:hover{
+#main section p a:hover,
+#main section ul li a:hover{
     color: #464646;
 }
 

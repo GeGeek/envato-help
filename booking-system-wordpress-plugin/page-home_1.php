@@ -569,12 +569,6 @@
                     </ul>
                 </section>
                 
-                <section id="known-issues">
-                    <h2>Known issuses</h2>
-                    <p>
-                        The Back End section has some display issues in IE 7 (please update to a new version).
-                    </p>
-                </section>
 
                 <section id="how-to-update">
                     <h2>How to update</h2>
@@ -640,48 +634,5 @@
                             </div>
                         </li>
                     </ul>
-                </section>
-
-                <section id="support">
-                    <h2>Support</h2>
-                    <p>
-                    	If you did not find the answer you were looking for in the given documentation, please access our <a href="http://envato-support.dotonpaper.net/" target="_blank">Support Forums</a>. If you cannot find the answer to your issue, post a new topic, describing the problem you are having. Please add in your message a link to where you use the item or any other stuff that might be relevant (don’t include any passwords or any confidential information).
-                    </p>
-                    <p>
-                        <strong>Note:</strong>
-                        <br />
-                        On our <a href="http://envato-support.dotonpaper.net/" target="_blank">Support Forums</a> you need to login and confirm the <strong>Item Purchase Code</strong> for the item you need help with.
-                    </p>
-                    <p>
-                        <img src="http://envato-help.dotonpaper.net/assets/gui/images/purchase-code.png" alt="" />
-                    </p>
-                    <p>
-                        <strong>Work time:</strong>
-                        <br />
-                        07:00 (07:00 AM) – 16:00 (04:00 PM) GMT | Working days only (Monday – Friday)
-                    </p>
-                    <p>
-                        <strong>We do NOT provide support in comments section. Please use it for presale questions only.</strong>
-                    </p>
-                    <h3>Disclaymer</h3>
-                    <p class="disclaymer">
-                        <em>
-                            If you buy an Envato item, according to Envato rules, you are not entitled to support or free customizations.<br />
-                            WE WILL OFFER FREE SUPPORT only for bugs, item related issues and very small modifications(a few minutes of work). Everything else will be considered as custom work, for which we charge $35/hour.<br /> 
-                            Offering support will help us improve and fix the bugs in our products and a great way to do this is to see what problem appear when people use them.<br />
-                            If your request for a feature has been made by other people is it possible, but not a rule, to add that feature in a future update. Please don't buy the item if a feature doesn't exist and you need it. We will not add it for you in record time. If you are not sure if the feature exists please ask first.  
-                        </em>
-                    </p>
-                </section>
-                
-                <section>
-                    <p class="info">
-                        <strong>PS: Do not forget to rate this item
-                        &nbsp;<img alt="" class="star" src="http://2.envato-static.com/assets/common/icons-buttons/rating/star-on-24a8d2589eca9f34bc2ff72a59bd9af7.png" />
-                        <img alt="" class="star" src="http://2.envato-static.com/assets/common/icons-buttons/rating/star-on-24a8d2589eca9f34bc2ff72a59bd9af7.png" />
-                        <img alt="" class="star" src="http://2.envato-static.com/assets/common/icons-buttons/rating/star-on-24a8d2589eca9f34bc2ff72a59bd9af7.png" />
-                        <img alt="" class="star" src="http://2.envato-static.com/assets/common/icons-buttons/rating/star-on-24a8d2589eca9f34bc2ff72a59bd9af7.png" />
-                        <img alt="" class="star" src="http://2.envato-static.com/assets/common/icons-buttons/rating/star-on-24a8d2589eca9f34bc2ff72a59bd9af7.png" />.</strong>
-                    </p>                
                 </section>
             </div>

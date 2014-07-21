@@ -8,7 +8,7 @@
                         <span class="icon"></span>
                         <a href="?page=how-to">How to use it<span class="icon-toggle "></span></a>
                     </li>
-                    <li class="back-end<?php echo strpos($page, 'front-end') !== false ? ' selected':''; ?>">
+                    <li class="front-end<?php echo strpos($page, 'front-end') !== false ? ' selected':''; ?>">
                         <span class="icon"></span>
                         <a href="?page=front-end">Front end</a>
                     </li>
@@ -53,9 +53,5 @@
                     <li class="assets<?php echo strpos($page, 'assets') !== false ? ' selected':''; ?>">
                         <span class="icon"></span>
                     	<a href="?page=assets">Assets</a>
-                    </li>
-                    <li class="support<?php echo strpos($page, 'support') !== false ? ' selected':''; ?>">
-                        <span class="icon"></span>
-                        <a href="?page=support">Support</a>
                     </li>
                 </ul>

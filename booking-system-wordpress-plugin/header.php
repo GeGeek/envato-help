@@ -24,7 +24,7 @@
         <div id="wrapper">
             <div id="header">
                 <h1>Booking System WordPress Plugin</h1>
-                <a href="http://envato-support.dotonpaper.net/forums/forum/booking-system-pro-wordpress-plugin/" id="support">
+                <a href="http://envato-support.dotonpaper.net/forums/forum/booking-system-pro-wordpress-plugin/" target="_blank" id="support">
                     <span class="icon"></span>
                     <span class="title">Need SUPPORT?</span>
                     Click to use our Support Forum.

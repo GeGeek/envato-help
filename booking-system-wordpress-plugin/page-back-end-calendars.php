@@ -26,18 +26,16 @@
                     <br class="clear" />
                     
                     <!--
-                        Add a calendar
+                        Add a calendar.
                     -->
                     <div class="toggle-wrapper toggle-back-end-calendars displayed">
                         <a class="toggle" href="javascript:void(0)">Add a calendar <span class="icon"></span></a>
                         <div class="toggle-content">
                             <ul>
-                                <li><strong class="bold">Step 1</strong> - Click the <strong class="underline">plus</strong> button to add a new calendar.</li>
+                                <li><strong class="bold">Step 1</strong> - Click the <strong class="bold">"plus"</strong> button to add a new calendar.</li>
                             </ul>
                             <p>
-                                <a href="http://envato-help.dotonpaper.net/booking-system-wordpress-plugin/content/back-end-calendars-add.jpg" target="_blank">
-                                    <img src="http://envato-help.dotonpaper.net/booking-system-wordpress-plugin/content/back-end-calendars-add.jpg" alt="" />
-                                </a>
+                                <img src="http://envato-help.dotonpaper.net/booking-system-wordpress-plugin/content/back-end-calendars-add.jpg" alt="" />
                             </p>
                             <p>
                                 After you clicked the button, the calendar will appear in the list below.
@@ -46,7 +44,7 @@
                     </div>
                     
                     <!--
-                        Set availability in a calendar
+                        Set availability in a calendar.
                     -->
                     <div class="toggle-wrapper toggle-back-end-calendars displayed">
                         <a class="toggle" href="javascript:void(0)">Set availability in a calendar <span class="icon"></span></a>
@@ -55,9 +53,7 @@
                                 <li><strong class="bold">Step 1</strong> - Select the calendar from the list to display the information.</li>
                             </ul>
                             <p>
-                                <a href="http://envato-help.dotonpaper.net/booking-system-wordpress-plugin/content/back-end-calendars-set.jpg" target="_blank">
-                                    <img src="http://envato-help.dotonpaper.net/booking-system-wordpress-plugin/content/back-end-calendars-set.jpg" alt="" />
-                                </a>
+                                <img src="http://envato-help.dotonpaper.net/booking-system-wordpress-plugin/content/back-end-calendars-set.jpg" alt="" />
                             </p>
                             <ul>
                                 <li><strong class="bold">Step 2 & 3</strong> - To set availability you need to select first and last day you want to modify. To select one day click on it 2 times.</li>
@@ -68,7 +64,7 @@
                     </div>
                     
                     <!--
-                        Set availability for hours in multiple days
+                        Set availability for hours in multiple days.
                     -->
                     <div class="toggle-wrapper toggle-back-end-calendars displayed">
                         <a class="toggle" href="javascript:void(0)">Set availability for hours in multiple days <span class="icon"></span></a>
@@ -77,9 +73,7 @@
                                 <li><strong class="bold">Step 1 & 2</strong> - Select first and last day you want to modify. To select one day click on it 2 times.</li>
                             </ul>
                             <p>
-                                <a href="http://envato-help.dotonpaper.net/booking-system-wordpress-plugin/content/back-end-calendars-set-hours.jpg" target="_blank">
-                                    <img src="http://envato-help.dotonpaper.net/booking-system-wordpress-plugin/content/back-end-calendars-set-hours.jpg" alt="" />
-                                </a>
+                                <img src="http://envato-help.dotonpaper.net/booking-system-wordpress-plugin/content/back-end-calendars-set-hours.jpg" alt="" />
                             </p>
                             <ul>
                                 <li><strong class="bold">Step 3</strong> - Set days informations and notes. Availability, price & status will be calculated from hours data.</li>
@@ -90,13 +84,14 @@
                         </div>
                     </div>
                     
+                    <!--
+                        Set availability for separate hours.
+                    -->
                     <div class="toggle-wrapper toggle-back-end-calendars displayed">
                         <a class="toggle" href="javascript:void(0)">Set availability for separate hours <span class="icon"></span></a>
                         <div class="toggle-content">
                             <p>
-                                <a href="http://envato-help.dotonpaper.net/booking-system-wordpress-plugin/content/back-end-calendars-set-hour.jpg" target="_blank">
-                                    <img src="http://envato-help.dotonpaper.net/booking-system-wordpress-plugin/content/back-end-calendars-set-hour.jpg" alt="" />
-                                </a>
+                                <img src="http://envato-help.dotonpaper.net/booking-system-wordpress-plugin/content/back-end-calendars-set-hour.jpg" alt="" />
                             </p>
                             <ul>
                                 <li><strong class="bold">Step 1</strong> - Click on the "clock" icon to display all hours for a day.</li>
@@ -130,9 +125,7 @@
                             </ul>  
                     
                             <p>
-                                <a href="http://envato-help.dotonpaper.net/booking-system-wordpress-plugin/content/back-end-calendars-description.jpg" target="_blank">
-                                    <img src="http://envato-help.dotonpaper.net/booking-system-wordpress-plugin/content/back-end-calendars-description.jpg" alt="" />
-                                </a>
+                                <img src="http://envato-help.dotonpaper.net/booking-system-wordpress-plugin/content/back-end-calendars-description.jpg" alt="" />
                             </p>
                             
                             <h6>Calendar buttons</h6>

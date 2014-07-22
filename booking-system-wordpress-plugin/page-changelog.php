@@ -14,7 +14,7 @@
                     <br class="clear" />
                     
                     <div class="toggle-wrapper toggle-changelog displayed">
-                        <a class="toggle" href="javascript:void(0)">Version 2.0 - Beta <span class="icon"></span></a>
+                        <a class="toggle" href="javascript:void(0)">Version 2.0 - 22 July 2014 <span class="icon"></span></a>
                         <div class="toggle-content">
                             <ul>
                                 <li>NOTICE! If you intend to update from an older version most of the translation you added will be lost.</li>
@@ -57,14 +57,6 @@
                                 <li>UAE Dirham currency added.</li>
                                 <li>Verification if calendar has been attached to WooCommerce product has been added.</li>
                                 <li>WooCommerce integration has been changed. This should fix all incompatibility problems that were in previous version.</li>
-                            </ul>
-                            
-                            <h6>What needs to be finished before final release (if you do not need them you can use 2.0):</h6>
-                            <ul>
-                                <li>Reservations calendar.</li>
-                                <li>Demo website.</li>
-                                <li>Documentation</li>
-                                <li>Some new features may appear ...</li>
                             </ul>
 
                             <h6>Bug fixes (incomplete list):</h6>

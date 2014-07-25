@@ -17,7 +17,9 @@
                         <a class="toggle" href="javascript:void(0)">Version 2.0 - 22 July 2014 <span class="icon"></span></a>
                         <div class="toggle-content">
                             <ul>
-                                <li>NOTICE! If you intend to update from an older version most of the translation you added will be lost.</li>
+                                <li>WARNING! If you intend to update from an older version most of the translation you added will be lost.</li>
+                                <li>WARNING! Permissions to users to use the booking system needs to be given again. No data is lost, but they will not see the calendars because they are not allowed to.</li>
+                                <li>WARNING! The way you add the booking system to a WooCommerce product has changed. You will need to configure them again.</li>
                             </ul>
 
                             <h6>New features:</h6>
@@ -56,7 +58,7 @@
                                 <li>Translation works with special characters.</li>
                                 <li>UAE Dirham currency added.</li>
                                 <li>Verification if calendar has been attached to WooCommerce product has been added.</li>
-                                <li>WooCommerce integration has been changed. This should fix all incompatibility problems that were in previous version.</li>
+                                <li>WooCommerce integration has been changed. This should fix all incompatibility & bugs problems that were in previous version.</li>
                             </ul>
 
                             <h6>Bug fixes (incomplete list):</h6>
@@ -70,6 +72,8 @@
                                 <li>Payment transaction ID is displayed in notification emails.</li>
                                 <li>Required checkbox validation bug fixed.</li>
                                 <li>Translation for dynamic items display correctly.</li>
+                                <li>Translation not saving, bug fixed.</li>
+                                <li>Turkish Lira sign has been fixed.</li>
                                 <li>User capabilities fixed.</li>
                             </ul>
                         </div>

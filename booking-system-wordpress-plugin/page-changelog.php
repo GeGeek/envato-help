@@ -13,15 +13,35 @@
                     </a>
                     <br class="clear" />
                     
+                    
+                    <div class="toggle-wrapper toggle-changelog displayed">
+                        <a class="toggle" href="javascript:void(0)">Version 2.0.1 - 25 July 2014 <span class="icon"></span></a>
+                        <div class="toggle-content">
+                            <h6>New features:</h6>
+                            <ul>
+                                <li>Jump to "Add to cart" button in WooCommerce after a reservation has been selected.</li>
+                                <li>Kenya Shilling currency added.</li>
+                                <li>Reservations can be limited to minutes.</li>
+                                <li>Set booking period rules for minutes.</li>
+                                <li>Use prices lower than 1, added.</li>
+                            </ul>
+
+                            <h6>Bug fixes:</h6>
+                            <ul>
+                                <li>Adding reservations from back end update availability, bug fixed.</li>
+                                <li>Notifications are sent in the language that was used when the reservation was created.</li>
+                                <li>Notifications are sent to multiple admins, bug fixed.</li>
+                                <li>Period is booked after payment is done with some WooCommerce payment gateways extensions, bug fixed.</li>
+                                <li>TinyMCE button incompatibility with some themes has been fixed.</li>
+                                <li>Update schedule after PayPal payment, bug fixed.</li>
+                                <li>Users permissions for specific calendars have been fixed.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
                     <div class="toggle-wrapper toggle-changelog displayed">
                         <a class="toggle" href="javascript:void(0)">Version 2.0 - 22 July 2014 <span class="icon"></span></a>
                         <div class="toggle-content">
-                            <ul>
-                                <li>WARNING! If you intend to update from an older version most of the translation you added will be lost.</li>
-                                <li>WARNING! Permissions to users to use the booking system needs to be given again. No data is lost, but they will not see the calendars because they are not allowed to.</li>
-                                <li>WARNING! The way you add the booking system to a WooCommerce product has changed. You will need to configure them again.</li>
-                            </ul>
-
                             <h6>New features:</h6>
                             <ul>
                                 <li>"Coupons" added. Create voucher codes for your clients.</li>
@@ -36,6 +56,7 @@
                                 <li>All algorithms are improved and work faster. Install, save, search ...</li>
                                 <li>Back end UI/CSS has been changed. A new design has been created for administration area.</li>
                                 <li>Complete code core changes. Everything is OOP & commented.</li>
+                                <li>Currency can be positioned before or after price.</li>
                                 <li>Custom post types do not appear anymore in blog posts by default.</li>
                                 <li>Data save/load speed & server memory usage has been optimized.</li>
                                 <li>Different levels of checking availability have been added in the booking process.</li>
@@ -53,6 +74,7 @@
                                 <li>Possibility to select more than one group of days/hours in a reservation has been added.</li>
                                 <li>Redirect after a booking has been made, has been added.</li>
                                 <li>Redirect after a payment has been made with PayPal, has been added.</li>
+                                <li>Reservations view is not page after page is refreshed.</li>
                                 <li>Set the number of months to be initially displayed.</li>
                                 <li>Stop booking in advance added.</li>
                                 <li>Translation works with special characters.</li>
@@ -61,7 +83,7 @@
                                 <li>WooCommerce integration has been changed. This should fix all incompatibility & bugs problems that were in previous version.</li>
                             </ul>
 
-                            <h6>Bug fixes (incomplete list):</h6>
+                            <h6>Bug fixes:</h6>
                             <ul>
                                 <li>Availability text is visible on special days, bug fixed.</li>
                                 <li>Compatibility with PHP 5.3 or higher has been fixed.</li>
@@ -75,6 +97,7 @@
                                 <li>Translation not saving, bug fixed.</li>
                                 <li>Turkish Lira sign has been fixed.</li>
                                 <li>User capabilities fixed.</li>
+                                <li>WooCommerce redirect to cart page after reservation is added to cart, bug fixed.</li>
                             </ul>
                         </div>
                     </div>

@@ -48,7 +48,7 @@
                                 <li>"Discounts" added. Give discounts for the booked period, in different time periods.</li>
                                 <li>"Email templates" added. Customize your notifications directly from administration area.</li>
                                 <li>"Extras" added. Add amenities, services & other stuff, with price or not, to a reservation.</li>
-                                <li>"Rules" added. Currently you can set min/max time lapse.</li>
+                                <li>"Rules" added. Currently you can set min/max time lapse for a booking request.</li>
                                 <li>"Taxes & fees" added. Set taxes & fees that need to be paid (VAT tax for example).</li>
                                 <li>"Translation" page has been updated.</li>
                                 <li>Add user permissions using custom roles.</li>
@@ -61,6 +61,7 @@
                                 <li>Data save/load speed & server memory usage has been optimized.</li>
                                 <li>Different levels of checking availability have been added in the booking process.</li>
                                 <li>Front end calendar info messages hide after a few seconds.</li>
+                                <li>Front end calendar's sidebar view is customizable.</li>
                                 <li>Front end calendar speed has been improved.</li>
                                 <li>Front end UI/CSS has been changed. A new design has been created for front end calendar and all classes and ids are unique.</li>
                                 <li>Language is not saved anymore in sessions in front end.</li>
@@ -130,7 +131,7 @@
                             <ul>
                                 <li>Config file added.</li>
                                 <li>Delete reservation added.</li>
-                                <li>front end translation not showing bug fix.</li>
+                                <li>Front end translation not showing bug fix.</li>
                                 <li>Installation algorithms have been optimized.</li>
                                 <li>Reservations appear in custom post type.</li>
                                 <li>Set default database values before installation.</li>

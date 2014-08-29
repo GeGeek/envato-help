@@ -18,6 +18,36 @@
                     <br class="clear" />
                     
                     <div class="toggle-wrapper toggle-changelog displayed">
+                        <a class="toggle" href="javascript:void(0)">Version 2.0.3 - 28 August 2014 <span class="icon"></span></a>
+                        <div class="toggle-content">
+                            <h6>New features:</h6>
+                            <ul>
+                                <li>"Dashboard" memory tests have been improved.</li>
+                                <li>Bookings/reservations calendars jump to the last added/removed month.</li>
+                                <li>Currency can be displayed with space when price is shown, both in booking calendars and WordPress back end.</li>
+                                <li>Displaying all translation initially in WordPress admin can be disabled in the configuration file.</li>
+                                <li>Reservations calendar has been added/improved, in WordPress back end.</li>
+                                <li>WooCommerce code can be enabled in configuration file, if WooCommerce is not detected.</li>
+                            </ul>
+
+                            <h6>Bug fixes:</h6>
+                            <ul>
+                                <li>"Dashboard" MySQL test works in PHP 5.5 or higher, bug fixed.</li>
+                                <li>Booking/reservation notifications & payment gateway settings can be edited in custom posts, bug fixed.</li>
+                                <li>DOP Select jQuery plugin not working with some themes, in front end booking calendar, bug fixed.</li>
+                                <li>Information tooltip is displayed, bug fixed in front end booking calendar.</li>
+                                <li>Messages modal always hides in WordPress back end, bug fixed.</li>
+                                <li>November & December months are displayed correctly in reservations, booking notifications ...</li>
+                                <li>Number of days in booking/reservation is calculated correctly in October, bug fixed.</li>
+                                <li>PayPal cancel, error, success links are set correctly in front end booking calendar, bug fixed.</li>
+                                <li>Price decimals ending in 0 display correctly in back end bookings/reservations and notifications, bug fixed.</li>
+                                <li>Translation may be forced reset, bug fixed.</li>
+                                <li>Weekdays are displayed correctly in WordPress back end datepickers, bug fixed.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="toggle-wrapper toggle-changelog hidden">
                         <a class="toggle" href="javascript:void(0)">Version 2.0.2 - 04 August 2014 <span class="icon"></span></a>
                         <div class="toggle-content">
                             <h6>New features:</h6>
@@ -44,7 +74,7 @@
                         </div>
                     </div>
                     
-                    <div class="toggle-wrapper toggle-changelog displayed">
+                    <div class="toggle-wrapper toggle-changelog hidden">
                         <a class="toggle" href="javascript:void(0)">Version 2.0.1 - 25 July 2014 <span class="icon"></span></a>
                         <div class="toggle-content">
                             <h6>New features:</h6>
@@ -69,7 +99,7 @@
                         </div>
                     </div>
                     
-                    <div class="toggle-wrapper toggle-changelog displayed">
+                    <div class="toggle-wrapper toggle-changelog hidden">
                         <a class="toggle" href="javascript:void(0)">Version 2.0 - 22 July 2014 <span class="icon"></span></a>
                         <div class="toggle-content">
                             <h6>New features:</h6>

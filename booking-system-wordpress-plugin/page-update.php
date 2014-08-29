@@ -7,7 +7,7 @@
                         All updates are free and you can download them <a href="http://codecanyon.net/downloads" target="_blank">here</a>.
                     </p>
                     
-                    <h6>Latest Version: 2.0.2</h6>
+                    <h6>Latest Version: 2.0.3</h6>
                     
                     <h6>Important!</h6>
                     <ul>

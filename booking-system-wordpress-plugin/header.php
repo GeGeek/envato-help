@@ -19,6 +19,7 @@
 	<script type="text/javascript" src="http://envato-help.dotonpaper.net/libraries/js/syntax-highlighter/shBrushSql.js"></script>
 	<script type="text/javascript" src="http://envato-help.dotonpaper.net/libraries/js/syntax-highlighter/shBrushXml.js"></script>
         <script type="text/Javascript" src="http://envato-help.dotonpaper.net/booking-system-wordpress-plugin/assets/js/main.js"></script>
+        <?php include_once('../libraries/php/google-analytics.php'); ?>
     </head>
     <body>
         <div id="wrapper">

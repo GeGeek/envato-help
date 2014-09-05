@@ -186,6 +186,10 @@ em{
 #menu li.assets .icon{
     background-position: -600px 0;
 }
+                    
+#menu li.psd-files .icon{
+    background-position: -660px 0;
+}
 
 /*
  * Submenu
@@ -344,6 +348,15 @@ em{
     font-size: 13px;
     list-style-image: url(../images/list-disc.png); 
     padding: 0 0 0 10px;
+}
+
+
+#main section .text{
+    background: #ebebeb;
+    border: 1px solid #e5e5e5;
+    overflow-y: scroll;
+    padding: 21px 19px;
+    height: 110px;
 }
 
 /*

@@ -432,7 +432,7 @@
                         <a class="toggle" href="javascript:void(0)">Version 1.0 - 15 July 2012 <span class="icon"></span></a>
                         <div class="toggle-content">
                             <ul>
-                                <li>IInitial release of Booking System PRO (WordPress Plugin).</li>
+                                <li>Initial release of Booking System PRO (WordPress Plugin).</li>
                             </ul>
                         </div>
                     </div>

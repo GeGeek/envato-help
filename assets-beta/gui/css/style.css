@@ -350,13 +350,35 @@ em{
     padding: 0 0 0 10px;
 }
 
-
+/*
+ * Information text.
+ */
 #main section .text{
     background: #ebebeb;
     border: 1px solid #e5e5e5;
     overflow-y: scroll;
     padding: 21px 19px;
     height: 110px;
+}
+
+/*
+ * Table
+ */
+#main section table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    table-layout: fixed;
+}
+
+#main section table tr td{
+    border: 1px solid #e5e5e5;
+    padding: 10px 19px 11px 19px;
+    width: 50%;
+}
+
+#main section table tr td:first-child{
+/*    font-weight: 600;
+    font-size: 14px;*/
 }
 
 /*
@@ -449,7 +471,6 @@ em{
     background-position: 0 -44px;
 }
 
-
 #main section .toggle-wrapper .toggle-content{
     border: 1px solid #e5e5e5;
     padding: 21px 19px;
@@ -457,6 +478,24 @@ em{
 
 #main section .toggle-wrapper.hidden .toggle-content{
     display: none;
+}
+
+#main section .toggle-wrapper .toggle-content table{
+    margin: -21px -19px;
+}
+
+#main section .toggle-wrapper .toggle-content table tr td{
+    border-top: none;
+    border-left: none;
+}
+
+#main section .toggle-wrapper .toggle-content table tr td:last-child{
+    border-right: none;
+}
+
+#main section .toggle-wrapper .toggle-content table tr:last-child td{
+    border-bottom: none;
+    padding: 10px 19px;
 }
 
 /*

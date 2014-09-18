@@ -30,13 +30,13 @@
                             <li><a href="?page=back-end-coupons" target="_parent"<?php echo strpos($page, 'back-end-coupons') !== false ? ' class="selected"':''; ?>><span class="icon"></span>Coupons</a></li>
                             <li><a href="?page=back-end-discounts" target="_parent"<?php echo strpos($page, 'back-end-discounts') !== false ? ' class="selected"':''; ?>><span class="icon"></span>Discounts</a></li>
                             <li><a href="?page=back-end-emails" target="_parent"<?php echo strpos($page, 'back-end-emails') !== false ? ' class="selected"':''; ?>><span class="icon"></span>Email templates</a></li>
-                            <!--<li><a href="?page=back-end-extras" target="_parent"<?php echo strpos($page, 'back-end-extras') !== false ? ' class="selected"':''; ?>><span class="icon"></span>Extras</a></li>-->
+                            <li><a href="?page=back-end-extras" target="_parent"<?php echo strpos($page, 'back-end-extras') !== false ? ' class="selected"':''; ?>><span class="icon"></span>Extras</a></li>
                             <!--<li><a href="?page=back-end-forms" target="_parent"<?php echo strpos($page, 'back-end-forms') !== false ? ' class="selected"':''; ?>><span class="icon"></span>Forms</a></li>-->
                             <!--<li><a href="?page=back-end-reservations" target="_parent"<?php echo strpos($page, 'back-end-reservations') !== false ? ' class="selected"':''; ?>><span class="icon"></span>Reservations</a></li>-->
-                            <!--<li><a href="?page=back-end-rules" target="_parent"<?php echo strpos($page, 'back-end-rules') !== false ? ' class="selected"':''; ?>><span class="icon"></span>Rules</a></li>-->
+                            <li><a href="?page=back-end-rules" target="_parent"<?php echo strpos($page, 'back-end-rules') !== false ? ' class="selected"':''; ?>><span class="icon"></span>Rules</a></li>
                             <!--<li><a href="?page=back-end-settings" target="_parent"<?php echo strpos($page, 'back-end-settings') !== false ? ' class="selected"':''; ?>><span class="icon"></span>Settings</a></li>-->
-                            <!--<li><a href="?page=back-end-fees" target="_parent"<?php echo strpos($page, 'back-end-fees') !== false ? ' class="selected"':''; ?>><span class="icon"></span>Taxes & fees</a></li>-->
-                            <!--<li><a href="?page=back-end-translation" target="_parent"<?php echo strpos($page, 'back-end-translation') !== false ? ' class="selected"':''; ?>><span class="icon"></span>Translation</a></li>-->
+                            <li><a href="?page=back-end-fees" target="_parent"<?php echo strpos($page, 'back-end-fees') !== false ? ' class="selected"':''; ?>><span class="icon"></span>Taxes & fees</a></li>
+                            <li><a href="?page=back-end-translation" target="_parent"<?php echo strpos($page, 'back-end-translation') !== false ? ' class="selected"':''; ?>><span class="icon"></span>Translation</a></li>
                         </ul>
                     </li>
                     <li class="woocommerce<?php echo strpos($page, 'woocommerce') !== false ? ' selected':''; ?>">

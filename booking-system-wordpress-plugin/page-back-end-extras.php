@@ -69,6 +69,54 @@
                     </div>
                     
                     <!--
+                        Set extras fields.
+                    -->
+                    <div class="toggle-wrapper toggle-back-end-discounts displayed">
+                        <a class="toggle" href="javascript:void(0)"> Set extras fields <span class="icon"></span></a>
+                        <div class="toggle-content">
+                            <ul>
+                                <li><strong class="bold">Button 1</strong> - Click to Hide the Settings.</li>
+                                <li><strong class="bold">Button 2</strong> - Click to Delete the Extras field.</li>
+                                <li><strong class="bold">Button 3</strong> - Click and drag to Sort the Extras fields.</li>
+                                <li><strong class="bold">Button 4</strong> - Change the name of the Extras group.</li>
+                                <li><strong class="bold">Button 5</strong> - Disabled is the default value. Enable it if you want to select multiple options from the Extras group.</li>
+                                <li><strong class="bold">Button 6</strong> - Disabled is the default value. Enable it if you want to be mandatory a selection from this Extras group.</li>
+                                <li><strong class="bold">Step 7</strong> - Click the button to add an item to your Extras group.</li>
+                            </ul>
+                            <p>
+                                <img src="http://envato-help.dotonpaper.net/booking-system-wordpress-plugin/content/back-end-extras-fields.jpg" alt="" />
+                            </p>
+                            <p>
+                                <!--After you clicked the add button, the discount item will appear under it.-->
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <!--
+                        Set extras fields.
+                    -->
+                    <div class="toggle-wrapper toggle-back-end-discounts displayed">
+                        <a class="toggle" href="javascript:void(0)"> Set new Items <span class="icon"></span></a>
+                        <div class="toggle-content">
+                            <ul>
+                                <li><strong class="bold">Field 1</strong> - Change the label for the new Item.</li>
+                                <li><strong class="bold">Field 2</strong> - Select the type of operation you apply.</li>
+                                <li><strong class="bold">Field 3</strong> - Set the price for the Item.</li>
+                                <li><strong class="bold">Field 4</strong> - Select the type of price: Fixed or Procent.</li>
+                                <li><strong class="bold">Field 5</strong> - Select how to apply the price: Once or Per day/hour.</li>
+                                <li><strong class="bold">Button 6</strong> - Delete the Item.</li>
+                                <li><strong class="bold">Button 7</strong> - Click and drag to Sort the Extras Items.</li>
+                            </ul>
+                            <p>
+                                <img src="http://envato-help.dotonpaper.net/booking-system-wordpress-plugin/content/back-end-extras-items.jpg" alt="" />
+                            </p>
+                            <p>
+                                <!--After you clicked the add button, the discount item will appear under it.-->
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <!--
                         Set discount item data.
                     -->
                     <div class="toggle-wrapper toggle-back-end-discounts displayed">

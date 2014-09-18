@@ -1,7 +1,7 @@
 @charset "utf-8";
 
-@import "../../../../libraries/css/reset.css";
-@import "../../../../libraries/css/shCoreDefault.css";
+@import "../../../libraries/css/reset.css";
+@import "../../../libraries/css/shCoreDefault.css";
 
 body{
     background: #ffffff;
@@ -17,7 +17,7 @@ body{
 }
 
 strong{
-    font-weight: normal;
+    font-weight: 600;
 }
 
 strong.bold{
@@ -372,13 +372,20 @@ em{
 
 #main section table tr td{
     border: 1px solid #e5e5e5;
+    font-weight: 300;
     padding: 10px 19px 11px 19px;
     width: 50%;
 }
 
-#main section table tr td:first-child{
-/*    font-weight: 600;
-    font-size: 14px;*/
+/*
+ * Code
+ */
+#main section pre{
+    background: #ebebeb;
+    border: 1px solid #e5e5e5;
+    color: #666666;
+    margin: 0 0 22px 0;
+    padding: 10px 19px;
 }
 
 /*

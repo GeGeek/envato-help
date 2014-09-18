@@ -4,7 +4,7 @@
                     <h2>Server requirements</h2>
                     
                     <p>
-                        The booking system is a plugin that has been made & tested to work on a server that has the <a href="http://wordpress.org/about/requirements/">minimum requirements</a> for WordPress to work.
+                        The booking system is a plugin that has been made & tested to work on a server that has the <a href="http://wordpress.org/about/requirements/" target="_blank">minimum requirements</a> for WordPress to work.
                     </p>
                     
                     <div class="toggle-wrapper toggle-changelog displayed">
@@ -13,33 +13,39 @@
                             <table>
                                 <tbody>
                                     <tr>
-                                        <td><strong class="bold">WordPress version</strong></td>
+                                        <td><strong>WordPress version</strong></td>
                                         <td>3.5 or higher</td>
                                     </tr>
                                     <tr>
-                                        <td><strong class="bold">PHP version</strong></td>
+                                        <td><strong>PHP version</strong></td>
                                         <td>5.1 or higher</td>
                                     </tr>
                                     <tr>
-                                        <td><strong class="bold">MySQL version</strong></td>
+                                        <td><strong>MySQL version</strong></td>
                                         <td>5.0 or higher</td>
                                     </tr>
                                     <tr>
-                                        <td><strong class="bold">Memory limit</strong></td>
+                                        <td><strong>Memory limit</strong></td>
                                         <td>32M or higher</td>
                                     </tr>
                                     <tr>
-                                        <td><strong class="bold">Memory limit</strong> when you use <strong class="bold">WordPress Multisite</strong> or you want to extend the booking system with <strong class="bold">WooCommerce</strong></td>
+                                        <td><strong>Memory limit</strong> when you use <strong class="bold">WordPress Multisite</strong> or you want to extend the booking system with <strong class="bold">WooCommerce</strong></td>
                                         <td>64M or higher</td>
                                     </tr>
                                     <tr>
-                                        <td><strong class="bold">WooComemrce version</strong></td>
-                                        <td>2.1.0or higher</td>
+                                        <td><strong>WooCommerce version</strong></td>
+                                        <td>2.1.0 or higher</td>
                                     </tr>
                                 </tbody>
                             </table>
                         </div>
                     </div>
+                </section>
+                
+                <section>
+                    <h4>Other informations</h4>
+                    
+                    <p>If you intend to use the booking system plugin with a huge amount of data (thousands of calendars), we recommend you have a VPS hosting or a dedicated server.</p>
                 </section>
                 
 <!--                <section>

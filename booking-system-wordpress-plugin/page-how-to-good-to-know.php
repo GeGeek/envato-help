@@ -1,16 +1,7 @@
             
             <div id="main">
                 <section>
-                    <h2>How to use it</h2>
-                    
-                    <h5>Installation</h5>
-                    <p>
-                        Upload the folder <strong>dopbsp</strong> from the zip file you download from Envato to <strong>wp-content/plugins/</strong> and activate the plugin in your admin panel or upload <strong>dopbsp.zip</strong> in the Add new section. 
-                    </p>
-                </section>
-                
-                <section>
-                    <h5>Good to know</h5>
+                    <h2>Good to know</h2>
                     
                     <p>
                         1. Availability is not set by default. Because of the big number of possibilities that exist, we cannot set a default for all business models. For more informations on how to set availability please read <a href="?page=back-end-calendars">Back end -> Calendars</a> section.
@@ -21,15 +12,15 @@
                 </section>
                 
                 <section>
-                    <h5>Front end</h5>
+                    <h4>Front end</h4>
                     
                     <p>
-                        For information on how to display the booking system on your website, view the <a href="?page=front-end">Front end</a> section.
+                        For information on how to display the booking system on your website, view the <a href="?page=front-end-the-calendar">Front end</a> section.
                     </p>
                 </section>
                 
                 <section>
-                    <h5>Back end</h5>
+                    <h4>Back end</h4>
                     
                     <p>
                         For information on how to manage the booking system, view the <a href="?page=back-end-general">Back end</a> section.

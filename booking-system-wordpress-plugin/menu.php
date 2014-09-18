@@ -10,12 +10,17 @@
                         <ul class="<?php echo strpos($page, 'how-to') !== false ? 'displayed':'hidden'; ?>">
                             <li><a href="?page=how-to-server-requirements" target="_parent"<?php echo strpos($page, 'how-to-server-requirements') !== false ? ' class="selected"':''; ?>><span class="icon"></span>Server requirements</a></li>
                             <li><a href="?page=how-to-installation" target="_parent"<?php echo strpos($page, 'how-to-installation') !== false ? ' class="selected"':''; ?>><span class="icon"></span>Installation</a></li>
+                            <li><a href="?page=how-to-good-to-know" target="_parent"<?php echo strpos($page, 'how-to-good-to-know') !== false ? ' class="selected"':''; ?>><span class="icon"></span>Good to know</a></li>
                         </ul>
                     </li>
-<!--                    <li class="front-end<?php echo strpos($page, 'front-end') !== false ? ' selected':''; ?>">
+                    <li class="front-end<?php echo strpos($page, 'front-end') !== false ? ' selected':''; ?>">
                         <span class="icon"></span>
-                        <a href="?page=front-end" target="_parent">Front end</a>
-                    </li>-->
+                        <a href="javascript:void(0)" target="_parent">Front end</a>
+                        <ul class="<?php echo strpos($page, 'front-end') !== false ? 'displayed':'hidden'; ?>">
+                            <li><a href="?page=front-end-the-calendar" target="_parent"<?php echo strpos($page, 'front-end-the-calendar') !== false ? ' class="selected"':''; ?>><span class="icon"></span>The calendar</a></li>
+                            <li><a href="?page=front-end-shortcodes" target="_parent"<?php echo strpos($page, 'front-end-shortcodes') !== false ? ' class="selected"':''; ?>><span class="icon"></span>Shortcodes</a></li>
+                        </ul>
+                    </li>
                     <li class="back-end<?php echo strpos($page, 'back-end') !== false ? ' selected':''; ?>">
                         <span class="icon"></span>
                         <a href="javascript:void(0)">Back end<span class="icon-toggle "></span></a>
@@ -25,7 +30,7 @@
                             <li><a href="?page=back-end-coupons" target="_parent"<?php echo strpos($page, 'back-end-coupons') !== false ? ' class="selected"':''; ?>><span class="icon"></span>Coupons</a></li>
                             <li><a href="?page=back-end-discounts" target="_parent"<?php echo strpos($page, 'back-end-discounts') !== false ? ' class="selected"':''; ?>><span class="icon"></span>Discounts</a></li>
                             <li><a href="?page=back-end-emails" target="_parent"<?php echo strpos($page, 'back-end-emails') !== false ? ' class="selected"':''; ?>><span class="icon"></span>Email templates</a></li>
-                            <li><a href="?page=back-end-extras" target="_parent"<?php echo strpos($page, 'back-end-extras') !== false ? ' class="selected"':''; ?>><span class="icon"></span>Extras</a></li>
+                            <!--<li><a href="?page=back-end-extras" target="_parent"<?php echo strpos($page, 'back-end-extras') !== false ? ' class="selected"':''; ?>><span class="icon"></span>Extras</a></li>-->
                             <!--<li><a href="?page=back-end-forms" target="_parent"<?php echo strpos($page, 'back-end-forms') !== false ? ' class="selected"':''; ?>><span class="icon"></span>Forms</a></li>-->
                             <!--<li><a href="?page=back-end-reservations" target="_parent"<?php echo strpos($page, 'back-end-reservations') !== false ? ' class="selected"':''; ?>><span class="icon"></span>Reservations</a></li>-->
                             <!--<li><a href="?page=back-end-rules" target="_parent"<?php echo strpos($page, 'back-end-rules') !== false ? ' class="selected"':''; ?>><span class="icon"></span>Rules</a></li>-->

@@ -7,7 +7,7 @@
                         The booking system is a plugin that has been made & tested to work on a server that has the <a href="http://wordpress.org/about/requirements/" target="_blank">minimum requirements</a> for WordPress to work.
                     </p>
                     
-                    <div class="toggle-wrapper toggle-changelog displayed">
+                    <div class="toggle-wrapper displayed">
                         <a class="toggle" href="javascript:void(0)">Minimum requirements <span class="icon"></span></a>
                         <div class="toggle-content">
                             <table>

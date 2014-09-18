@@ -4,7 +4,7 @@
                     <h2>Getting Started</h2>
                     
                     <p>
-                        This Plugin will help you to easily create a booking/reservation system into your WordPress website or blog. The Booking System will display calendars for users to see availability and is great for booking, make appointments or schedule and book dates, hours, appointment, services, events. 
+                        This Plugin will help you to easily create a booking/reservation system into your WordPress website or blog. The Booking System will display calendars for users to see availability and is great for bookings, make appointments or schedules for dates, hours, services, events ...
                     </p>
                     <p>
                         If you like this plugin, feel free to rate it five stars

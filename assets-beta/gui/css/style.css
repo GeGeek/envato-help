@@ -1,7 +1,6 @@
 @charset "utf-8";
 
 @import "../../../libraries/css/reset.css";
-@import "../../../libraries/css/shCoreDefault.css";
 
 body{
     background: #ffffff;
@@ -284,13 +283,13 @@ em{
 
 #main section h5{
     font-size: 16px;
-    font-weight: bold;
+    font-weight: 600;
 }
 
 #main section h6{
     color: #666666;
     font-size: 14px;
-    font-weight: bold;
+    font-weight: 600;
     padding: 0 0 22px 0;
 }
 
@@ -368,6 +367,7 @@ em{
     border-collapse: collapse;
     border-spacing: 0;
     table-layout: fixed;
+    width: 100%;
 }
 
 #main section table tr td{
@@ -489,6 +489,7 @@ em{
 
 #main section .toggle-wrapper .toggle-content table{
     margin: -21px -19px;
+    width: 868px;
 }
 
 #main section .toggle-wrapper .toggle-content table tr td{

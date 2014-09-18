@@ -12,12 +12,6 @@
         <link rel="shortcut icon" href="http://envato-help.dotonpaper.net/assets-beta/gui/images/icon.ico" />
 
         <script type="text/JavaScript" src="http://code.jquery.com/jquery-latest.js"></script>
-        <script type="text/javascript" src="http://envato-help.dotonpaper.net/libraries/js/syntax-highlighter/shCore.js"></script>
-	<script type="text/javascript" src="http://envato-help.dotonpaper.net/libraries/js/syntax-highlighter/shBrushCss.js"></script>
-	<script type="text/javascript" src="http://envato-help.dotonpaper.net/libraries/js/syntax-highlighter/shBrushJScript.js"></script>
-	<script type="text/javascript" src="http://envato-help.dotonpaper.net/libraries/js/syntax-highlighter/shBrushPhp.js"></script>
-	<script type="text/javascript" src="http://envato-help.dotonpaper.net/libraries/js/syntax-highlighter/shBrushSql.js"></script>
-	<script type="text/javascript" src="http://envato-help.dotonpaper.net/libraries/js/syntax-highlighter/shBrushXml.js"></script>
         <script type="text/Javascript" src="http://envato-help.dotonpaper.net/assets-beta/js/main.js"></script>
         <?php include_once('../libraries/php/google-analytics.php'); ?>
     </head>

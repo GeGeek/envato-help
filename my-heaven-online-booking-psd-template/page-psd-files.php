@@ -22,12 +22,12 @@
                         <div class="toggle-content">
                             <ul>
                                 <li>01. Home page</li>
-                                <li>02. Search Results Page</li>
-                                <li>03. Booking Page</li>
-                                <li>04. Blog Page</li>
-                                <li>05. Blog Post Page</li>
-                                <li>06. Typography Page</li>
-                                <li>07. Interactive Elements Page</li>
+                                <li>02. Search results page</li>
+                                <li>03. Booking page</li>
+                                <li>04. Blog page</li>
+                                <li>05. Blog post page</li>
+                                <li>06. Typography page</li>
+                                <li>07. Interactive elements page</li>
                                 <li>08. 404 Page</li>
                             </ul>
                         </div>
@@ -38,12 +38,12 @@
                         <div class="toggle-content">
                             <ul>
                                 <li>01. Home page</li>
-                                <li>02. Search Results Page</li>
-                                <li>03. Booking Page</li>
-                                <li>04. Blog Page</li>
-                                <li>05. Blog Post Page</li>
-                                <li>06. Typography Page</li>
-                                <li>07. Interactive Elements Page</li>
+                                <li>02. Search results page</li>
+                                <li>03. Booking page</li>
+                                <li>04. Blog page</li>
+                                <li>05. Blog post page</li>
+                                <li>06. Typography page</li>
+                                <li>07. Interactive elements page</li>
                                 <li>08. 404 Page</li>
                             </ul>
                         </div>
@@ -54,13 +54,14 @@
                         <div class="toggle-content">
                             <ul>
                                 <li>01. Home page</li>
-                                <li>02. Search Results Page</li>
-                                <li>03. Booking Page</li>
-                                <li>04. Blog Page</li>
-                                <li>05. Blog Post Page</li>
-                                <li>06. Typography Page</li>
-                                <li>07. Interactive Elements Page</li>
-                                <li>08. 404 Page</li>
+                                <li>02. Search filters page</li>
+                                <li>03. Search results page</li>
+                                <li>04. Booking page</li>
+                                <li>05. Blog page</li>
+                                <li>06. Blog post page</li>
+                                <li>07. Typography page</li>
+                                <li>08. Interactive elements page</li>
+                                <li>09. 404 Page</li>
                             </ul>
                         </div>
                     </div>

@@ -65,7 +65,7 @@
                                 <li>06. Interactive elements page</li>
                                 <li>07. Blog page</li>
                                 <li>08. Blog post page</li>
-                                <li>01. 404 page</li>
+                                <li>09. 404 page</li>
                             </ul>
                         </div>
                     </div>

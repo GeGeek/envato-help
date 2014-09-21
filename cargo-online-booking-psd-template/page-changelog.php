@@ -17,7 +17,7 @@
                         <a class="toggle" href="javascript:void(0)">Version 1.0 - 13 November 2013 <span class="icon"></span></a>
                         <div class="toggle-content">
                             <ul>
-                                <li>Initial release of CarGo - Creative PSD Template.</li>
+                                <li>Initial release of CarGo - Online Booking PSD Template.</li>
                             </ul>
                         </div>
                     </div>

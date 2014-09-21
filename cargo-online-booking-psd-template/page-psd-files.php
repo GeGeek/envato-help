@@ -4,7 +4,7 @@
                     <h2>PSD files included</h2>
                     
                     <p>
-                        You need Photoshop CS6 or higher to open the files
+                        You need Photoshop CS6 or higher to open the files.
                     </p>
                     
                     <a href="javascript:toggle('psd-files', 'hide')" class="toggle-all hide">
@@ -22,12 +22,12 @@
                         <div class="toggle-content">
                             <ul>
                                 <li>01. Home page</li>
-                                <li>02. Booking Page</li>
-                                <li>03. Blog Page</li>
-                                <li>04. Blog Post Page</li>
-                                <li>05. 404 Page</li>
-                                <li>06. Typography Page</li>
-                                <li>07. Interactive Elements Page</li>
+                                <li>02. Booking page</li>
+                                <li>03. Blog page</li>
+                                <li>04. Blog post page</li>
+                                <li>05. 404 page</li>
+                                <li>06. Typography page</li>
+                                <li>07. Interactive elements page</li>
                             </ul>
                         </div>
                     </div>
@@ -37,12 +37,12 @@
                         <div class="toggle-content">
                             <ul>
                                 <li>01. Home page</li>
-                                <li>02. Booking Page</li>
-                                <li>03. Blog Page</li>
-                                <li>04. Blog Post Page</li>
-                                <li>05. 404 Page</li>
-                                <li>06. Typography Page</li>
-                                <li>07. Interactive Elements Page</li>
+                                <li>02. Booking page</li>
+                                <li>03. Blog page</li>
+                                <li>04. Blog post page</li>
+                                <li>05. 404 page</li>
+                                <li>06. Typography page</li>
+                                <li>07. Interactive elements page</li>
                             </ul>
                         </div>
                     </div>
@@ -52,12 +52,12 @@
                         <div class="toggle-content">
                             <ul>
                                 <li>01. Home page</li>
-                                <li>02. Booking Page</li>
-                                <li>03. Blog Page</li>
-                                <li>04. Blog Post Page</li>
-                                <li>05. 404 Page</li>
-                                <li>06. Typography Page</li>
-                                <li>07. Interactive Elements Page</li>
+                                <li>02. Booking page</li>
+                                <li>03. Blog page</li>
+                                <li>04. Blog post page</li>
+                                <li>05. 404 page</li>
+                                <li>06. Typography page</li>
+                                <li>07. Interactive elements page</li>
                             </ul>
                         </div>
                     </div>

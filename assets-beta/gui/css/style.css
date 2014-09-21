@@ -355,6 +355,7 @@ em{
 #main section .text{
     background: #ebebeb;
     border: 1px solid #e5e5e5;
+    display: block;
     overflow-y: scroll;
     padding: 21px 19px;
     height: 110px;

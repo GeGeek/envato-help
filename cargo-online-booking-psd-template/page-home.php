@@ -4,7 +4,7 @@
                     <h2>Getting Started</h2>
                     
                     <p>
-                        CarGo is a clean PSD template created for creative and portfolio websites.
+                        CarGo is a clean and complete booking PSD template ideal for cars, equipment, services and more.
                     </p>
                     <p>
                         If you like this plugin, feel free to rate it five stars
@@ -20,7 +20,7 @@
                 <section id="licence">
                     <h2>Licence</h2>
                     <p>
-                        This item is sold under <a href="http://themeforest.net/licenses" target="_blank">Envato Licences</a>. Please read them and contact <a href="http://support.envato.com/" target="_blank">Envato Support</a> if you have any questions.
+                        This item is sold under <a href="http://themeforest.net/licenses?ref=DOTonPAPER" target="_blank">Envato Licences</a>. Please read them and contact <a href="http://support.envato.com" target="_blank">Envato Support</a> if you have any questions.
                     </p>
                 </section>
             </div> 

@@ -32,7 +32,7 @@
                 <section id="licence">
                     <h2>Licence</h2>
                     <p>
-                        This item is sold under <a href="http://themeforest.net/licenses" target="_blank">Envato Licences</a>. Please read them and contact <a href="http://support.envato.com/" target="_blank">Envato Support</a> if you have any questions.
+                        This item is sold under <a href="http://themeforest.net/licenses?ref=DOTonPAPER" target="_blank">Envato Licences</a>. Please read them and contact <a href="http://support.envato.com/" target="_blank">Envato Support</a> if you have any questions.
                     </p>
                 </section>
             </div>

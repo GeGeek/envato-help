@@ -4,7 +4,7 @@
                     <h2>PSD files included</h2>
                     
                     <p>
-                        You need Photoshop CS6 or higher to open the files
+                        You need Photoshop CS6 or higher to open the files.
                     </p>
                     
                     <a href="javascript:toggle('psd-files', 'hide')" class="toggle-all hide">

@@ -1,6 +1,9 @@
 <?php
 
-    $page = $_GET['page'];
+  $request  = str_replace('', '', $_SERVER['REQUEST_URI']);
+  $params = split('/', $request);
+  
+  $page = isset($_GET['page']) ? $_GET['page']:$params[2];
     
 ?>
 
@@ -18,4 +21,4 @@
     
 ?>
 
-<?php include_once 'footer.php'; ?> 
+<?php include_once 'footer.php';

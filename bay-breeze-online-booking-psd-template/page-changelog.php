@@ -14,10 +14,10 @@
                     <br class="clear" />
                     
                     <div class="toggle-wrapper toggle-changelog displayed">
-                        <a class="toggle" href="javascript:void(0)">Version 1.0 - 13 November 2013 <span class="icon"></span></a>
+                        <a class="toggle" href="javascript:void(0)">Version 1.0 - 21 September 2014 <span class="icon"></span></a>
                         <div class="toggle-content">
                             <ul>
-                                <li>Initial release of Bay Breeze - Creative PSD Template.</li>
+                                <li>Initial release of Bay Breeze - Online Booking PSD Template.</li>
                             </ul>
                         </div>
                     </div>

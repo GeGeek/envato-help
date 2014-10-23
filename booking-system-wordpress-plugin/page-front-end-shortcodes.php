@@ -23,6 +23,20 @@
                 </section>
                 
                 <section>
+                    <h2>Search shortcode</h2>
+                    
+                    <p>
+                        To display an search item on your page please use the following shortcode:
+                    </p>
+<pre>
+    [dopbsp item=search id=1]
+</pre>
+                    <p>
+                        ... where the attribute <strong class='bold'>id</strong> is the ID of the search item, you created in WordPress back end <a href="?page=back-end-search" target="_parent">Search</a> section, and you want to add on your page/post.
+                    </p>
+                </section>
+                
+                <section>
                     <h2>Change language</h2>
                     
                     <p>
@@ -30,6 +44,7 @@
                     </p>
 <pre>
     [dopbsp id=1 lang=fr]
+    [dopbsp item=search id=1 lang=fr]
 </pre>
                     <p>
                         ... where the attribute <strong class='bold'>lang</strong> is the code of the language you want to use. The default value is <strong class='bold'>en</strong> (English). In the above example we inserted into our content the calendar with the French translation.

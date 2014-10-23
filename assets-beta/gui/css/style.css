@@ -317,9 +317,10 @@ em{
 }
 
 #main section p img{
+    display: block;
     height: auto;
     margin: 0 0 24px 0;
-    width: 100%;
+    max-width: 100%;
 }
 
 #main section p img.star{
@@ -347,6 +348,37 @@ em{
     font-size: 13px;
     list-style-image: url(../images/list-disc.png); 
     padding: 0 0 0 10px;
+}
+
+/*
+ * Ordered list
+ */
+#main section ol{
+    list-style-type: lower-roman;
+    margin: 0 0 22px 30px;
+    
+}
+
+#main section ol:last-child{
+    margin: 0 0 0 30px;
+}
+
+#main section ol li{
+    padding: 0 0 0 10px;
+}
+
+#main section ol li a{
+    color: #464646;
+    font-size: 13px;
+    font-weight: 600;
+    -webkit-transition: color 300ms linear;
+    -moz-transition: color 300ms linear;
+    -o-transition: color 300ms linear;
+    transition: color 300ms linear;
+}
+
+#main section ol li a:hover{
+    color: #ff6300;
 }
 
 /*

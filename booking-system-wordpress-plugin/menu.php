@@ -32,10 +32,12 @@
                             <li><a href="?page=back-end-emails" target="_parent"<?php echo strpos($page, 'back-end-emails') !== false ? ' class="selected"':''; ?>><span class="icon"></span>Email templates</a></li>
                             <li><a href="?page=back-end-extras" target="_parent"<?php echo strpos($page, 'back-end-extras') !== false ? ' class="selected"':''; ?>><span class="icon"></span>Extras</a></li>
                             <!--<li><a href="?page=back-end-forms" target="_parent"<?php echo strpos($page, 'back-end-forms') !== false ? ' class="selected"':''; ?>><span class="icon"></span>Forms</a></li>-->
+                            <li><a href="?page=back-end-locations" target="_parent"<?php echo strpos($page, 'back-end-locations') !== false ? ' class="selected"':''; ?>><span class="icon"></span>Locations</a></li>
                             <!--<li><a href="?page=back-end-reservations" target="_parent"<?php echo strpos($page, 'back-end-reservations') !== false ? ' class="selected"':''; ?>><span class="icon"></span>Reservations</a></li>-->
                             <li><a href="?page=back-end-rules" target="_parent"<?php echo strpos($page, 'back-end-rules') !== false ? ' class="selected"':''; ?>><span class="icon"></span>Rules</a></li>
                             <!--<li><a href="?page=back-end-settings" target="_parent"<?php echo strpos($page, 'back-end-settings') !== false ? ' class="selected"':''; ?>><span class="icon"></span>Settings</a></li>-->
                             <li><a href="?page=back-end-fees" target="_parent"<?php echo strpos($page, 'back-end-fees') !== false ? ' class="selected"':''; ?>><span class="icon"></span>Taxes & fees</a></li>
+                            <li><a href="?page=back-end-search" target="_parent"<?php echo strpos($page, 'back-end-search') !== false ? ' class="selected"':''; ?>><span class="icon"></span>Search</a></li>
                             <li><a href="?page=back-end-translation" target="_parent"<?php echo strpos($page, 'back-end-translation') !== false ? ' class="selected"':''; ?>><span class="icon"></span>Translation</a></li>
                         </ul>
                     </li>

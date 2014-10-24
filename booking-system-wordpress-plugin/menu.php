@@ -38,6 +38,7 @@
                             <!--<li><a href="?page=back-end-settings" target="_parent"<?php echo strpos($page, 'back-end-settings') !== false ? ' class="selected"':''; ?>><span class="icon"></span>Settings</a></li>-->
                             <li><a href="?page=back-end-fees" target="_parent"<?php echo strpos($page, 'back-end-fees') !== false ? ' class="selected"':''; ?>><span class="icon"></span>Taxes & fees</a></li>
                             <li><a href="?page=back-end-search" target="_parent"<?php echo strpos($page, 'back-end-search') !== false ? ' class="selected"':''; ?>><span class="icon"></span>Search</a></li>
+                            <li><a href="?page=back-end-tools" target="_parent"<?php echo strpos($page, 'back-end-tools') !== false ? ' class="selected"':''; ?>><span class="icon"></span>Tools</a></li>
                             <li><a href="?page=back-end-translation" target="_parent"<?php echo strpos($page, 'back-end-translation') !== false ? ' class="selected"':''; ?>><span class="icon"></span>Translation</a></li>
                         </ul>
                     </li>

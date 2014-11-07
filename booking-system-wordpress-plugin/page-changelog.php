@@ -18,6 +18,67 @@
                     <br class="clear" />
                     
                     <div class="toggle-wrapper toggle-changelog displayed">
+                        <a class="toggle" href="javascript:void(0)">Version 2.0.5 - 06 November 2014 <span class="icon"></span></a>
+                        <div class="toggle-content">
+                            <h6>New features:</h6>
+                            <ul>
+                                <li>Database class has been updated.</li>
+                                <li>Front end calendar can start at any day you want.</li>
+                                <li>Front end fonts are loaded from Google using a secure connection (HTTPS).</li>
+                                <li>Reservations filters history is saved and is displayed when you revisit the page.</li>
+                                <li>Translation can repair itself.</li>
+                                <li>WooCommerce variations are hidden in back end, if they are used by the booking system.</li>
+                            </ul>
+
+                            <h6>Bug fixes:</h6>
+                            <ul>
+                                <li>Back end list items are displayed correctly if name is blank.</li>
+                                <li>Booking requests buttons work in back end reservations calendar, bug fixed.</li>
+                                <li>Pending reservations are displayed in back end if there is no payment required, bug fixed.</li>
+                                <li>Minimum price is displayed correctly when searching for calendars with hours, bug fixed.</li>
+                                <li>Total price is calculated correctly when discount is used, bug fixed.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="toggle-wrapper toggle-changelog hidden">
+                        <a class="toggle" href="javascript:void(0)">Version 2.0.4 - 28 October 2014 <span class="icon"></span></a>
+                        <div class="toggle-content">
+                            <h6>New features:</h6>
+                            <ul>
+                                <li>"Locations" added. Create a location and add booking calendars to it.</li>
+                                <li>"Search" added. Use this feature to search for availability in multiple calendars.</li>
+                                <li>"Tools" added. Tools to help you with some of the booking system needs.</li>
+                                <li>All WordPress back end CSS classes are unique.</li>
+                                <li>Booking notifications can be set to use different methods to send emails to administrators and users.</li>
+                                <li>Booking notifications can use two SMTP servers, one for administrators and one for users.</li>
+                                <li>Booking notifications for administrators have Cc and Bcc fields, so that you can send them to multiple people.</li>
+                                <li>Discounts can be calculated including Extras price, in booking requests.</li>
+                                <li>PHP function mysql_insert_id() has been replaced with $wpdb->insert_id, in WordPress back end.</li>
+                                <li>Retina ready, both front end calendar & back end administration area.</li>
+                            </ul>
+
+                            <h6>Bug fixes:</h6>
+                            <ul>
+                                <li>Booking notifications can be sent using Gmail SMTP, bug fixed.</li>
+                                <li>Calendar is displayed correctly in WooCommerce summary, bug fixed.</li>
+                                <li>Custom posts display the booking calendar in WordPress admin, bug fixed.</li>
+                                <li>Database is created correctly when updating from a version older than 2.0, bug fixed.</li>
+                                <li>PayPal payment calculates prices with decimal correctly, bug fixed.</li>
+                                <li>Reservations calendar display the reservation correctly in last weekday, bug fixed.</li>
+                                <li>Role actions are set correctly for custom user roles, bug fixed.</li>
+                                <li>Special characters display correctly in WooCommerce cart, bug fixed.</li>
+                                <li>Taxes & fees percent value is correctly calculated from "Extras", in front end calendar plugin, bug fixed.</li>
+                                <li>Unpaid reservations do not display in WordPress back end, bug fixed.</li>
+                                <li>WooCommerce details display in reservations calendar, bug fixed.</li>
+                                <li>WooCommerce reservation do not duplicate when an order is made anymore, bug fixed.</li>
+                                <li>WooCommerce reservations with same day but different hours do not overlap anymore, bug fixed.</li>
+                                <li>WooCommerce shipping tax is not attached to a booking product anymore, bug fixed.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="toggle-wrapper toggle-changelog hidden">
                         <a class="toggle" href="javascript:void(0)">Version 2.0.3 - 28 August 2014 <span class="icon"></span></a>
                         <div class="toggle-content">
                             <h6>New features:</h6>

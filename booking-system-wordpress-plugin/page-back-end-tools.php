@@ -4,7 +4,7 @@
                     <h2>Back end - Tools</h2>
                     
                     <p>
-                        Here is a list of tools to help you with some of the booking system needs.
+                        Here is a list of tools to help you with some of the booking system needs. They are available only for administrators.
                     </p>
                     
                     <ol>

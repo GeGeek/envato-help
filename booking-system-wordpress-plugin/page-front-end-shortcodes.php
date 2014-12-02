@@ -15,7 +15,7 @@
                         To display the booking calendar please use the following shortcode:
                     </p>
 <pre>
-    [dopbsp id=1]
+[dopbsp id=1]
 </pre>
                     <p>
                         ... where the attribute <strong class='bold'>id</strong> is the ID of the calendar you want to add on your page/post. In the above example we inserted into our content the calendar with ID 1.
@@ -29,7 +29,7 @@
                         To display an search item on your page please use the following shortcode:
                     </p>
 <pre>
-    [dopbsp item=search id=1]
+[dopbsp item=search id=1]
 </pre>
                     <p>
                         ... where the attribute <strong class='bold'>id</strong> is the ID of the search item, you created in WordPress back end <a href="?page=back-end-search" target="_parent">Search</a> section, and you want to add on your page/post.
@@ -43,8 +43,8 @@
                         To change the booking calendar language please use the following shortcode:
                     </p>
 <pre>
-    [dopbsp id=1 lang=fr]
-    [dopbsp item=search id=1 lang=fr]
+[dopbsp id=1 lang=fr]
+[dopbsp item=search id=1 lang=fr]
 </pre>
                     <p>
                         ... where the attribute <strong class='bold'>lang</strong> is the code of the language you want to use. The default value is <strong class='bold'>en</strong> (English). In the above example we inserted into our content the calendar with the French translation.
@@ -53,13 +53,13 @@
                         You can have same calendar with different translations. For example if you are using a translation plugin like <strong>WPML</strong>, and you have 2 translations, German and French, you can add the shortcode:
                     </p>
 <pre>
-    [dopbsp id=1 lang=de]
+[dopbsp id=1 lang=de]
 </pre>
                     <p>
                         in German content, and the shortcode:
                     </p>
 <pre>
-    [dopbsp id=1 lang=fr]
+[dopbsp id=1 lang=fr]
 </pre>
                     <p>
                         in French content.

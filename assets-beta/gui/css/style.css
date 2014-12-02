@@ -417,8 +417,13 @@ em{
     background: #ebebeb;
     border: 1px solid #e5e5e5;
     color: #666666;
+    font-family: 'Inconsolata', sans-serif;
     margin: 0 0 22px 0;
     padding: 10px 19px;
+}
+
+#main section pre:last-child{
+    margin: 0;
 }
 
 /*
@@ -485,11 +490,16 @@ em{
     font-size: 14px;
     font-weight: normal;
     line-height: 22px;
-    padding: 11px 30px;
+    padding: 11px 20px;
     -webkit-transition: background 300ms linear;
     -moz-transition: background 300ms linear;
     -o-transition: background 300ms linear;
     transition: background 300ms linear;
+}
+
+#main section .toggle-wrapper.code .toggle{
+    background: #898989;
+    font-weight: 300;
 }
 
 #main section .toggle-wrapper .toggle:hover{
@@ -516,6 +526,11 @@ em{
     padding: 21px 19px;
 }
 
+#main section .toggle-wrapper.code .toggle-content{
+    border: none;
+    padding: 0;
+}
+
 #main section .toggle-wrapper.hidden .toggle-content{
     display: none;
 }
@@ -537,6 +552,69 @@ em{
 #main section .toggle-wrapper .toggle-content table tr:last-child td{
     border-bottom: none;
     padding: 10px 19px;
+}
+
+/*
+ * Toggle code.
+ */
+
+#main section .toggle-code-wrapper{
+    margin: 0 0 22px 0;
+}
+
+#main section .toggle-code-wrapper.hidden{
+    margin: 0 0 5.5px 0;
+}
+
+#main section .toggle-code-wrapper:last-child{
+    margin: 0;
+}
+
+#main section .toggle-code-wrapper .toggle-code{
+    background: #464646;
+    color: #ffffff;
+    display: block;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 22px;
+    padding: 11px 20px;
+    -webkit-transition: background 300ms linear;
+    -moz-transition: background 300ms linear;
+    -o-transition: background 300ms linear;
+    transition: background 300ms linear;
+}
+
+#main section .toggle-code-wrapper .toggle-code{
+    background: #898989;
+    font-weight: 300;
+}
+
+#main section .toggle-code-wrapper .toggle-code:hover{
+    background: #ff6300;
+}
+
+#main section .toggle-code-wrapper .toggle-code .icon{
+    background-image: url('../images/sprite.png');
+    background-position: -60px -44px;
+    display: block;
+    height: 44px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 60px;
+}
+
+#main section .toggle-code-wrapper.hidden .toggle-code .icon{
+    background-position: 0 -44px;
+}
+
+#main section .toggle-code-wrapper .toggle-code-content{
+    border: none;
+    padding: 0;
+}
+
+#main section .toggle-code-wrapper.hidden .toggle-code-content{
+    display: none;
 }
 
 /*

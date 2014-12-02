@@ -46,11 +46,15 @@
                         <span class="icon"></span>
                         <a href="?page=woocommerce" target="_parent">WooCommerce extension</a>
                     </li>
-<!--                    <li class="hooks<?php echo strpos($page, 'hooks') !== false ? ' selected':''; ?>">
+                    <li class="hooks<?php echo strpos($page, 'hooks') !== false ? ' selected':''; ?>">
                         <span class="icon"></span>
-                        <a href="?page=hooks" target="_parent">Hooks</a>
+                        <a href="javascript:void(0)">Hooks</a>
+                        <ul class="<?php echo strpos($page, 'hooks') !== false ? 'displayed':'hidden'; ?>">
+                            <!--<li><a href="?page=hooks-actions" target="_parent"<?php echo strpos($page, 'hooks-actions') !== false ? ' class="selected"':''; ?>><span class="icon"></span>Actions</a></li>-->
+                            <li><a href="?page=hooks-filters" target="_parent"<?php echo strpos($page, 'hooks-filters') !== false ? ' class="selected"':''; ?>><span class="icon"></span>Filters</a></li>
+                        </ul>
                     </li>
-                    <li class="faq<?php echo strpos($page, 'faq') !== false ? ' selected':''; ?>">
+<!--                    <li class="faq<?php echo strpos($page, 'faq') !== false ? ' selected':''; ?>">
                         <span class="icon"></span>
                         <a href="?page=faq" target="_parent">FAQ</a>
                     </li>-->

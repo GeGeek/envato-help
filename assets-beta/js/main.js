@@ -22,13 +22,32 @@ $(document).ready(function(){
     });
     
     /*
-     * Toggle.
+     * Toggle
      */
     $('#main .toggle-wrapper .toggle').unbind('click');
     $('#main .toggle-wrapper .toggle').bind('click', function(){
         var $toggleWrapper = $(this).closest('.toggle-wrapper');
         
         $toggleWrapper.find('.toggle-content').toggle('fast', function(){
+            if ($toggleWrapper.hasClass('hidden')){
+                $toggleWrapper.removeClass('hidden')
+                              .addClass('displayed');
+            }
+            else{
+                $toggleWrapper.removeClass('displayed')
+                              .addClass('hidden');
+            }
+        });
+    });
+    
+    /*
+     * Toggle code.
+     */
+    $('#main .toggle-code-wrapper .toggle-code').unbind('click');
+    $('#main .toggle-code-wrapper .toggle-code').bind('click', function(){
+        var $toggleWrapper = $(this).closest('.toggle-code-wrapper');
+        
+        $toggleWrapper.find('.toggle-code-content').toggle('fast', function(){
             if ($toggleWrapper.hasClass('hidden')){
                 $toggleWrapper.removeClass('hidden')
                               .addClass('displayed');

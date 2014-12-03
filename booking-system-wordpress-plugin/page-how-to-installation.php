@@ -6,9 +6,27 @@
                     <p>
                         After you download the zip file <strong class="bold">codecanyon-2675936-booking-system-pro-wordpress-plugin.zip</strong> from CodeCanyon you unpack it on your computer. There you have a file  <strong class="bold">dopbsp.zip</strong> (for automatic installation) and a folder <strong class="bold">dopbsp</strong> (for manual installation) you can use.
                     </p>
+                    
+                    <ol>
+                        <li>
+                            <a href="#installation-automatic-installation">Automatic installation</a>
+                        </li>
+                        <li>
+                            <a href="#installation-manual-installation">Manual installation</a>
+                        </li>
+                        <li>
+                            <a href="#installation-important-information">Important information</a>
+                        </li>
+                        <li>
+                            <a href="#installation-the-server-crashed">The server crashed!</a>
+                        </li>
+                        <li>
+                            <a href="#installation-installation-failed">Installation failed</a>
+                        </li>
+                    </ol>
                 </section>
                 
-                <section>
+                <section id="installation-automatic-installation">
                     <h4>Automatic installation</h4>
                     
                     <p>
@@ -23,7 +41,7 @@
                     </ul>
                 </section>
                 
-                <section>
+                <section id="installation-manual-installation">
                     <h4>Manual installation</h4>
                     
                     <p>
@@ -38,7 +56,7 @@
                     </ul>
                 </section>
                 
-                <section>
+                <section id="installation-important-information">
                     <h4>Important information</h4>
                     
                     <p>
@@ -55,9 +73,23 @@
                         <li><strong>Step 5</strong> - Go to WordPress administration area and refresh the page. It does not matter on which page you are.</li>
                         <li><strong>Step 6</strong> - Set constant <strong class="bold">DOPBSP_CONFIG_INIT_DATABASE</strong> value back to <strong class="bold">false</strong>.</li>
                     </ul>
+                    <p>
+                        You can also use <a href="http://envato-help.dotonpaper.net/booking-system-wordpress-plugin/?page=back-end-tools" target="_blank">Repair database & text</a> tool.
+                    </p>
                 </section>
                 
-                <section>
+                <section id="installation-the-server-crashed">
+                    <h4>The server crashed</h4>
+                    
+                    <p>
+                        When installing or updating the reservation system, because of the large number of processes that are run only when the plugin is installed, it is possible that your server will crash.
+                    </p>
+                    <p>
+                        One solution is to increase the memory allocated to PHP. WordPress provides some <a href="http://codex.wordpress.org/Editing_wp-config.php#Increasing_memory_allocated_to_PHP" target="_blank">instructions</a> on how to do that.
+                    </p>
+                </section>
+                
+                <section id="installation-installation-failed">
                     <h4>Installation failed</h4>
                     
                     <p>

@@ -18,6 +18,28 @@
                     <br class="clear" />
                     
                     <div class="toggle-wrapper toggle-changelog displayed">
+                        <a class="toggle" href="javascript:void(0)">Version 2.0.6 - 03 December 2014 <span class="icon"></span></a>
+                        <div class="toggle-content">
+                            <h6>New features:</h6>
+                            <ul>
+                                <li>Currencies can be added using hooks.</li>
+                                <li>Language in admin is verified and set to default, if different errors appear.</li>
+                                <li>Languages can be added using hooks.</li>
+                                <li>PayPal API request using TLS instead of SSL.</li>
+                            </ul>
+
+                            <h6>Bug fixes:</h6>
+                            <ul>
+                                <li>Deposit information is displayed correctly in email notifications, bug fixed.</li>
+                                <li>Search display the correct results for calendars that have hours interval enabled, bug fixed.</li>
+                                <li>Search results display correct calendars when you search only hours, not days, bug fixed.</li>
+                                <li>Selecting quantity for reservation in WooCommerce cart has been disabled, bug fixed (for WooCommerce > 2.2.8).</li>
+                                <li>Translation text is created when a new language is enabled, bug fixed.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="toggle-wrapper toggle-changelog hidden">
                         <a class="toggle" href="javascript:void(0)">Version 2.0.5 - 06 November 2014 <span class="icon"></span></a>
                         <div class="toggle-content">
                             <h6>New features:</h6>

@@ -72,7 +72,7 @@ add_filter('dopbsp_filter_languages', 'dopbsp_add_language');</pre>
                                 You need to add to languages list an array with the following keys:
                             </p>
                             <ul>
-                                <li><strong>code</strong> - ISO 631-1 language code (2 lowercase alphabetical characters). You can find a code list <a href="http://en.wikipedia.org/wiki/List_of_ISO_639-1_codes" target="_blank">here</a>.</li>
+                                <li><strong>code</strong> - ISO 631-1 language code (2 lowercase alphabetical characters; you can use any number of lowercase alphabetical characters for fictional languages). You can find a code list <a href="http://en.wikipedia.org/wiki/List_of_ISO_639-1_codes" target="_blank">here</a>.</li>
                                 <li><strong>name</strong> - Language name.</li>
                             </ul>
                         </div>

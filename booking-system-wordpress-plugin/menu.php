@@ -42,6 +42,14 @@
                             <li><a href="?page=back-end-translation" target="_parent"<?php echo strpos($page, 'back-end-translation') !== false ? ' class="selected"':''; ?>><span class="icon"></span>Translation</a></li>
                         </ul>
                     </li>
+<!--                    <li class="payment-gateways<?php echo strpos($page, 'payment-gateways') !== false ? ' selected':''; ?>">
+                        <span class="icon"></span>
+                        <a href="javascript:void(0)" target="_parent">Payment gateways<span class="icon-toggle "></span></a>
+                        <ul class="<?php echo strpos($page, 'payment-gateways') !== false ? 'displayed':'hidden'; ?>">
+                            <li><a href="?page=payment-gateways-paypal" target="_parent"<?php echo strpos($page, 'payment-gateways-paypal') !== false ? ' class="selected"':''; ?>><span class="icon"></span>PayPal</a></li>
+                            <li><a href="?page=payment-gateways-stripe" target="_parent"<?php echo strpos($page, 'payment-gateways-stripe') !== false ? ' class="selected"':''; ?>><span class="icon"></span>Stripe</a></li>
+                        </ul>
+                    </li>-->
                     <li class="woocommerce<?php echo strpos($page, 'woocommerce') !== false ? ' selected':''; ?>">
                         <span class="icon"></span>
                         <a href="?page=woocommerce" target="_parent">WooCommerce extension</a>

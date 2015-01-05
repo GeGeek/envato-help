@@ -162,32 +162,36 @@ em{
     background-position: -240px 0;
 }
                     
-#menu li.woocommerce .icon{
+#menu li.payment-gateways .icon{
     background-position: -300px 0;
 }
                     
-#menu li.hooks .icon{
+#menu li.woocommerce .icon{
     background-position: -360px 0;
 }
                     
-#menu li.faq .icon{
+#menu li.hooks .icon{
     background-position: -420px 0;
 }
                     
-#menu li.update .icon{
+#menu li.faq .icon{
     background-position: -480px 0;
 }
                     
-#menu li.changelog .icon{
+#menu li.update .icon{
     background-position: -540px 0;
 }
                     
-#menu li.assets .icon{
+#menu li.changelog .icon{
     background-position: -600px 0;
 }
                     
-#menu li.psd-files .icon{
+#menu li.assets .icon{
     background-position: -660px 0;
+}
+                    
+#menu li.psd-files .icon{
+    background-position: -720px 0;
 }
 
 /*

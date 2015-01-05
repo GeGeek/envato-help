@@ -1,6 +1,9 @@
 <?php
 
-    $page = $_GET['page'];
+  $request  = str_replace('', '', $_SERVER['REQUEST_URI']);
+  $params = split('/', $request);
+  
+  $page = isset($_GET['page']) ? $_GET['page']:$params[2];
     
 ?>
 

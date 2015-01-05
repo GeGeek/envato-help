@@ -36,6 +36,10 @@
                                         <td><strong>WooCommerce version</strong></td>
                                         <td>2.1.0 or higher</td>
                                     </tr>
+                                    <tr>
+                                        <td><strong>cURL version</strong> it necessary for TLS security protocol when it is being used.</td>
+                                        <td>7.34 or higher</td>
+                                    </tr>
                                 </tbody>
                             </table>
                         </div>

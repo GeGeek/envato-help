@@ -18,6 +18,34 @@
                     <br class="clear" />
                     
                     <div class="toggle-wrapper toggle-changelog displayed">
+                        <a class="toggle" href="javascript:void(0)">Version 2.0.7 - 08 January 2015 <span class="icon"></span></a>
+                        <div class="toggle-content">
+                            <h6>New features:</h6>
+                            <ul>
+                                <li>Database indexes have been updated.</li>
+                                <li>Payment API has been added.</li>
+                                <li>PayPal API sandbox credentials have their own settings.</li>
+                                <li>PayPal works with both SSL and TLS, until SSL will be dropped.</li>
+                                <li>The translation is displayed in alphabetical order, when you want to edit it, in WordPress admin.</li>
+                                <li>Updating and fixing the translation database has been improved.</li>
+                                <li>Users' roles are displayed correctly, even if they are modified by third party plugins.</li>
+                                <li>WooCommerce "Add to cart" button can be replaced with booking system button.</li>
+                                <li>WooCommerce booking variations are cleaned more often, to improve performance.</li>
+                            </ul>
+
+                            <h6>Bug fixes:</h6>
+                            <ul>
+                                <li>Cyrillic characters are displayed correctly in calendars tooltip, bug fixed.</li>
+                                <li>Months are displayed correctly, if you navigate through the calendar after you select a period of time from the sidebar, bug fixed.</li>
+                                <li>Old calendars load even if availability is not set, bug fixed.</li>
+                                <li>Reservations' count is displayed correctly in "Calendars" section, bug fixed.</li>
+                                <li>SMTP notifications are sent correctly for each payment method, bug fixed.</li>
+                                <li>WooCommerce products can have multiple variations with the booking system, bug fixed.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="toggle-wrapper toggle-changelog hidden">
                         <a class="toggle" href="javascript:void(0)">Version 2.0.6 - 03 December 2014 <span class="icon"></span></a>
                         <div class="toggle-content">
                             <h6>New features:</h6>

@@ -6,6 +6,15 @@
                     <p>
                         Here you can create calendars and add availability, price, status, information for days and hours.
                     </p>
+                    
+                    <ol>
+                        <li>
+                            <a href="#calendars-set-availability">Set availability</a>
+                        </li>
+                        <li>
+                            <a href="#calendars-page-details">Page details</a>
+                        </li>
+                    </ol>
                 </section>
                 
                 <section>
@@ -16,7 +25,7 @@
                     </p>
                 </section>
                 
-                <section>
+                <section id="calendars-set-availability">
                     <h2>Set availability</h2>
                     
                     <!--
@@ -110,7 +119,7 @@
                     </div>
                 </section>
                 
-                <section>
+                <section id="calendars-page-details">
                     <h2>Page details</h2>
                     
                     <ul>

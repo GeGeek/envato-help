@@ -373,6 +373,7 @@ em{
 
 #main section ol li a{
     color: #464646;
+    display: block;
     font-size: 13px;
     font-weight: 600;
     -webkit-transition: color 300ms linear;
@@ -508,6 +509,10 @@ em{
 
 #main section .toggle-wrapper .toggle:hover{
     background: #ff6300;
+}
+
+#main section .toggle-wrapper .toggle .info{
+    color: #ebebeb;
 }
 
 #main section .toggle-wrapper .toggle .icon{

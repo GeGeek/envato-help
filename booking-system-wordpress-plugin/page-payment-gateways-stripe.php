@@ -4,7 +4,7 @@
                     <h2>Payment gateways - Stripe (add-on)</h2>
                     
                     <p>
-                        To use Stripe payment with the booking system, you need to use an add-on, which you can get here. The add-on is compatible only with the <a href="http://codecanyon.net/item/booking-system-pro-wordpress-plugin/2675936?ref=DOTonPAPER" target="_blank">PRO version</a> of the Booking System (minimum 2.0.7).
+                        To use Stripe payment with the booking system, you need to use an add-on, which you can get <a href="http://codecanyon.net/item/bsp-wp-addon-stripe-payment/10014234?ref=DOTonPAPER" target="_blank">here</a>. The add-on is compatible only with the <a href="http://codecanyon.net/item/booking-system-pro-wordpress-plugin/2675936?ref=DOTonPAPER" target="_blank">PRO version</a> of the Booking System (minimum 2.0.7).
                     </p>
                     
                     <ol>
@@ -24,7 +24,7 @@
                     <h2>Installation</h2>
                     
                     <p>
-                        After you download the zip file <!--<strong class="bold">codecanyon-2675936-booking-system-pro-wordpress-plugin.zip</strong>--> from CodeCanyon you unpack it on your computer. There you have a file  <strong class="bold">dopbsp-stripe.zip</strong> (for automatic installation) and a folder <strong class="bold">dopbsp-stripe</strong> (for manual installation) you can use.
+                        After you download the zip file <strong class="bold">codecanyon-10014234-bsp-wp-addon-stripe-payment.zip</strong> from CodeCanyon you unpack it on your computer. There you have a file  <strong class="bold">dopbsp-stripe.zip</strong> (for automatic installation) and a folder <strong class="bold">dopbsp-stripe</strong> (for manual installation) you can use.
                     </p>
                     
                     <h4>Automatic installation</h4>
@@ -55,6 +55,7 @@
                 <section id="stripe-settings">
                     <h2>Settings</h2>
                     
+                    <h4>Calendar settings</h4>
                     <p>
                         Once the add-on is activated, it will create all the elements needed to integrate the payment gateway in the booking system.
                     </p>
@@ -103,8 +104,7 @@
                         </div>
                     </div>
                     
-                    <br />
-                    
+                    <h4>Notifications settings</h4>
                     <p>
                         You can configure if you want to be notified when a payment is done using Stripe Payment in <strong>Calendar notifications</strong> in <strong>WordPress admin -> Booking System PRO -> Calendars -> Select calendar -> Click on notifications icon</strong>.
                     </p>
@@ -149,7 +149,7 @@
                     <br class="clear" />
                     
                     <div class="toggle-wrapper toggle-changelog displayed">
-                        <a class="toggle" href="javascript:void(0)">Version 1.0 - 09 January 2015 - <span class="info">requires Booking System PRO v2.0.7</span> <span class="icon"></span></a>
+                        <a class="toggle" href="javascript:void(0)">Version 1.0 - 11 January 2015 - <span class="info">requires Booking System PRO v2.0.7</span> <span class="icon"></span></a>
                         <div class="toggle-content">
                             <ul>
                                 <li>Initial release of Booking System PRO (WordPress Plugin) add-on: Stripe Payment.</li>

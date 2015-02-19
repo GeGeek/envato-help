@@ -4,25 +4,26 @@
                     <h2>Payment gateways - PayPal</h2>
                     
                     <p>
-                        
+                        PayPal payment is included by default in the booking system.
                     </p>
-                    
-                    <ol>
-                        <li>
-                            <a href="#paypal-settings">Settings</a>
-                        </li>
-                    </ol>
                 </section>
                 
                 <section id="paypal-settings">
                     <h2>Settings</h2>
                     
+                    <h4>Calendar settings</h4>
                     <p>
-                        
+                        To configure PayPal go to <strong>Calendar payment gateways</strong> in <strong>WordPress admin -> Booking System PRO -> Calendars -> Select calendar -> Click on payment gateways icon</strong>, and set the settings.
+                    </p>
+                    <p>
+                        To get PayPal API credentials, follow the instructions on this <a href="https://developer.paypal.com/docs/classic/api/apiCredentials/" target="_blank">page</a>.
+                    </p>
+                    <p>
+                        To get PayPal Sandbox API credentials, follow the instructions on this <a href="https://developer.paypal.com/docs/classic/lifecycle/sb_credentials/" target="_blank">page</a>.
                     </p>
                     
                     <div class="toggle-wrapper displayed">
-                        <a class="toggle" href="javascript:void(0)">Calendar settings <span class="icon"></span></a>
+                        <a class="toggle" href="javascript:void(0)">Calendar payment gateways settings <span class="icon"></span></a>
                         <div class="toggle-content">
                             <table>
                                 <tbody>
@@ -63,6 +64,18 @@
                                         <td>Enter PayPal API sandbox credentials signature.</td>
                                     </tr>
                                     <tr>
+                                        <td><strong>Enable refunds</strong></td>
+                                        <td>Default value: Disabled. Users that paid with PayPal will be refunded automatically if a reservation is canceled.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Refund value</strong></td>
+                                        <td>Default value: 100. Enter the refund value from reservation total price.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Refund type</strong></td>
+                                        <td>Default value: Percent. Select refund value type. It can be a fixed value or a percent from reservation price.</td>
+                                    </tr>
+                                    <tr>
                                         <td><strong>Redirect after payment</strong></td>
                                         <td>Enter the URL where to redirect after the payment has been completed. Leave it blank to redirect back to the calendar.</td>
                                     </tr>
@@ -71,97 +84,30 @@
                         </div>
                     </div>
                     
+                    <h4>Notifications settings</h4>
+                    <p>
+                        You can configure if you want to be notified when a payment is done using PayPal Payment in <strong>Calendar notifications</strong> in <strong>WordPress admin -> Booking System PRO -> Calendars -> Select calendar -> Click on notifications icon</strong>.
+                    </p>
+                    <p>
+                        You can edit notification messages in <a href="http://envato-help.dotonpaper.net/booking-system-wordpress-plugin/back-end-emails">Email templates</a> section.
+                    </p>
+                    
                     <div class="toggle-wrapper displayed">
                         <a class="toggle" href="javascript:void(0)">Notifications settings <span class="icon"></span></a>
                         <div class="toggle-content">
                             <table>
                                 <tbody>
                                     <tr>
-                                        <td><strong>PayPal - Notify admin</strong></td>
-                                        <td>Enable to send an email notification to admin on book request payed with PayPal.</td>
+                                        <td><strong>Stripe - Notify admin</strong></td>
+                                        <td>Enable to send an email notification to admin on book request payed with Stripe.</td>
                                     </tr>
                                     <tr>
-                                        <td><strong>PayPal - Notify user</strong></td>
-                                        <td>Enable to send an email notification to user on book request payed with PayPal.</td>
+                                        <td><strong>Stripe - Notify user</strong></td>
+                                        <td>Enable to send an email notification to user on book request payed with Stripe.</td>
                                     </tr>
                                 </tbody>
                             </table>
                         </div>
                     </div>
                 </section>
-                <!--
-                <section id="installation-automatic-installation">
-                    <h4>Automatic installation</h4>
-                    
-                    <p>
-                        To add the Booking System plugin using the built-in plugin installer:
-                    </p> 
-                    <ul>
-                        <li><strong>Step 1</strong> - Go to <strong class="bold">Plugins</strong> -> <strong class="bold">Add New</strong> in WordPress administration area.</li>
-                        <li><strong>Step 2</strong> - Click <strong class="bold">Upload Plugin</strong> on top of the page.</li>
-                        <li><strong>Step 3</strong> - Click <strong class="bold">Choose File</strong> and select <strong class="bold">dopbsp.zip</strong> from your computer, the one from the zip file you downloaded from CodeCanyon.</li>
-                        <li><strong>Step 4</strong> - Click <strong class="bold">Install Now</strong> to install the Booking System.</li>
-                        <li><strong>Step 5</strong> - After installation is complete, click <strong class="bold">Activate Plugin</strong> to activate the Booking System.</li>
-                    </ul>
-                </section>
-                
-                <section id="installation-manual-installation">
-                    <h4>Manual installation</h4>
-                    
-                    <p>
-                        Installation of the Booking System manually requires FTP familiarity.
-                    </p> 
-                    <ul>
-                        <li><strong>Step 1</strong> - With your FTP program connect to your web server.</li>
-                        <li><strong>Step 2</strong> - Go where your WordPress files are, to folder <strong class="bold">wp-content/plugins</strong>.</li>
-                        <li><strong>Step 3</strong> - Upload the folder <strong class="bold">dopbsp</strong> from the zip file you downloaded from CodeCanyon.</li>
-                        <li><strong>Step 4</strong> - Go to <strong class="bold">Plugins</strong> screen, in WordPress administration area, and find the newly uploaded Booking System in the list.</li>
-                        <li><strong>Step 5</strong> - Click <strong class="bold">Activate</strong> to activate it.</li>
-                    </ul>
-                </section>
-                
-                <section id="installation-important-information">
-                    <h4>Important information</h4>
-                    
-                    <p>
-                        On some servers, when you install or update the Booking System, the process can be very slow. This is caused by WordPress function <a href="http://codex.wordpress.org/Creating_Tables_with_Plugins#Creating_or_Updating_the_Table" target="_blank">dbDelta()</a> which creates and updates your database.
-                    </p>
-                    <p>
-                        We recommend you be patient and allow the installation to finish, but if something happens during it and the database is not created, please use the following steps:
-                    </p>
-                    <ul>
-                        <li><strong>Step 1</strong> - With your FTP program connect to your web server.</li>
-                        <li><strong>Step 2</strong> - Go where your WordPress files are, to folder <strong class="bold">wp-content/plugins/dopbsp</strong>.</li>
-                        <li><strong>Step 3</strong> - Open and edit the file <strong class="bold">dopbsp-config.php</strong>.</li>
-                        <li><strong>Step 4</strong> - Set constant <strong class="bold">DOPBSP_CONFIG_INIT_DATABASE</strong> value to <strong class="bold">true</strong> @line 18.</li>
-                        <li><strong>Step 5</strong> - Go to WordPress administration area and refresh the page. It does not matter on which page you are.</li>
-                        <li><strong>Step 6</strong> - Set constant <strong class="bold">DOPBSP_CONFIG_INIT_DATABASE</strong> value back to <strong class="bold">false</strong>.</li>
-                    </ul>
-                    <p>
-                        You can also use <a href="http://envato-help.dotonpaper.net/booking-system-wordpress-plugin/?page=back-end-tools" target="_blank">Repair database & text</a> tool.
-                    </p>
-                </section>
-                
-                <section id="installation-the-server-crashed">
-                    <h4>The server crashed</h4>
-                    
-                    <p>
-                        When installing or updating the reservation system, because of the large number of processes that are run only when the plugin is installed, it is possible that your server will crash.
-                    </p>
-                    <p>
-                        One solution is to increase the memory allocated to PHP. WordPress provides some <a href="http://codex.wordpress.org/Editing_wp-config.php#Increasing_memory_allocated_to_PHP" target="_blank">instructions</a> on how to do that.
-                    </p>
-                </section>
-                
-                <section id="installation-installation-failed">
-                    <h4>Installation failed</h4>
-                    
-                    <p>
-                        If the booking system did not install properly, or you have problems with WordPress administration area after installation, please contact us on our <a href="http://envato-support.dotonpaper.net/" target="_blank">Support Forums</a> and we will debug the problem for you.
-                    </p>
-                    <p>
-                        Always the problem is caused by an incompatibility with another plugin, theme or the server is not configured correctly.
-                    </p>
-                </section>
-                -->
             </div>

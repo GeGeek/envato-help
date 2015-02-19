@@ -96,6 +96,18 @@
                                         <td>Enter Stripe API publishable key for testing.</td>
                                     </tr>
                                     <tr>
+                                        <td><strong>Enable refunds</strong></td>
+                                        <td>Default value: Disabled. Users that paid with Stripe will be refunded automatically if a reservation is canceled.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Refund value</strong></td>
+                                        <td>Default value: 100. Enter the refund value from reservation total price.</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Refund type</strong></td>
+                                        <td>Default value: Percent. Select refund value type. It can be a fixed value or a percent from reservation price.</td>
+                                    </tr>
+                                    <tr>
                                         <td><strong>Redirect after payment</strong></td>
                                         <td>Enter the URL where to redirect after the payment has been completed. Leave it blank to redirect back to the calendar.</td>
                                     </tr>
@@ -147,6 +159,17 @@
                         <span class="icon"></span>
                     </a>
                     <br class="clear" />
+                    
+                    <div class="toggle-wrapper toggle-changelog displayed">
+                        <a class="toggle" href="javascript:void(0)">Version 1.0.1 - 19 February 2015 - <span class="info">requires Booking System PRO v2.0.8</span> <span class="icon"></span></a>
+                        <div class="toggle-content">
+                            <h6>New features:</h6>
+                            <ul>
+                                <li>"Settings" database has been updated.</li>
+                                <li>Stripe transaction may be refunded when a reservation is canceled.</li>
+                            </ul>
+                        </div>
+                    </div>
                     
                     <div class="toggle-wrapper toggle-changelog displayed">
                         <a class="toggle" href="javascript:void(0)">Version 1.0 - 11 January 2015 - <span class="info">requires Booking System PRO v2.0.7</span> <span class="icon"></span></a>

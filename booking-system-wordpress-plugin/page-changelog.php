@@ -18,6 +18,38 @@
                     <br class="clear" />
                     
                     <div class="toggle-wrapper toggle-changelog displayed">
+                        <a class="toggle" href="javascript:void(0)">Version 2.0.8 - 19 February 2015 <span class="icon"></span></a>
+                        <div class="toggle-content">
+                            <h6>New features:</h6>
+                            <ul>
+                                <li>"Add-ons" added. Increase and improve functionalities.</li>
+                                <li>"Themes" added. A collection of themes specially created for the booking system.</li>
+                                <li>"Settings" database has been updated.</li>
+                                <li>"Tools" - "Repair calendars settings" has been updated.</li>
+                                <li>"Tools" - "Repair search settings" added.</li>
+                                <li>Billing & shipping address added.</li>
+                                <li>PayPal transaction may be refunded when a reservation is canceled.</li>
+                                <li>Plugin update has been optimized.</li>
+                                <li>Small "add reservations" CSS style update.</li>
+                                <li>TLS connection can be used with SMTP.</li>
+                                <li>User meta is deleted when the plugin us deleted.</li>
+                            </ul>
+
+                            <h6>Repaired bugs:</h6>
+                            <ul>
+                                <li>Calendar sidebar widget CSS has been repaired.</li>
+                                <li>Calendars are displayed correctly for the users that have permissions to view them, bug repaired.</li>
+                                <li>Email form field can be empty when is not mandatory, bug repaired.</li>
+                                <li>Notifications are not sent two times when you use a SMTP, bug repaired.</li>
+                                <li>Reservation status is saved correctly in "Reservations calendar", bug repaired.</li>
+                                <li>Filter by price, in search, has been repaired.</li>
+                                <li>The "book now" button is not visible when a payment is in progress, bug repaired.</li>
+                                <li>WooCommerce cart, validation bug has been repaired.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="toggle-wrapper toggle-changelog hidden">
                         <a class="toggle" href="javascript:void(0)">Version 2.0.7 - 08 January 2015 <span class="icon"></span></a>
                         <div class="toggle-content">
                             <h6>New features:</h6>
@@ -33,14 +65,14 @@
                                 <li>WooCommerce booking variations are cleaned more often, to improve performance.</li>
                             </ul>
 
-                            <h6>Bug fixes:</h6>
+                            <h6>Repaired bugs:</h6>
                             <ul>
-                                <li>Cyrillic characters are displayed correctly in calendars tooltip, bug fixed.</li>
-                                <li>Months are displayed correctly, if you navigate through the calendar after you select a period of time from the sidebar, bug fixed.</li>
-                                <li>Old calendars load even if availability is not set, bug fixed.</li>
-                                <li>Reservations' count is displayed correctly in "Calendars" section, bug fixed.</li>
-                                <li>SMTP notifications are sent correctly for each payment method, bug fixed.</li>
-                                <li>WooCommerce products can have multiple variations with the booking system, bug fixed.</li>
+                                <li>Cyrillic characters are displayed correctly in calendars tooltip, bug repaired.</li>
+                                <li>Months are displayed correctly, if you navigate through the calendar after you select a period of time from the sidebar, bug repaired.</li>
+                                <li>Old calendars load even if availability is not set, bug repaired.</li>
+                                <li>Reservations' count is displayed correctly in "Calendars" section, bug repaired.</li>
+                                <li>SMTP notifications are sent correctly for each payment method, bug repaired.</li>
+                                <li>WooCommerce products can have multiple variations with the booking system, bug repaired.</li>
                             </ul>
                         </div>
                     </div>
@@ -56,13 +88,13 @@
                                 <li>PayPal API request using TLS instead of SSL.</li>
                             </ul>
 
-                            <h6>Bug fixes:</h6>
+                            <h6>Repaired bugs:</h6>
                             <ul>
-                                <li>Deposit information is displayed correctly in email notifications, bug fixed.</li>
-                                <li>Search display the correct results for calendars that have hours interval enabled, bug fixed.</li>
-                                <li>Search results display correct calendars when you search only hours, not days, bug fixed.</li>
-                                <li>Selecting quantity for reservation in WooCommerce cart has been disabled, bug fixed (for WooCommerce > 2.2.8).</li>
-                                <li>Translation text is created when a new language is enabled, bug fixed.</li>
+                                <li>Deposit information is displayed correctly in email notifications, bug repaired.</li>
+                                <li>Search display the correct results for calendars that have hours interval enabled, bug repaired.</li>
+                                <li>Search results display correct calendars when you search only hours, not days, bug repaired.</li>
+                                <li>Selecting quantity for reservation in WooCommerce cart has been disabled, bug repaired (for WooCommerce > 2.2.8).</li>
+                                <li>Translation text is created when a new language is enabled, bug repaired.</li>
                             </ul>
                         </div>
                     </div>
@@ -80,13 +112,13 @@
                                 <li>WooCommerce variations are hidden in back end, if they are used by the booking system.</li>
                             </ul>
 
-                            <h6>Bug fixes:</h6>
+                            <h6>Repaired bugs:</h6>
                             <ul>
                                 <li>Back end list items are displayed correctly if name is blank.</li>
-                                <li>Booking requests buttons work in back end reservations calendar, bug fixed.</li>
-                                <li>Pending reservations are displayed in back end if there is no payment required, bug fixed.</li>
-                                <li>Minimum price is displayed correctly when searching for calendars with hours, bug fixed.</li>
-                                <li>Total price is calculated correctly when discount is used, bug fixed.</li>
+                                <li>Booking requests buttons work in back end reservations calendar, bug repaired.</li>
+                                <li>Pending reservations are displayed in back end if there is no payment required, bug repaired.</li>
+                                <li>Minimum price is displayed correctly when searching for calendars with hours, bug repaired.</li>
+                                <li>Total price is calculated correctly when discount is used, bug repaired.</li>
                             </ul>
                         </div>
                     </div>
@@ -108,22 +140,22 @@
                                 <li>Retina ready, both front end calendar & back end administration area.</li>
                             </ul>
 
-                            <h6>Bug fixes:</h6>
+                            <h6>Repaired bugs:</h6>
                             <ul>
-                                <li>Booking notifications can be sent using Gmail SMTP, bug fixed.</li>
-                                <li>Calendar is displayed correctly in WooCommerce summary, bug fixed.</li>
-                                <li>Custom posts display the booking calendar in WordPress admin, bug fixed.</li>
-                                <li>Database is created correctly when updating from a version older than 2.0, bug fixed.</li>
-                                <li>PayPal payment calculates prices with decimal correctly, bug fixed.</li>
-                                <li>Reservations calendar display the reservation correctly in last weekday, bug fixed.</li>
-                                <li>Role actions are set correctly for custom user roles, bug fixed.</li>
-                                <li>Special characters display correctly in WooCommerce cart, bug fixed.</li>
-                                <li>Taxes & fees percent value is correctly calculated from "Extras", in front end calendar plugin, bug fixed.</li>
-                                <li>Unpaid reservations do not display in WordPress back end, bug fixed.</li>
-                                <li>WooCommerce details display in reservations calendar, bug fixed.</li>
-                                <li>WooCommerce reservation do not duplicate when an order is made anymore, bug fixed.</li>
-                                <li>WooCommerce reservations with same day but different hours do not overlap anymore, bug fixed.</li>
-                                <li>WooCommerce shipping tax is not attached to a booking product anymore, bug fixed.</li>
+                                <li>Booking notifications can be sent using Gmail SMTP, bug repaired.</li>
+                                <li>Calendar is displayed correctly in WooCommerce summary, bug repaired.</li>
+                                <li>Custom posts display the booking calendar in WordPress admin, bug repaired.</li>
+                                <li>Database is created correctly when updating from a version older than 2.0, bug repaired.</li>
+                                <li>PayPal payment calculates prices with decimal correctly, bug repaired.</li>
+                                <li>Reservations calendar display the reservation correctly in last weekday, bug repaired.</li>
+                                <li>Role actions are set correctly for custom user roles, bug repaired.</li>
+                                <li>Special characters display correctly in WooCommerce cart, bug repaired.</li>
+                                <li>Taxes & fees percent value is correctly calculated from "Extras", in front end calendar plugin, bug repaired.</li>
+                                <li>Unpaid reservations do not display in WordPress back end, bug repaired.</li>
+                                <li>WooCommerce details display in reservations calendar, bug repaired.</li>
+                                <li>WooCommerce reservation do not duplicate when an order is made anymore, bug repaired.</li>
+                                <li>WooCommerce reservations with same day but different hours do not overlap anymore, bug repaired.</li>
+                                <li>WooCommerce shipping tax is not attached to a booking product anymore, bug repaired.</li>
                             </ul>
                         </div>
                     </div>
@@ -141,19 +173,19 @@
                                 <li>WooCommerce code can be enabled in configuration file, if WooCommerce is not detected.</li>
                             </ul>
 
-                            <h6>Bug fixes:</h6>
+                            <h6>Repaired bugs:</h6>
                             <ul>
-                                <li>"Dashboard" MySQL test works in PHP 5.5 or higher, bug fixed.</li>
-                                <li>Booking/reservation notifications & payment gateway settings can be edited in custom posts, bug fixed.</li>
-                                <li>DOP Select jQuery plugin not working with some themes, in front end booking calendar, bug fixed.</li>
-                                <li>Information tooltip is displayed, bug fixed in front end booking calendar.</li>
-                                <li>Messages modal always hides in WordPress back end, bug fixed.</li>
+                                <li>"Dashboard" MySQL test works in PHP 5.5 or higher, bug repaired.</li>
+                                <li>Booking/reservation notifications & payment gateway settings can be edited in custom posts, bug repaired.</li>
+                                <li>DOP Select jQuery plugin not working with some themes, in front end booking calendar, bug repaired.</li>
+                                <li>Information tooltip is displayed, bug repaired in front end booking calendar.</li>
+                                <li>Messages modal always hides in WordPress back end, bug repaired.</li>
                                 <li>November & December months are displayed correctly in reservations, booking notifications ...</li>
-                                <li>Number of days in booking/reservation is calculated correctly in October, bug fixed.</li>
-                                <li>PayPal cancel, error, success links are set correctly in front end booking calendar, bug fixed.</li>
-                                <li>Price decimals ending in 0 display correctly in back end bookings/reservations and notifications, bug fixed.</li>
-                                <li>Translation may be forced reset, bug fixed.</li>
-                                <li>Weekdays are displayed correctly in WordPress back end datepickers, bug fixed.</li>
+                                <li>Number of days in booking/reservation is calculated correctly in October, bug repaired.</li>
+                                <li>PayPal cancel, error, success links are set correctly in front end booking calendar, bug repaired.</li>
+                                <li>Price decimals ending in 0 display correctly in back end bookings/reservations and notifications, bug repaired.</li>
+                                <li>Translation may be forced reset, bug repaired.</li>
+                                <li>Weekdays are displayed correctly in WordPress back end datepickers, bug repaired.</li>
                             </ul>
                         </div>
                     </div>
@@ -173,14 +205,14 @@
                                 <li>Form data, that was entered when the a booking was requested, can be displayed in calendar information tooltip and/or day/hour body.</li>
                             </ul>
 
-                            <h6>Bug fixes:</h6>
+                            <h6>Repaired bugs:</h6>
                             <ul>
-                                <li>Administrators are removed from calendar user permissions list, bug fixed.</li>
-                                <li>Set minimum booking period for less than 1 hour, bug fixed.</li>
-                                <li>Use different product type in WooCommerce, bug fixed.</li>
-                                <li>User booking notifications are not sent to admin, bug fixed.</li>
-                                <li>WooCommerce cart & order display the right language for bookings, bug fixed.</li>
-                                <li>WooCommerce booking with "Direct bank transfer" error has been fixed.</li>
+                                <li>Administrators are removed from calendar user permissions list, bug repaired.</li>
+                                <li>Set minimum booking period for less than 1 hour, bug repaired.</li>
+                                <li>Use different product type in WooCommerce, bug repaired.</li>
+                                <li>User booking notifications are not sent to admin, bug repaired.</li>
+                                <li>WooCommerce cart & order display the right language for bookings, bug repaired.</li>
+                                <li>WooCommerce booking with "Direct bank transfer" error has been repaired.</li>
                             </ul>
                         </div>
                     </div>
@@ -194,18 +226,18 @@
                                 <li>Kenya Shilling currency added.</li>
                                 <li>Bookings can be limited to minutes.</li>
                                 <li>Set booking period rules for minutes.</li>
-                                <li>Update schedule after a booking request is payed with PayPal, bug fixed.</li>
+                                <li>Update schedule after a booking request is payed with PayPal, bug repaired.</li>
                             </ul>
 
-                            <h6>Bug fixes:</h6>
+                            <h6>Repaired bugs:</h6>
                             <ul>
-                                <li>Adding reservations from back end update availability, bug fixed.</li>
+                                <li>Adding reservations from back end update availability, bug repaired.</li>
                                 <li>Booking notifications are sent in the language that was used when the reservation was created.</li>
-                                <li>Booking notifications are sent to multiple admins, bug fixed.</li>
-                                <li>Period is booked after payment is done with some WooCommerce payment gateways extensions, bug fixed.</li>
-                                <li>TinyMCE button incompatibility with some themes has been fixed.</li>
-                                <li>Update schedule after a booking request is payed with PayPal, bug fixed.</li>
-                                <li>Users permissions for specific calendars have been fixed.</li>
+                                <li>Booking notifications are sent to multiple admins, bug repaired.</li>
+                                <li>Period is booked after payment is done with some WooCommerce payment gateways extensions, bug repaired.</li>
+                                <li>TinyMCE button incompatibility with some themes has been repaired.</li>
+                                <li>Update schedule after a booking request is payed with PayPal, bug repaired.</li>
+                                <li>Users permissions for specific calendars have been repaired.</li>
                             </ul>
                         </div>
                     </div>
@@ -255,21 +287,21 @@
                                 <li>WooCommerce integration has been changed. This should fix all incompatibility & bugs problems that were in previous version.</li>
                             </ul>
 
-                            <h6>Bug fixes:</h6>
+                            <h6>Repaired bugs:</h6>
                             <ul>
-                                <li>Availability text is visible on special days, bug fixed.</li>
-                                <li>Compatibility with PHP 5.3 or higher has been fixed.</li>
-                                <li>Current year changes on booking calendar resize, bug fixed.</li>
+                                <li>Availability text is visible on special days, bug repaired.</li>
+                                <li>Compatibility with PHP 5.3 or higher has been repaired.</li>
+                                <li>Current year changes on booking calendar resize, bug repaired.</li>
                                 <li>Days availability is restored when you cancel a booking/reservation.</li>
-                                <li>IE bugs fixed.</li>
+                                <li>IE bugs repaired.</li>
                                 <li>Minimum booking period error message does not display randomly when you select only check in date, in booking calendar.</li>
                                 <li>Payment transaction ID is displayed in booking notification emails.</li>
-                                <li>Required checkbox validation bug fixed, in booking form.</li>
+                                <li>Required checkbox validation bug repaired, in booking form.</li>
                                 <li>Translation for dynamic items display correctly, both in booking calendar and WordPress admin.</li>
-                                <li>Translation not saving, bug fixed, both in booking calendar and WordPress admin.</li>
-                                <li>Turkish Lira sign has been fixed.</li>
-                                <li>User capabilities fixed, in WordPress admin.</li>
-                                <li>WooCommerce redirect to cart page after a booking/reservation is added to cart, bug fixed.</li>
+                                <li>Translation not saving, bug repaired, both in booking calendar and WordPress admin.</li>
+                                <li>Turkish Lira sign has been repaired.</li>
+                                <li>User capabilities repaired, in WordPress admin.</li>
+                                <li>WooCommerce redirect to cart page after a booking/reservation is added to cart, bug repaired.</li>
                             </ul>
                         </div>
                     </div>
@@ -282,15 +314,15 @@
                                 <li>"wp_mail()" function replaced with "mail()".</li>
                             </ul>
 
-                            <h6>Bug fixes:</h6>
+                            <h6>Repaired bugs:</h6>
                             <ul>
                                 <li>Booking calendar display even it is used twice on same page.</li>
                                 <li>Booking order is added to WooCommerce cart even if form is removed from product page.</li>
                                 <li>Booking/reservation details appear on WooCommerce notifications email.</li>
                                 <li>Booking/reservation details appear on WooCommerce order.</li>
-                                <li>Booking/reservation save bug fixed.</li>
-                                <li>Installation on XAMP server fixed.</li>
-                                <li>WooCommerce date format fixed.</li>
+                                <li>Booking/reservation save bug repaired.</li>
+                                <li>Installation on XAMP server repaired.</li>
+                                <li>WooCommerce date format repaired.</li>
                             </ul>
                         </div>
                     </div>
@@ -313,19 +345,19 @@
                                 <li>WooCommerce support added.</li>
                             </ul>
 
-                            <h6>Bug fixes:</h6>
+                            <h6>Repaired bugs:</h6>
                             <ul>
-                                <li>bbPress incompatibility, bug fixed.</li>
-                                <li>Booking calendars not loading, bug fixed.</li>
-                                <li>Bookings/reservations currency display bug fixed.</li>
-                                <li>CSS bugs fixed.</li>
-                                <li>Delete plugin data/database, bug fixed.</li>
-                                <li>Front end translation not showing, bug fixed.</li>
-                                <li>Month not displaying in booking notification emails bug fixed.</li>
-                                <li>Navigation after data is saved in back end fixed.</li>
+                                <li>bbPress incompatibility, bug repaired.</li>
+                                <li>Booking calendars not loading, bug repaired.</li>
+                                <li>Bookings/reservations currency display bug repaired.</li>
+                                <li>CSS bugs repaired.</li>
+                                <li>Delete plugin data/database, bug repaired.</li>
+                                <li>Front end translation not showing, bug repaired.</li>
+                                <li>Month not displaying in booking notification emails bug repaired.</li>
+                                <li>Navigation after data is saved in back end repaired.</li>
                                 <li>Reservations calendar is generated correctly when filters are modified.</li>
-                                <li>Save translation bug fixed.</li>
-                                <li>Translation display bug fixed when using characters like ' or ", both in booking calendar and WordPress admin.</li>
+                                <li>Save translation bug repaired.</li>
+                                <li>Translation display bug repaired when using characters like ' or ", both in booking calendar and WordPress admin.</li>
                                 <li>Translation edit has been optimized.</li>
                             </ul>
                         </div>
@@ -345,17 +377,17 @@
                                 <li>User management updated.</li>
                             </ul>
 
-                            <h6>Bug fixes:</h6>
+                            <h6>Repaired bugs:</h6>
                             <ul>
-                                <li>Back end CSS bugs fixed.</li>
-                                <li>Custom post types bugs fixed.</li>
-                                <li>Edit unavailable days, bug fixed.</li>
-                                <li>Front end booking calendar CSS bugs fixed.</li>
-                                <li>Instant/waiting approval display, bug fixed.</li>
-                                <li>JavaScript in admin posts fixed.</li>
-                                <li>Localhost bugs fixed.</li>
-                                <li>Select days from different months on front end booking calendar, bug fixed.</li>
-                                <li>Windows server mySQL text fields bug fixed.</li>
+                                <li>Back end CSS bugs repaired.</li>
+                                <li>Custom post types bugs repaired.</li>
+                                <li>Edit unavailable days, bug repaired.</li>
+                                <li>Front end booking calendar CSS bugs repaired.</li>
+                                <li>Instant/waiting approval display, bug repaired.</li>
+                                <li>JavaScript in admin posts repaired.</li>
+                                <li>Localhost bugs repaired.</li>
+                                <li>Select days from different months on front end booking calendar, bug repaired.</li>
+                                <li>Windows server mySQL text fields bug repaired.</li>
                             </ul>
                         </div>
                     </div>
@@ -379,16 +411,16 @@
                                 <li>When hours are enabled, days details can be set manually or set depending on hours details on that current day.</li>
                             </ul>
 
-                            <h6>Bug fixes:</h6>
+                            <h6>Repaired bugs:</h6>
                             <ul>
-                                <li>Approve booking/reservation bug fixed.</li>
+                                <li>Approve booking/reservation bug repaired.</li>
                                 <li>CSS bug fixes, in booking calendar.</li>
-                                <li>Date select is fixed when minimum amount of days is set.</li>
+                                <li>Date select is repaired when minimum amount of days is set.</li>
                                 <li>Datepicker bug fix, when you can select only one day, in booking calendar.</li>
                                 <li>Drop down fields display correct selected option in booking notifications.</li>
-                                <li>PayPal booking notification email content bug fixed.</li>
-                                <li>Tables not created on Windows OS bug fixed.</li>
-                                <li>WordPress update error fixed.</li>
+                                <li>PayPal booking notification email content bug repaired.</li>
+                                <li>Tables not created on Windows OS bug repaired.</li>
+                                <li>WordPress update error repaired.</li>
                             </ul>
                         </div>
                     </div>
@@ -407,11 +439,11 @@
                                 <li>You have the possibility to calculate the total price using the last hour selected value, or not.</li>
                             </ul>
 
-                            <h6>Bug fixes:</h6>
+                            <h6>Repaired bugs:</h6>
                             <ul>
                                 <li>Compatibility fixes, in WordPress back end.</li>
                                 <li>Custom booking forms tweaks.</li>
-                                <li>Datepicker & Google translate incompatibility, bug fixed in booking calendar.</li>
+                                <li>Datepicker & Google translate incompatibility, bug repaired in booking calendar.</li>
                             </ul>
                         </div>
                     </div>
@@ -425,12 +457,12 @@
                                 <li>Email header is custom.</li>
                             </ul>
 
-                            <h6>Bug fixes:</h6>
+                            <h6>Repaired bugs:</h6>
                             <ul>
                                 <li>CSS incompatibility fixes, in front end booking calendar.</li>
-                                <li>Datepicker z-index bug fixed, in front end booking calendar.</li>
+                                <li>Datepicker z-index bug repaired, in front end booking calendar.</li>
                                 <li>Group day date is displayed correctly after select, in front end booking calendar.</li>
-                                <li>Users permissons translation fixed.</li>
+                                <li>Users permissons translation repaired.</li>
                             </ul>
                         </div>
                     </div>
@@ -452,15 +484,15 @@
                                 <li>User permissions updated, in booking system back end.</li>
                             </ul>
 
-                            <h6>Bug fixes:</h6>
+                            <h6>Repaired bugs:</h6>
                             <ul>
-                                <li>Admin change language bug fixed.</li>
-                                <li>Booking calendar resize on hidden elements, bug fixed.</li>
-                                <li>Indonesia Rupiah currency bug fixed.</li>
-                                <li>PayPal credit card payment bug fixed.</li>
-                                <li>PayPal session bug fixed.</li>
-                                <li>Slow admin bug fixed.</li>
-                                <li>Touch devices freeze bug fixed.</li>
+                                <li>Admin change language bug repaired.</li>
+                                <li>Booking calendar resize on hidden elements, bug repaired.</li>
+                                <li>Indonesia Rupiah currency bug repaired.</li>
+                                <li>PayPal credit card payment bug repaired.</li>
+                                <li>PayPal session bug repaired.</li>
+                                <li>Slow admin bug repaired.</li>
+                                <li>Touch devices freeze bug repaired.</li>
                                 <li>Translation fixes, both in front end booking calendar and back end.</li>
                             </ul>
                         </div>
@@ -479,9 +511,9 @@
                                 <li>You can use PayPal credit card payment, for booking requests.</li>
                             </ul>
 
-                            <h6>Bug fixes:</h6>
+                            <h6>Repaired bugs:</h6>
                             <ul>
-                                <li>Booking notifications message and language bugs have been fixed.</li>
+                                <li>Booking notifications message and language bugs have been repaired.</li>
                                 <li>Correct hours format is displayed, in front end booking calendar.</li>
                             </ul>
                         </div>
@@ -502,12 +534,12 @@
                                 <li>You can set default hours values by day(s), in WordPress admin.</li>
                             </ul>
 
-                            <h6>Bug fixes:</h6>
+                            <h6>Repaired bugs:</h6>
                             <ul>
-                                <li>Hours data save bug fixed.</li>
-                                <li>Rejected booking/reservation notification email fixed.</li>
+                                <li>Hours data save bug repaired.</li>
+                                <li>Rejected booking/reservation notification email repaired.</li>
                                 <li>SMTP SSL fix, when sending booking notifications.</li>
-                                <li>User permissions bug fixed, in WordPress admin.</li>
+                                <li>User permissions bug repaired, in WordPress admin.</li>
                             </ul>
                         </div>
                     </div>
@@ -521,7 +553,7 @@
                                 <li>Clean script to remove past days info to clear database from unnecessary data.</li>
                                 <li>Database structure has been changed (now is much faster to save/load data & works on server with few resources).</li>
                                 <li>Emails template system added, for booking notifications.</li>
-                                <li>PayPal bugs fixed.</li>
+                                <li>PayPal bugs repaired.</li>
                                 <li>Reservation ID is displayed in notifications emails.</li>
                                 <li>Terms & Conditions checkbox and link added.</li>
                                 <li>You can now add the booking calendar sidebar in a widget area.</li>
@@ -529,12 +561,12 @@
                                 <li>You can use SMTP to send booking notifications emails.</li>
                             </ul>
 
-                            <h6>Bug fixes:</h6>
+                            <h6>Repaired bugs:</h6>
                             <ul>
                                 <li>"ereg()" function replaced with "preg_match()".</li>
                                 <li>Back end & front end CSS incompatibility fixes.</li>
-                                <li>Delete booking calendar bug fixed.</li>
-                                <li>Display correct month in future years, bug fixed.</li>
+                                <li>Delete booking calendar bug repaired.</li>
+                                <li>Display correct month in future years, bug repaired.</li>
                             </ul>
                         </div>
                     </div>

@@ -18,6 +18,16 @@
                     <br class="clear" />
                     
                     <div class="toggle-wrapper toggle-changelog displayed">
+                        <a class="toggle" href="javascript:void(0)">Version 2.0.9 - 19 May 2015 <span class="icon"></span></a>
+                        <div class="toggle-content">
+                            <h6>New features:</h6>
+                            <ul>
+                                <li>"Add-ons" activation added to receive automatic updates.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="toggle-wrapper toggle-changelog hidden">
                         <a class="toggle" href="javascript:void(0)">Version 2.0.8 - 19 February 2015 <span class="icon"></span></a>
                         <div class="toggle-content">
                             <h6>New features:</h6>

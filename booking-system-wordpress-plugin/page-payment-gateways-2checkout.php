@@ -24,7 +24,7 @@
                     <h2>Installation</h2>
                     
                     <p>
-                        After you download the zip file <strong class="bold">dop-booking-system-wordpress-plugin-add-on-2checkout-payment.zip</strong> from <a href="http://shop.dotonpaper.net/my-account/" target="_blank">http://shop.dotonpaper.net/my-account/</a> you unpack it on your computer. There you have a file  <strong class="bold">dopbsp-2checkout.zip</strong> (for automatic installation) and a folder <strong class="bold">dopbsp-2checkout</strong> (for manual installation) you can use.
+                        After you download the zip file <strong class="bold">dopbsp-2checkout.zip</strong> from <a href="http://shop.dotonpaper.net/my-account/" target="_blank">http://shop.dotonpaper.net/my-account/</a>  you can use it for automatic installation or you can unpack <strong class="bold">dopbsp-2checkout.zip</strong> to use it for manual installation.
                     </p>
                     
                     <h4>Automatic installation</h4>

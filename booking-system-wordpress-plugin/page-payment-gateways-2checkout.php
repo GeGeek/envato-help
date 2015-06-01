@@ -24,7 +24,7 @@
                     <h2>Installation</h2>
                     
                     <p>
-                        After you download the zip file <strong class="bold">dop-booking-system-wordpress-plugin-add-on-2checkout-payment.zip</strong> from CodeCanyon you unpack it on your computer. There you have a file  <strong class="bold">dopbsp-2checkout.zip</strong> (for automatic installation) and a folder <strong class="bold">dopbsp-2checkout</strong> (for manual installation) you can use.
+                        After you download the zip file <strong class="bold">dop-booking-system-wordpress-plugin-add-on-2checkout-payment.zip</strong> from <a href="http://shop.dotonpaper.net/my-account/" target="_blank">http://shop.dotonpaper.net/my-account/</a> you unpack it on your computer. There you have a file  <strong class="bold">dopbsp-2checkout.zip</strong> (for automatic installation) and a folder <strong class="bold">dopbsp-2checkout</strong> (for manual installation) you can use.
                     </p>
                     
                     <h4>Automatic installation</h4>
@@ -34,7 +34,7 @@
                     <ul>
                         <li><strong>Step 1</strong> - Go to <strong class="bold">Plugins</strong> -> <strong class="bold">Add New</strong> in WordPress administration area.</li>
                         <li><strong>Step 2</strong> - Click <strong class="bold">Upload Plugin</strong> on top of the page.</li>
-                        <li><strong>Step 3</strong> - Click <strong class="bold">Choose File</strong> and select <strong class="bold">dopbsp-2checkout.zip</strong> from your computer, the one from the zip file you downloaded from CodeCanyon.</li>
+                        <li><strong>Step 3</strong> - Click <strong class="bold">Choose File</strong> and select <strong class="bold">dopbsp-2checkout.zip</strong> from your computer, the one from the zip file you downloaded from <a href="http://shop.dotonpaper.net/my-account/" target="_blank">http://shop.dotonpaper.net/my-account/</a>.</li>
                         <li><strong>Step 4</strong> - Click <strong class="bold">Install Now</strong> to install the Booking System.</li>
                         <li><strong>Step 5</strong> - After installation is complete, click <strong class="bold">Activate Plugin</strong> to activate the 2Checkout Payment.</li>
                     </ul>
@@ -46,7 +46,7 @@
                     <ul>
                         <li><strong>Step 1</strong> - With your FTP program connect to your web server.</li>
                         <li><strong>Step 2</strong> - Go where your WordPress files are, to folder <strong class="bold">wp-content/plugins</strong>.</li>
-                        <li><strong>Step 3</strong> - Upload the folder <strong class="bold">dopbsp-2checkout</strong> from the zip file you downloaded from CodeCanyon.</li>
+                        <li><strong>Step 3</strong> - Upload the folder <strong class="bold">dopbsp-2checkout</strong> from the zip file you downloaded from <a href="http://shop.dotonpaper.net/my-account/" target="_blank">http://shop.dotonpaper.net/my-account/</a>.</li>
                         <li><strong>Step 4</strong> - Go to <strong class="bold">Plugins</strong> screen, in WordPress administration area, and find the newly uploaded <strong>Booking System PRO add-in: 2Checkout Payment</strong> in the list.</li>
                         <li><strong>Step 5</strong> - Click <strong class="bold">Activate</strong> to activate it.</li>
                     </ul>

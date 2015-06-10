@@ -4,7 +4,7 @@
                     <h2>Payment gateways - Stripe (add-on)</h2>
                     
                     <p>
-                        To use Stripe payment with the booking system, you need to use an add-on, which you can get <a href="http://codecanyon.net/item/bsp-wp-addon-stripe-payment/10014234?ref=DOTonPAPER" target="_blank">here</a>. The add-on is compatible only with the <a href="http://codecanyon.net/item/booking-system-pro-wordpress-plugin/2675936?ref=DOTonPAPER" target="_blank">PRO version</a> of the Booking System (minimum 2.0.7).
+                        To use Stripe payment with the booking system, you need to use an add-on, which you can get <a href="http://shop.dotonpaper.net/product/booking-system-wordpress-plugin-add-on-stripe-payment/" target="_blank">here</a>. The add-on is compatible only with the <a href="http://codecanyon.net/item/booking-system-pro-wordpress-plugin/2675936?ref=DOTonPAPER" target="_blank">PRO version</a> of the Booking System (minimum 2.0.9).
                     </p>
                     
                     <ol>
@@ -24,7 +24,7 @@
                     <h2>Installation</h2>
                     
                     <p>
-                        After you download the zip file <strong class="bold">codecanyon-10014234-bsp-wp-addon-stripe-payment.zip</strong> from CodeCanyon you unpack it on your computer. There you have a file  <strong class="bold">dopbsp-stripe.zip</strong> (for automatic installation) and a folder <strong class="bold">dopbsp-stripe</strong> (for manual installation) you can use.
+                        After you download the zip file <strong class="bold">dopbsp-stripe.zip</strong> from <a href="http://shop.dotonpaper.net/my-account/" target="_blank">http://shop.dotonpaper.net/my-account/</a>  you can use it for automatic installation or you can unpack <strong class="bold">dopbsp-stripe.zip</strong> to use it for manual installation.
                     </p>
                     
                     <h4>Automatic installation</h4>
@@ -34,7 +34,7 @@
                     <ul>
                         <li><strong>Step 1</strong> - Go to <strong class="bold">Plugins</strong> -> <strong class="bold">Add New</strong> in WordPress administration area.</li>
                         <li><strong>Step 2</strong> - Click <strong class="bold">Upload Plugin</strong> on top of the page.</li>
-                        <li><strong>Step 3</strong> - Click <strong class="bold">Choose File</strong> and select <strong class="bold">dopbsp-stripe.zip</strong> from your computer, the one from the zip file you downloaded from CodeCanyon.</li>
+                        <li><strong>Step 3</strong> - Click <strong class="bold">Choose File</strong> and select <strong class="bold">dopbsp-stripe.zip</strong> from your computer, the one from the zip file you downloaded from <a href="http://shop.dotonpaper.net/my-account/" target="_blank">http://shop.dotonpaper.net/my-account/</a>.</li>
                         <li><strong>Step 4</strong> - Click <strong class="bold">Install Now</strong> to install the Booking System.</li>
                         <li><strong>Step 5</strong> - After installation is complete, click <strong class="bold">Activate Plugin</strong> to activate the Stripe Payment.</li>
                     </ul>
@@ -46,8 +46,8 @@
                     <ul>
                         <li><strong>Step 1</strong> - With your FTP program connect to your web server.</li>
                         <li><strong>Step 2</strong> - Go where your WordPress files are, to folder <strong class="bold">wp-content/plugins</strong>.</li>
-                        <li><strong>Step 3</strong> - Upload the folder <strong class="bold">dopbsp-stripe</strong> from the zip file you downloaded from CodeCanyon.</li>
-                        <li><strong>Step 4</strong> - Go to <strong class="bold">Plugins</strong> screen, in WordPress administration area, and find the newly uploaded <strong>Booking System PRO add-in: Stripe Payment</strong> in the list.</li>
+                        <li><strong>Step 3</strong> - Upload the folder <strong class="bold">dopbsp-stripe</strong> from the zip file you downloaded from <a href="http://shop.dotonpaper.net/my-account/" target="_blank">http://shop.dotonpaper.net/my-account/</a>.</li>
+                        <li><strong>Step 4</strong> - Go to <strong class="bold">Plugins</strong> screen, in WordPress administration area, and find the newly uploaded <strong>Booking System add-on: Stripe Payment</strong> in the list.</li>
                         <li><strong>Step 5</strong> - Click <strong class="bold">Activate</strong> to activate it.</li>
                     </ul>
                 </section>
@@ -159,6 +159,17 @@
                         <span class="icon"></span>
                     </a>
                     <br class="clear" />
+                    
+                    <div class="toggle-wrapper toggle-changelog displayed">
+                        <a class="toggle" href="javascript:void(0)">Version 1.0.2 - 10 June 2015 - <span class="info">requires Booking System PRO v2.0.9</span> <span class="icon"></span></a>
+                        <div class="toggle-content">
+                            <h6>New features:</h6>
+                            <ul>
+                                <li>Auto update class has been added.</li>
+                                <li>License validator function has been added.</li>
+                            </ul>
+                        </div>
+                    </div>
                     
                     <div class="toggle-wrapper toggle-changelog displayed">
                         <a class="toggle" href="javascript:void(0)">Version 1.0.1 - 19 February 2015 - <span class="info">requires Booking System PRO v2.0.8</span> <span class="icon"></span></a>

@@ -47,7 +47,7 @@
                         <li><strong>Step 1</strong> - With your FTP program connect to your web server.</li>
                         <li><strong>Step 2</strong> - Go where your WordPress files are, to folder <strong class="bold">wp-content/plugins</strong>.</li>
                         <li><strong>Step 3</strong> - Upload the folder <strong class="bold">dopbsp-2checkout</strong> from the zip file you downloaded from <a href="http://shop.dotonpaper.net/my-account/" target="_blank">http://shop.dotonpaper.net/my-account/</a>.</li>
-                        <li><strong>Step 4</strong> - Go to <strong class="bold">Plugins</strong> screen, in WordPress administration area, and find the newly uploaded <strong>Booking System PRO add-in: 2Checkout Payment</strong> in the list.</li>
+                        <li><strong>Step 4</strong> - Go to <strong class="bold">Plugins</strong> screen, in WordPress administration area, and find the newly uploaded <strong>Booking System add-on: 2Checkout Payment</strong> in the list.</li>
                         <li><strong>Step 5</strong> - Click <strong class="bold">Activate</strong> to activate it.</li>
                     </ul>
                 </section>

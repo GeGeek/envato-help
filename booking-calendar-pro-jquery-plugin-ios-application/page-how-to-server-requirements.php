@@ -13,11 +13,19 @@
                             <table>
                                 <tbody>
                                     <tr>
-                                        <td><strong>PHP version</strong></td>
-                                        <td>5.1 or higher</td>
+                                        <td><strong>Xcode version</strong></td>
+                                        <td>6.2 or higher</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Xcode Deployment Target</strong></td>
+                                        <td>7.0 or higher</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Xcode Base SDK</strong></td>
+                                        <td>iOS 8.3</td>
                                     </tr>
                                 </tbody>
-                            </table>
+                            </table>  
                         </div>
                     </div>
                 </section>

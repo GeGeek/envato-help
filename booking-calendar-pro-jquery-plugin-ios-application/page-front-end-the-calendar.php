@@ -31,44 +31,37 @@
                     </ul>
                     
                     <p>
-                        <img src="http://envato-help.dotonpaper.net/booking-calendar-pro-jquery-plugin/content/front-end-calendar-ios.jpg" alt="Booking Calendar PRO jQuery Plugin - Front end booking calendar" />
+                        <img src="http://envato-help.dotonpaper.net/booking-calendar-pro-jquery-plugin-ios-application/content/front-end-calendar-ios.jpg" alt="Booking Calendar PRO jQuery Plugin iOS Application - Front end booking calendar" />
                     </p>
 
                     <h4>Calendar sidebar</h4>
                     <ul>
-                        <li><strong>Items 5b & 6b</strong> - Selected period for which you want to make a reservation. If you do not want to view availability. Directly select the dates and booking system will inform you if the days are available and can be booked, or not.</li>
                         <li><strong>Items 17</strong> - Select the number of items to book.</li>
-                    </ul>    
-                     
-                    <h6>Extras form</h6>
-                    <ul>
-                        <li><strong>Items 18</strong> - Select extras & services you want to add to your reservation.</li>
-                    </ul>
-                     
-                    <h6>Reservation details</h6>
-                    <ul>
-                        <li><strong>Items 19</strong> - Main reservation details are displayed here, as start date, end date, number of booked items and price.</li>
-                        <li><strong>Items 20</strong> - A list of extras & services you want to add to your booking request and how they influence your main reservation price.</li>
-                        <li><strong>Items 21</strong> - A list of taxes & fees that are applied to your booking request and how they influence your main reservation price.</li>
-                        <li><strong>Items 22</strong> - If a deposit is requested the make a booking, the value of that deposit is displayed here.</li>
-                        <li><strong>Items 23</strong> - Total cost for the reservation.</li>
                     </ul>    
                      
                     <h6>Client details</h6>
                     <ul>
-                        <li><strong>Items 24</strong> - Error message if the field is mandatory and has not been completed.</li>
-                        <li><strong>Items 25</strong> - Form field label.</li>
-                        <li><strong>Items 26</strong> - Indicate that the field is mandatory.</li>
-                        <li><strong>Items 27</strong> - Text input field.</li>
-                        <li><strong>Items 28</strong> - Email input field, always is mandatory.</li>
-                        <li><strong>Items 29</strong> - Textarea input field.</li>
-                        <li><strong>Items 30</strong> - Checkbox field.</li>
-                        <li><strong>Items 31</strong> - Drop down field field.</li>
+                        <li><strong>Items 18</strong> - Error message if the field is mandatory and has not been completed.</li>
+                        <li><strong>Items 19</strong> - Form field label.</li>
+                        <li><strong>Items 20</strong> - Indicate that the field is mandatory.</li>
+                        <li><strong>Items 21</strong> - Text input field.</li>
+                        <li><strong>Items 22</strong> - Email input field, always is mandatory.</li>
+                        <li><strong>Items 23</strong> - Phone input field.</li>
+                        <li><strong>Items 24</strong> - Textarea input field.</li>
+                    </ul>  
+
+                     
+                    <h6>Reservation details</h6>
+                    <ul>
+                        <li><strong>Items 25</strong> - Main reservation details are displayed here, as start date, end date, number of booked items and price.</li>
+                        <li><strong>Items 26</strong> - Total cost for the reservation.</li>
                     </ul>    
+                     
+                      
                      
                     <h6>Order form</h6>
                     <ul>
-                        <li><strong>Items 32</strong> - Select the payment option and press the <strong class="bold">Book</strong> button to finalize the reservation.</li>
+                        <li><strong>Items 27</strong> - Select the payment option and press the <strong class="bold">Book</strong> button to finalize the reservation.</li>
                     </ul>
                 </section>
             </div>

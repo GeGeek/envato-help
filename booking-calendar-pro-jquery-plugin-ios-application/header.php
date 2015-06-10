@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
     <head>
-        <title>Booking System WordPress Plugin</title>
+        <title>Booking Calendar PRO (jQuery Plugin iOS Application)</title>
 
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta name="description" content="" />
@@ -71,7 +71,7 @@
         </style>    
         <div id="wrapper">
             <div id="header">
-                <h1>Booking Calendar PRO jQuery Plugin</h1>
+                <h1>Booking Calendar PRO jQuery Plugin iOS Application</h1>
                 <a href="http://envato-support.dotonpaper.net/forums/forum/booking-calendar-pro-jquery-plugin/" target="_blank" id="support">
                     <span class="icon"></span>
                     <span class="title">Need SUPPORT?</span>

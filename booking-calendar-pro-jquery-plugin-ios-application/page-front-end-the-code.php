@@ -437,6 +437,37 @@
                             <div class="info">Default value: 'Details'.<br /> Reservation Details title</div>
                             <br class="clear" />
                         </li>
+                         <li>
+                            <div class="property">search</div>
+                            <div class="info">Search.</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property second">text</div>
+                            <div class="info">text is used to change search texts</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property third">noItems</div>
+                            <div class="info">Default value: 'No. book items'.<br /> No. book items text</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property third">noServices</div>
+                            <div class="info">Default value: 'There are no services available for the period you selected.'.<br /> No services available text</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property third">noServicesSplitGroup</div>
+                            <div class="info">Default value: 'You cannot add divided groups to a reservation.'.<br /> No split group text</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property third">title</div>
+                            <div class="info">Default value: 'Search.'.<br /> Search title.</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
                     </ul>
                 </section>
             </div>

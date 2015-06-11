@@ -69,12 +69,7 @@
 /* <<<<<<<<<< SET calendar to morningCheckOut */
 /* <<<<<<<< Set the Application HEADER and customize title */
 </pre>
-                            
-                            <strong> – (void)createSuccesMessage:</strong>
-<pre>
-/* <<<<<< create and customize the message View when a reservation has been completed */   
-</pre>
-                            
+                          
                             <strong>  -(void)customizeButtons</strong>
                             <p>Add / Remove buttons can be changed in the following method.</p>
 
@@ -95,7 +90,7 @@
                         <a class="toggle" href="javascript:void(0)"><strong>DOPBSMenuDropDown.m:</strong><span class="icon"></span></a>
                         <div class="toggle-content">
                             <p>
-                                In DOPBSMenuDropDown.m file can be customized the drop down from in booking chart from where you can choose the number of days for which you want to make the reservation. You can find this file in Assets group.
+                                In DOPBSMenuDropDown.m file can be customized the drop down from booking chart where you can choose the number of days for which you want to make the reservation.
                             </p>
                             
                         </div>
@@ -105,7 +100,7 @@
                         <a class="toggle" href="javascript:void(0)"><strong>DOPBSBookingChart.m:</strong><span class="icon"></span></a>
                         <div class="toggle-content">
                             <p>
-                                In DOPBSBookingChart.m file, found on BookingChart group,  you can customize the the elements in form section.
+                                In DOPBSBookingChart.m file you can customize the the elements in form section.
                             </p>
                         </div>
                     </div>

@@ -8,8 +8,9 @@
                     </p>
                     
                     <div class="toggle-wrapper displayed">
-                        <a class="toggle" href="javascript:void(0)"><strong>DOPBSCalendarCell.m file</strong>  -> - <strong>(void)setCellColorOfAvailability</strong> method <span class="icon"></span></a>
+                        <a class="toggle" href="javascript:void(0)"><strong>DOPBSCalendarCell.m file</strong><span class="icon"></span></a>
                         <div class="toggle-content">
+                            <strong> - (void)setCellColorOfAvailability  method </strong>
                             <p>
                                 Include the following macro in your <strong>DOPBSCalendarCell</strong> header file and call it from implementation file in order to get UIColor using hexadecimal value : <strong>UIColorFromRGB(rgbValue)</strong>
                             </p>
@@ -87,15 +88,24 @@
                             <p>
                                 Is recursively creating those 4 calendars (the maximum number of calendars you can add)  and you can customize them here.
                             </p>
-                            
-                            <strong>DOPBSMenuDropDown.m</strong>
+                        </div>
+                    </div>
+                    
+                    <div class="toggle-wrapper  hidden">
+                        <a class="toggle" href="javascript:void(0)"><strong>DOPBSMenuDropDown.m:</strong><span class="icon"></span></a>
+                        <div class="toggle-content">
                             <p>
                                 In DOPBSMenuDropDown.m file can be customized the drop down from in booking chart from where you can choose the number of days for which you want to make the reservation. You can find this file in Assets group.
                             </p>
                             
-                            <strong>DOPBSBookingChart.m</strong>
+                        </div>
+                    </div>
+                    
+                    <div class="toggle-wrapper  hidden">
+                        <a class="toggle" href="javascript:void(0)"><strong>DOPBSBookingChart.m:</strong><span class="icon"></span></a>
+                        <div class="toggle-content">
                             <p>
-                                In DOPBSBookingChart.m	file , found on BookingChart group ,  you can customize the the elements in form section.
+                                In DOPBSBookingChart.m file, found on BookingChart group,  you can customize the the elements in form section.
                             </p>
                         </div>
                     </div>

@@ -23,10 +23,10 @@
                         Define the macros above to start your application calendar.
                     </p>
                     
-                    <h2>DOPBSCalendarView.m -> –(void)initFirstDay</h2>
-                    
+                    <h2>DOPBSCalendarView.m</h2>
+                    <strong> – (void)initFirstDay</strong>
                     <p>
-                        Depending on the device that  the App  is used, define the container width of the calendar (containerWidth constant) by setting properly the following variables:
+                        Depending on the device define the container width of the calendar (containerWidth constant) by setting properly the following variables:
                     </p>
                     <ul>
                         <li>iPadCalendarWidth</li>
@@ -39,7 +39,7 @@
                     <h2>JSON</h2>
                     
                     <p>
-                        You can add the following options to the front end version of the App:
+                        You can add the following options to the front end version of the plugin iOS application:
                     </p>
                     <ul class="settings">
                         <li>

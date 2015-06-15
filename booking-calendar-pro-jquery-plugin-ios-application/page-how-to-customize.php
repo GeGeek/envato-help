@@ -8,11 +8,11 @@
                     </p>
                     
                     <div class="toggle-wrapper displayed">
-                        <a class="toggle" href="javascript:void(0)"><strong>DOPBSCalendarCell.m file</strong><span class="icon"></span></a>
+                        <a class="toggle" href="javascript:void(0)"><strong>BookingCalendarCell.m</strong><span class="icon"></span></a>
                         <div class="toggle-content">
                             <strong> - (void)setCellColorOfAvailability  method </strong>
                             <p>
-                                Include the following macro in your <strong>DOPBSCalendarCell</strong> header file and call it from implementation file in order to get UIColor using hexadecimal value : <strong>UIColorFromRGB(rgbValue)</strong>
+                                Include the following macro in your <strong>BookingCalendarCell</strong> header file and call it from implementation file in order to get UIColor using hexadecimal value : <strong>UIColorFromRGB(rgbValue)</strong>
                             </p>
 <pre>
 /* <<<<<<<<<< Change to your DEFAULT color. */ 
@@ -35,11 +35,11 @@
                     </div>
                     
                     <div class="toggle-wrapper  hidden">
-                        <a class="toggle" href="javascript:void(0)"><strong>DOPBSCalendarView.m</strong><span class="icon"></span></a>
+                        <a class="toggle" href="javascript:void(0)"><strong>BookingCalendarView.m</strong><span class="icon"></span></a>
                         <div class="toggle-content">
                             <strong> – (void)setDefaultStyle:</strong>
                             <p>
-                              Inside this method you can customize the calendar by calling any of the methods defined in the following category: DOPBSCalendarView+Settings  
+                              Inside this method you can customize the calendar by calling any of the methods defined in the following category: BookingCalendarView+Settings  
                             </p>
 <pre>
 /* <<<<<<<< Change to your TITLE text color. */
@@ -59,7 +59,7 @@
                     </div>
                     
                     <div class="toggle-wrapper  hidden">
-                        <a class="toggle" href="javascript:void(0)"><strong>DOPBSCalendarController.m file</strong><span class="icon"></span></a>
+                        <a class="toggle" href="javascript:void(0)"><strong>BookingCalendarController.m</strong><span class="icon"></span></a>
                         <div class="toggle-content">
                             <strong> – (id)init method:</strong>
 <pre>
@@ -77,7 +77,7 @@
                     </div>
                     
                     <div class="toggle-wrapper  hidden">
-                        <a class="toggle" href="javascript:void(0)"><strong>DOPBSCalendarController+newCalendar.m:</strong><span class="icon"></span></a>
+                        <a class="toggle" href="javascript:void(0)"><strong>BookingCalendarController+newCalendar.m</strong><span class="icon"></span></a>
                         <div class="toggle-content">
                             <strong> - (void) creatNewCalendar:</strong>
                             <p>
@@ -87,20 +87,20 @@
                     </div>
                     
                     <div class="toggle-wrapper  hidden">
-                        <a class="toggle" href="javascript:void(0)"><strong>DOPBSMenuDropDown.m:</strong><span class="icon"></span></a>
+                        <a class="toggle" href="javascript:void(0)"><strong>MenuDropDown.m</strong><span class="icon"></span></a>
                         <div class="toggle-content">
                             <p>
-                                In DOPBSMenuDropDown.m file can be customized the drop down from booking chart where you can choose the number of days for which you want to make the reservation.
+                                In MenuDropDown.m file can be customized the drop down from booking chart where you can choose the number of days for which you want to make the reservation.
                             </p>
                             
                         </div>
                     </div>
                     
                     <div class="toggle-wrapper  hidden">
-                        <a class="toggle" href="javascript:void(0)"><strong>DOPBSBookingChart.m:</strong><span class="icon"></span></a>
+                        <a class="toggle" href="javascript:void(0)"><strong>BookingChart.m</strong><span class="icon"></span></a>
                         <div class="toggle-content">
                             <p>
-                                In DOPBSBookingChart.m file you can customize the the elements in form section.
+                                In BookingChart.m file you can customize the the elements in form section.
                             </p>
                         </div>
                     </div>

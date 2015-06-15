@@ -9,7 +9,7 @@
                 </section>
                 
                 <section>
-                    <h2>DOPBSCalendarView.m  :</h2>
+                    <h2>BookingCalendarView.m</h2>
                     
 <pre>
 #define calendarId @"0"
@@ -23,7 +23,6 @@
                         Define the macros above to start your application calendar.
                     </p>
                     
-                    <h2>DOPBSCalendarView.m</h2>
                     <strong> – (void)initFirstDay</strong>
                     <p>
                         Depending on the device define the container width of the calendar (containerWidth constant) by setting properly the following variables:

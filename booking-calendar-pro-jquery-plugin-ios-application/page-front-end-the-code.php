@@ -35,6 +35,18 @@
                 </section> 
                 
                 <section>
+                    <h2>BookingForm.m</h2>
+                    
+                    <p>
+                        Set the following macro with you own link where to send the reservation details after it is completed.
+                    </p>
+<pre>
+#define linkWhereToSendTheReservation
+</pre>
+                    
+                </section> 
+                
+                <section>
                     <h2>JSON</h2>
                     
                     <p>

@@ -97,10 +97,10 @@
                     </div>
                     
                     <div class="toggle-wrapper  hidden">
-                        <a class="toggle" href="javascript:void(0)"><strong>BookingChart.m</strong><span class="icon"></span></a>
+                        <a class="toggle" href="javascript:void(0)"><strong>BookingForm.m</strong><span class="icon"></span></a>
                         <div class="toggle-content">
                             <p>
-                                In BookingChart.m file you can customize the the elements in form section.
+                                In BookingForm.m file you can customize the the elements in form section.
                             </p>
                         </div>
                     </div>

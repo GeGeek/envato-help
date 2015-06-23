@@ -4,8 +4,7 @@
                     <h2>Payment gateways - Stripe (add-on)</h2>
                     
                     <p>
-                        To use Stripe payment with the booking system, you need to use an add-on, which you can get <a href="http://shop.dotonpaper.net/product/booking-system-wordpress-plugin-add-on-stripe-payment/" target="_blank">here</a>. The add-on is compatible only with the <a href="http://codecanyon.net/item/booking-system-pro-wordpress-plugin/2675936?ref=DOTonPAPER" target="_blank">PRO version</a> of the Booking System (minimum 2.0.9).
-                    </p>
+                        To use Stripe payment with the booking system, you need to use an add-on, which you can get <a href="http://shop.dotonpaper.net/product/booking-system-wordpress-plugin-add-on-stripe-payment/" target="_blank">here</a>. The add-on is compatible with the <a href="http://codecanyon.net/item/booking-system-pro-wordpress-plugin/2675936?ref=DOTonPAPER" target="_blank">Booking System PRO </a> (minimum 2.0.9) and <a href="https://wordpress.org/plugins/booking-system/" target="_blank">Booking System FREE </a> (minimum 2.0).                    </p>
                     
                     <ol>
                         <li>

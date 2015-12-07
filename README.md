@@ -1,4 +1,2 @@
-envato-help
+Envato Help
 ===========
-
-Envato help (documentations)

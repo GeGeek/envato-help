@@ -174,24 +174,28 @@ em{
     background-position: -420px 0;
 }
                     
-#menu li.faq .icon{
+#menu li.api .icon{
     background-position: -480px 0;
 }
-                    
-#menu li.update .icon{
+           
+#menu li.faq .icon{
     background-position: -540px 0;
 }
-                    
-#menu li.changelog .icon{
+
+#menu li.update .icon{
     background-position: -600px 0;
 }
                     
-#menu li.assets .icon{
+#menu li.changelog .icon{
     background-position: -660px 0;
 }
                     
-#menu li.psd-files .icon{
+#menu li.assets .icon{
     background-position: -720px 0;
+}
+                    
+#menu li.psd-files .icon{
+    background-position: -780px 0;
 }
 
 /*
@@ -408,6 +412,14 @@ em{
     width: 100%;
 }
 
+#main section table tr th{
+    background: #e5e5e5;
+    border: 1px solid #e5e5e5;
+    font-weight: 300;
+    padding: 10px 19px 11px 19px;
+    width: 50%;
+}
+
 #main section table tr td{
     border: 1px solid #e5e5e5;
     font-weight: 300;
@@ -549,11 +561,13 @@ em{
     width: 868px;
 }
 
+#main section .toggle-wrapper .toggle-content table tr th,
 #main section .toggle-wrapper .toggle-content table tr td{
     border-top: none;
     border-left: none;
 }
 
+#main section .toggle-wrapper .toggle-content table tr th:last-child,
 #main section .toggle-wrapper .toggle-content table tr td:last-child{
     border-right: none;
 }

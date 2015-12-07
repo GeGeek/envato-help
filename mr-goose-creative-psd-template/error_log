@@ -1,0 +1,2 @@
+[03-Sep-2014 13:01:39] PHP Warning:  include_once(sidebar.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory in /home/dopnet/public_html/subdomains/envato-help/mr-goose-creative-psd-template/index.php on line 8
+[03-Sep-2014 13:01:39] PHP Warning:  include_once() [<a href='function.include'>function.include</a>]: Failed opening 'sidebar.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/dopnet/public_html/subdomains/envato-help/mr-goose-creative-psd-template/index.php on line 8

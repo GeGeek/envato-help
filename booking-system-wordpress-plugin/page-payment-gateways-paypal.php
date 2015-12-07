@@ -4,7 +4,7 @@
                     <h2>Payment gateways - PayPal</h2>
                     
                     <p>
-                        PayPal payment is included by default in the booking system.
+                        PayPal payment is included by default in Pinpoint Booking System.
                     </p>
                 </section>
                 
@@ -13,7 +13,7 @@
                     
                     <h4>Calendar settings</h4>
                     <p>
-                        To configure PayPal go to <strong>Calendar payment gateways</strong> in <strong>WordPress admin -> Booking System PRO -> Calendars -> Select calendar -> Click on payment gateways icon</strong>, and set the settings.
+                        To configure PayPal PAyment go to <strong>Calendar payment gateways</strong> in <strong>WordPress admin -> Pinpoint Booking System -> Calendars -> Select calendar -> Click on payment gateways icon</strong>, and set the settings.
                     </p>
                     <p>
                         To get PayPal API credentials, follow the instructions on this <a href="https://developer.paypal.com/docs/classic/api/apiCredentials/" target="_blank">page</a>.
@@ -86,7 +86,7 @@
                     
                     <h4>Notifications settings</h4>
                     <p>
-                        You can configure if you want to be notified when a payment is done using PayPal Payment in <strong>Calendar notifications</strong> in <strong>WordPress admin -> Booking System PRO -> Calendars -> Select calendar -> Click on notifications icon</strong>.
+                        You can configure if you want to be notified when a payment is done using PayPal Payment in <strong>Calendar notifications</strong> in <strong>WordPress admin -> Pinpoint Booking System -> Calendars -> Select calendar -> Click on notifications icon</strong>.
                     </p>
                     <p>
                         You can edit notification messages in <a href="http://envato-help.dotonpaper.net/booking-system-wordpress-plugin/back-end-emails">Email templates</a> section.

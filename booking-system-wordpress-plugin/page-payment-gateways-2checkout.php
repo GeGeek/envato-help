@@ -4,38 +4,41 @@
                     <h2>Payment gateways - 2Checkout (add-on)</h2>
                     
                     <p>
-                        To use 2Checkout payment with the booking system, you need to use an add-on, which you can get <a href="http://shop.dotonpaper.net/product/booking-system-wordpress-plugin-add-on-2checkout-payment/" target="_blank">here</a>. The add-on is compatible with the <a href="http://codecanyon.net/item/booking-system-pro-wordpress-plugin/2675936?ref=DOTonPAPER" target="_blank">Booking System PRO </a> (minimum 2.0.9) and <a href="https://wordpress.org/plugins/booking-system/" target="_blank">Booking System FREE </a> (minimum 2.0).                    </p>
+                        To use 2Checkout payment with Pinpoint Booking System, you need to use an add-on, which you can get <a href="http://shop.dotonpaper.net/product/pinpoint-booking-system-wordpress-plugin-add-on-2checkout-payment/" target="_blank">here</a>.
+                        <br />
+                        The add-on is compatible with <a href="http://codecanyon.net/item/pinpoint-booking-system-pro-book-everything-with-wordpress/2675936?ref=DOTonPAPER" target="_blank">Pinpoint Booking System PRO</a> (minimum version 2.1.1) and <a href="https://wordpress.org/plugins/booking-system/" target="_blank">Pinpoint Booking System FREE</a> (minimum version 2.1.1).                    
+                    </p>
                     
                     <ol>
                         <li>
-                            <a href="#stripe-installation">Installation</a>
+                            <a href="#2checkout-installation">Installation</a>
                         </li>
                         <li>
                             <a href="#stripe-settings">Settings</a>
                         </li>
                         <li>
-                            <a href="#stripe-changelog">Changelog</a>
+                            <a href="#2checkout-changelog">Changelog</a>
                         </li>
                     </ol>
                 </section>
                 
-                <section id="stripe-installation">
+                <section id="2checkout-installation">
                     <h2>Installation</h2>
                     
                     <p>
-                        After you download the zip file <strong class="bold">dopbsp-2checkout.zip</strong> from <a href="http://shop.dotonpaper.net/my-account/" target="_blank">http://shop.dotonpaper.net/my-account/</a>  you can use it for automatic installation or you can unpack <strong class="bold">dopbsp-2checkout.zip</strong> to use it for manual installation.
+                        After you download the zip file <strong class="bold">dopbsp-2checkout.zip</strong> from <a href="http://shop.dotonpaper.net/my-account/" target="_blank">http://shop.dotonpaper.net/my-account/</a> you can use it for automatic installation or you can unpack <strong class="bold">dopbsp-2checkout.zip</strong> to use it for manual installation.
                     </p>
                     
                     <h4>Automatic installation</h4>
                     <p>
-                        To add the 2Checkout Payment addon using the built-in plugin installer:
+                        Add the 2Checkout Payment add-on using the built-in plugin installer:
                     </p> 
                     <ul>
                         <li><strong>Step 1</strong> - Go to <strong class="bold">Plugins</strong> -> <strong class="bold">Add New</strong> in WordPress administration area.</li>
                         <li><strong>Step 2</strong> - Click <strong class="bold">Upload Plugin</strong> on top of the page.</li>
                         <li><strong>Step 3</strong> - Click <strong class="bold">Choose File</strong> and select <strong class="bold">dopbsp-2checkout.zip</strong> from your computer, the one from the zip file you downloaded from <a href="http://shop.dotonpaper.net/my-account/" target="_blank">http://shop.dotonpaper.net/my-account/</a>.</li>
-                        <li><strong>Step 4</strong> - Click <strong class="bold">Install Now</strong> to install the Booking System.</li>
-                        <li><strong>Step 5</strong> - After installation is complete, click <strong class="bold">Activate Plugin</strong> to activate the 2Checkout Payment.</li>
+                        <li><strong>Step 4</strong> - Click <strong class="bold">Install Now</strong> to install the <strong>2Checkout Payment add-on</strong>.</li>
+                        <li><strong>Step 5</strong> - After installation is complete, click <strong class="bold">Activate Plugin</strong> to activate <strong>Pinpoint Booking System add-on: 2Checkout Payment</strong>.</li>
                     </ul>
                     
                     <h4>Manual installation</h4>
@@ -166,28 +169,38 @@
                     </div>
                 </section>
                 
-                <section id="stripe-changelog">
+                <section id="2checkout-changelog">
                     <h2>Changelog</h2>
                     
                     <p>
                         The payment add-on is updated periodically, with new features and fixes for bugs.
                     </p>
                     
-                    <a href="javascript:toggle('changelog', 'hide')" class="toggle-all hide">
+                    <a href="javascript:toggle('2checkout-changelog', 'hide')" class="toggle-all hide">
                         <span class="label">Close all</span>
                         <span class="icon"></span>
                     </a>
-                    <a href="javascript:toggle('changelog', 'display')" class="toggle-all display">
+                    <a href="javascript:toggle('2checkout-changelog', 'display')" class="toggle-all display">
                         <span class="label">Open all</span>
                         <span class="icon"></span>
                     </a>
                     <br class="clear" />
                     
-                    <div class="toggle-wrapper toggle-changelog displayed">
-                        <a class="toggle" href="javascript:void(0)">Version 1.0 - 28 May 2015 - <span class="info">requires Booking System PRO v2.0.9</span> <span class="icon"></span></a>
+                    <div class="toggle-wrapper toggle-2checkout-changelog displayed">
+                        <a class="toggle" href="javascript:void(0)">Version 1.0.1 - 14 September 2015 - <span class="info">requires Pinpoint Booking System PRO v2.1.1 or Pinpoint Booking System FREE v2.1.1</span> <span class="icon"></span></a>
+                        <div class="toggle-content">
+                            <h6>New features:</h6>
+                            <ul>
+                                <li>Compatibility added for Pinpoint Booking System PRO 2.1.1 and Pinpoint Booking System FREE 2.1.1</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="toggle-wrapper toggle-2checkout-changelog hidden">
+                        <a class="toggle" href="javascript:void(0)">Version 1.0 - 28 May 2015 - <span class="info">requires Pinpoint Booking System PRO v2.0.9 or Pinpoint Booking System FREE v2.0</span> <span class="icon"></span></a>
                         <div class="toggle-content">
                             <ul>
-                                <li>Initial release of Booking System PRO (WordPress Plugin) add-on: 2Checkout Payment.</li>
+                                <li>Initial release of Pinpoint Booking System (WordPress Plugin) add-on: 2Checkout Payment.</li>
                             </ul>
                         </div>
                     </div>

@@ -44,14 +44,17 @@
                     </li>
                     <li class="payment-gateways<?php echo strpos($page, 'payment-gateways') !== false ? ' selected':''; ?>">
                         <span class="icon"></span>
-                        <a href="javascript:void(0)" target="_parent">Payment gateways<span class="icon-toggle "></span></a>
+                        <a href="javascript:void(0)">Payment gateways<span class="icon-toggle "></span></a>
                         <ul class="<?php echo strpos($page, 'payment-gateways') !== false ? 'displayed':'hidden'; ?>">
                             <li><a href="payment-gateways-2checkout" target="_parent"<?php echo strpos($page, 'payment-gateways-2checkout') !== false ? ' class="selected"':''; ?>><span class="icon"></span>2Checkout (add-on)</a></li>
+                            <li><a href="payment-gateways-authorize-net" target="_parent"<?php echo strpos($page, 'payment-gateways-authorize-net') !== false ? ' class="selected"':''; ?>><span class="icon"></span>Authorize.Net (add-on)</a></li>
+                            <li><a href="payment-gateways-braintree" target="_parent"<?php echo strpos($page, 'payment-gateways-braintree') !== false ? ' class="selected"':''; ?>><span class="icon"></span>Braintree (add-on)</a></li>
+                            <li><a href="payment-gateways-icepay" target="_parent"<?php echo strpos($page, 'payment-gateways-icepay') !== false ? ' class="selected"':''; ?>><span class="icon"></span>ICEPAY (add-on)</a></li>
                             <li><a href="payment-gateways-mollie" target="_parent"<?php echo strpos($page, 'payment-gateways-mollie') !== false ? ' class="selected"':''; ?>><span class="icon"></span>Mollie (add-on)</a></li>
-                            <!--<li><a href="payment-gateways-authorize-net" target="_parent"<?php echo strpos($page, 'payment-gateways-authorize-net') !== false ? ' class="selected"':''; ?>><span class="icon"></span>Authorize.Net (add-on)</a></li>-->
                             <li><a href="payment-gateways-paypal" target="_parent"<?php echo strpos($page, 'payment-gateways-paypal') !== false ? ' class="selected"':''; ?>><span class="icon"></span>PayPal</a></li>
                             <!--<li><a href="payment-gateways-skrill" target="_parent"<?php echo strpos($page, 'payment-gateways-stripe') !== false ? ' class="selected"':''; ?>><span class="icon"></span>Skrill (add-on)</a></li>-->
                             <li><a href="payment-gateways-stripe" target="_parent"<?php echo strpos($page, 'payment-gateways-stripe') !== false ? ' class="selected"':''; ?>><span class="icon"></span>Stripe (add-on)</a></li>
+                            <li><a href="payment-gateways-wepay" target="_parent"<?php echo strpos($page, 'payment-gateways-wepay') !== false ? ' class="selected"':''; ?>><span class="icon"></span>WePay (add-on)</a></li>
                         </ul>
                     </li>
                     <li class="woocommerce<?php echo strpos($page, 'woocommerce') !== false ? ' selected':''; ?>">
@@ -64,6 +67,14 @@
                         <ul class="<?php echo strpos($page, 'hooks') !== false ? 'displayed':'hidden'; ?>">
                             <!--<li><a href="hooks-actions" target="_parent"<?php echo strpos($page, 'hooks-actions') !== false ? ' class="selected"':''; ?>><span class="icon"></span>Actions</a></li>-->
                             <li><a href="hooks-filters" target="_parent"<?php echo strpos($page, 'hooks-filters') !== false ? ' class="selected"':''; ?>><span class="icon"></span>Filters</a></li>
+                        </ul>
+                    </li>
+                    <li class="api<?php echo strpos($page, 'api') !== false ? ' selected':''; ?>">
+                        <span class="icon"></span>
+                        <a href="javascript:void(0)">API</a>
+                        <ul class="<?php echo strpos($page, 'api') !== false ? 'displayed':'hidden'; ?>">
+                            <li><a href="api-general" target="_parent"<?php echo strpos($page, 'api-general') !== false ? ' class="selected"':''; ?>><span class="icon"></span>General informations</a></li>
+                            <li><a href="api-reservations" target="_parent"<?php echo strpos($page, 'api-reservations') !== false ? ' class="selected"':''; ?>><span class="icon"></span>Reservations</a></li>
                         </ul>
                     </li>
 <!--                    <li class="faq<?php echo strpos($page, 'faq') !== false ? ' selected':''; ?>">

@@ -4,7 +4,10 @@
                     <h2>Payment gateways - Stripe (add-on)</h2>
                     
                     <p>
-                        To use Stripe payment with the booking system, you need to use an add-on, which you can get <a href="http://shop.dotonpaper.net/product/booking-system-wordpress-plugin-add-on-stripe-payment/" target="_blank">here</a>. The add-on is compatible with the <a href="http://codecanyon.net/item/booking-system-pro-wordpress-plugin/2675936?ref=DOTonPAPER" target="_blank">Booking System PRO </a> (minimum 2.0.9) and <a href="https://wordpress.org/plugins/booking-system/" target="_blank">Booking System FREE </a> (minimum 2.0).                    </p>
+                        To use Stripe payment with Pinpoint Booking System, you need to use an add-on, which you can get <a href="http://shop.dotonpaper.net/product/pinpoint-booking-system-wordpress-plugin-add-on-stripe-payment/" target="_blank">here</a>.
+                        <br />
+                        The add-on is compatible with <a href="http://codecanyon.net/item/pinpoint-booking-system-pro-book-everything-with-wordpress/2675936?ref=DOTonPAPER" target="_blank">Pinpoint Booking System PRO</a> (minimum version 2.1.1) and <a href="https://wordpress.org/plugins/booking-system/" target="_blank">Pinpoint Booking System FREE</a> (minimum version 2.1.1).
+                    </p>
                     
                     <ol>
                         <li>
@@ -23,19 +26,19 @@
                     <h2>Installation</h2>
                     
                     <p>
-                        After you download the zip file <strong class="bold">dopbsp-stripe.zip</strong> from <a href="http://shop.dotonpaper.net/my-account/" target="_blank">http://shop.dotonpaper.net/my-account/</a>  you can use it for automatic installation or you can unpack <strong class="bold">dopbsp-stripe.zip</strong> to use it for manual installation.
+                        After you download the zip file <strong class="bold">dopbsp-stripe.zip</strong> from <a href="http://shop.dotonpaper.net/my-account/" target="_blank">http://shop.dotonpaper.net/my-account/</a> you can use it for automatic installation or you can unpack <strong class="bold">dopbsp-stripe.zip</strong> to use it for manual installation.
                     </p>
                     
                     <h4>Automatic installation</h4>
                     <p>
-                        To add the Stripe Payment addon using the built-in plugin installer:
+                        Add the Stripe Payment add-on using the built-in plugin installer:
                     </p> 
                     <ul>
                         <li><strong>Step 1</strong> - Go to <strong class="bold">Plugins</strong> -> <strong class="bold">Add New</strong> in WordPress administration area.</li>
                         <li><strong>Step 2</strong> - Click <strong class="bold">Upload Plugin</strong> on top of the page.</li>
                         <li><strong>Step 3</strong> - Click <strong class="bold">Choose File</strong> and select <strong class="bold">dopbsp-stripe.zip</strong> from your computer, the one from the zip file you downloaded from <a href="http://shop.dotonpaper.net/my-account/" target="_blank">http://shop.dotonpaper.net/my-account/</a>.</li>
-                        <li><strong>Step 4</strong> - Click <strong class="bold">Install Now</strong> to install the Booking System.</li>
-                        <li><strong>Step 5</strong> - After installation is complete, click <strong class="bold">Activate Plugin</strong> to activate the Stripe Payment.</li>
+                        <li><strong>Step 4</strong> - Click <strong class="bold">Install Now</strong> to install <strong>Stripe Payment add-on</strong>.</li>
+                        <li><strong>Step 5</strong> - After installation is complete, click <strong class="bold">Activate Plugin</strong> to activate <strong>Pinpoint Booking System add-on: Stripe Payment</strong>.</li>
                     </ul>
                     
                     <h4>Manual installation</h4>
@@ -46,7 +49,7 @@
                         <li><strong>Step 1</strong> - With your FTP program connect to your web server.</li>
                         <li><strong>Step 2</strong> - Go where your WordPress files are, to folder <strong class="bold">wp-content/plugins</strong>.</li>
                         <li><strong>Step 3</strong> - Upload the folder <strong class="bold">dopbsp-stripe</strong> from the zip file you downloaded from <a href="http://shop.dotonpaper.net/my-account/" target="_blank">http://shop.dotonpaper.net/my-account/</a>.</li>
-                        <li><strong>Step 4</strong> - Go to <strong class="bold">Plugins</strong> screen, in WordPress administration area, and find the newly uploaded <strong>Booking System add-on: Stripe Payment</strong> in the list.</li>
+                        <li><strong>Step 4</strong> - Go to <strong class="bold">Plugins</strong> screen, in WordPress administration area, and find the newly uploaded <strong>Pinpoint Booking System add-on: Stripe Payment</strong> in the list.</li>
                         <li><strong>Step 5</strong> - Click <strong class="bold">Activate</strong> to activate it.</li>
                     </ul>
                 </section>
@@ -59,7 +62,7 @@
                         Once the add-on is activated, it will create all the elements needed to integrate the payment gateway in the booking system.
                     </p>
                     <p>
-                        To configure Stripe Payment go to <strong>Calendar payment gateways</strong> in <strong>WordPress admin -> Booking System PRO -> Calendars -> Select calendar -> Click on payment gateways icon</strong>, and set the settings.
+                        To configure Stripe Payment go to <strong>Calendar payment gateways</strong> in <strong>WordPress admin -> Pinpoint Booking System -> Calendars -> Select calendar -> Click on payment gateways icon</strong>, and set the settings.
                     </p>
                     <p>
                         To get Stripe API keys, log in to your Stripe account and go to <strong>API Keys</strong> in your <strong>Account Settings</strong>. <a href="https://dashboard.stripe.com/account/apikeys" target="_blank">https://dashboard.stripe.com/account/apikeys</a>
@@ -117,7 +120,7 @@
                     
                     <h4>Notifications settings</h4>
                     <p>
-                        You can configure if you want to be notified when a payment is done using Stripe Payment in <strong>Calendar notifications</strong> in <strong>WordPress admin -> Booking System PRO -> Calendars -> Select calendar -> Click on notifications icon</strong>.
+                        You can configure if you want to be notified when a payment is done using Stripe Payment in <strong>Calendar notifications</strong> in <strong>WordPress admin -> Pinpoint Booking System -> Calendars -> Select calendar -> Click on notifications icon</strong>.
                     </p>
                     <p>
                         You can edit notification messages in <a href="http://envato-help.dotonpaper.net/booking-system-wordpress-plugin/back-end-emails">Email templates</a> section.
@@ -149,43 +152,52 @@
                         The payment add-on is updated periodically, with new features and fixes for bugs.
                     </p>
                     
-                    <a href="javascript:toggle('changelog', 'hide')" class="toggle-all hide">
+                    <a href="javascript:toggle('stripe-changelog', 'hide')" class="toggle-all hide">
                         <span class="label">Close all</span>
                         <span class="icon"></span>
                     </a>
-                    <a href="javascript:toggle('changelog', 'display')" class="toggle-all display">
+                    <a href="javascript:toggle('stripe-changelog', 'display')" class="toggle-all display">
                         <span class="label">Open all</span>
                         <span class="icon"></span>
                     </a>
                     <br class="clear" />
                     
-                    <div class="toggle-wrapper toggle-changelog displayed">
-                        <a class="toggle" href="javascript:void(0)">Version 1.0.2 - 10 June 2015 - <span class="info">requires Booking System PRO v2.0.9</span> <span class="icon"></span></a>
+                    <div class="toggle-wrapper toggle-stripe-changelog displayed">
+                        <a class="toggle" href="javascript:void(0)">Version 1.0.3 - 14 September 2015 - <span class="info">requires Pinpoint Booking System PRO v2.1.1 or Pinpoint Booking System FREE v2.1.1</span> <span class="icon"></span></a>
                         <div class="toggle-content">
                             <h6>New features:</h6>
                             <ul>
-                                <li>Auto update class has been added.</li>
-                                <li>License validator function has been added.</li>
+                                <li>Compatibility added for Pinpoint Booking System PRO 2.1.1 and Pinpoint Booking System FREE 2.1.1</li>
                             </ul>
                         </div>
                     </div>
                     
-                    <div class="toggle-wrapper toggle-changelog displayed">
-                        <a class="toggle" href="javascript:void(0)">Version 1.0.1 - 19 February 2015 - <span class="info">requires Booking System PRO v2.0.8</span> <span class="icon"></span></a>
+                    <div class="toggle-wrapper toggle-stripe-changelog displayed">
+                        <a class="toggle" href="javascript:void(0)">Version 1.0.2 - 10 June 2015 - <span class="info">requires Pinpoint Booking System PRO v2.0.9 or Pinpoint Booking System FREE v2.0</span> <span class="icon"></span></a>
+                        <div class="toggle-content">
+                            <h6>New features:</h6>
+                            <ul>
+                                <li>Auto update has been added.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="toggle-wrapper toggle-stripe-changelog hidden">
+                        <a class="toggle" href="javascript:void(0)">Version 1.0.1 - 19 February 2015 - <span class="info">requires Pinpoint Booking System PRO v2.0.8</span> <span class="icon"></span></a>
                         <div class="toggle-content">
                             <h6>New features:</h6>
                             <ul>
                                 <li>"Settings" database has been updated.</li>
-                                <li>Stripe transaction may be refunded when a reservation is canceled.</li>
+                                <li>Payments may be refunded when a reservation is canceled.</li>
                             </ul>
                         </div>
                     </div>
                     
-                    <div class="toggle-wrapper toggle-changelog displayed">
-                        <a class="toggle" href="javascript:void(0)">Version 1.0 - 11 January 2015 - <span class="info">requires Booking System PRO v2.0.7</span> <span class="icon"></span></a>
+                    <div class="toggle-wrapper toggle-stripe-changelog hidden">
+                        <a class="toggle" href="javascript:void(0)">Version 1.0 - 11 January 2015 - <span class="info">requires Pinpoint Booking System PRO v2.0.7</span> <span class="icon"></span></a>
                         <div class="toggle-content">
                             <ul>
-                                <li>Initial release of Booking System PRO (WordPress Plugin) add-on: Stripe Payment.</li>
+                                <li>Initial release of Pinpoint Booking System (WordPress Plugin) add-on: Stripe Payment.</li>
                             </ul>
                         </div>
                     </div>

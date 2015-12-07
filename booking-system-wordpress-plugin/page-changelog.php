@@ -7,17 +7,85 @@
                         The booking system is updated periodically, with new features and fixes for bugs. All updates are free. Please read the update instructions <a href="http://envato-help.dotonpaper.net/booking-system-wordpress-plugin/?page=update">here</a>.
                     </p>
                     
-                    <a href="javascript:toggle('changelog', 'hide')" class="toggle-all hide">
+                    <ol>
+                        <li>
+                            <a href="#changelog-pro">PRO version</a>
+                        </li>
+                        <li>
+                            <a href="#changelog-free">Free version</a>
+                        </li>
+                    </ol>
+                </section>
+                
+                <section id="changelog-pro">
+                    <h2>PRO version changelog</h2>
+                    
+                    <a href="javascript:toggle('changelog-pro', 'hide')" class="toggle-all hide">
                         <span class="label">Close all</span>
                         <span class="icon"></span>
                     </a>
-                    <a href="javascript:toggle('changelog', 'display')" class="toggle-all display">
+                    <a href="javascript:toggle('changelog-pro', 'display')" class="toggle-all display">
                         <span class="label">Open all</span>
                         <span class="icon"></span>
                     </a>
                     <br class="clear" />
                     
-                    <div class="toggle-wrapper toggle-changelog displayed">
+                    <div class="toggle-wrapper toggle-changelog-pro displayed">
+                        <a class="toggle" href="javascript:void(0)">Version 2.1.2 - 07 December 2015 <span class="icon"></span></a>
+                        <div class="toggle-content">
+                            <h6>New features:</h6>
+                            <ul>
+                                <li>Add-ons' update class has been improved.</li>
+                                <li>New versions are checked and the plugin can be updated from WordPress administration area.</li>
+                                <li>WooCommerce functionalities have been changed. You can more easily attach Pinpoint to an WooCommerce product, variations are not needed anymore, availability is restored when an order is canceled and much more. Integration is much easier with multi vendor plugins types.</li>
+                            </ul>
+                            
+                            <h6>Repaired bugs:</h6>
+                            <ul>
+                                <li>The coupon code is not visible in JavaScript anymore, bug fixed.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="toggle-wrapper toggle-changelog-pro hidden">
+                        <a class="toggle" href="javascript:void(0)">Version 2.1.1 - 09 September 2015 <span class="icon"></span></a>
+                        <div class="toggle-content">
+                            <h6>New features:</h6>
+                            <ul>
+                                <li>"Booking System" has been renamed "Pinpoint".</li>
+                                <li>API - List reservations added.</li>
+                                <li>Classes constructors have been modified to meet the PHP5 standards.</li>
+                            </ul>
+
+                            <h6>Repaired bugs:</h6>
+                            <ul>
+                                <li>Reservations list pagination display the correct reservations, bug fixed.</li>
+                                <li>Widgets constructor call has been modified to work in WordPress version 4.3.0 and higher.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="toggle-wrapper toggle-changelog-pro hidden">
+                        <a class="toggle" href="javascript:void(0)">Version 2.1 - 29 June 2015 <span class="icon"></span></a>
+                        <div class="toggle-content">
+                            <h6>New features:</h6>
+                            <ul>
+                                <li>"Add-ons" & "Themes" load data also via cURL.</li>
+                                <li>API - Beta version released.</li>
+                                <li>Duplicate calendar added.</li>
+                                <li>Reservations list pagination added.</li>
+                                <li>WooCommerce "Add to cart" text added in translation.</li>
+                            </ul>
+
+                            <h6>Repaired bugs:</h6>
+                            <ul>
+                                <li>PayPal small bug fixed.</li>
+                                <li>Security bug fixed.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="toggle-wrapper toggle-changelog-pro hidden">
                         <a class="toggle" href="javascript:void(0)">Version 2.0.9 - 19 May 2015 <span class="icon"></span></a>
                         <div class="toggle-content">
                             <h6>New features:</h6>
@@ -27,7 +95,7 @@
                         </div>
                     </div>
                     
-                    <div class="toggle-wrapper toggle-changelog hidden">
+                    <div class="toggle-wrapper toggle-changelog-pro hidden">
                         <a class="toggle" href="javascript:void(0)">Version 2.0.8 - 19 February 2015 <span class="icon"></span></a>
                         <div class="toggle-content">
                             <h6>New features:</h6>
@@ -59,7 +127,7 @@
                         </div>
                     </div>
                     
-                    <div class="toggle-wrapper toggle-changelog hidden">
+                    <div class="toggle-wrapper toggle-changelog-pro hidden">
                         <a class="toggle" href="javascript:void(0)">Version 2.0.7 - 08 January 2015 <span class="icon"></span></a>
                         <div class="toggle-content">
                             <h6>New features:</h6>
@@ -87,7 +155,7 @@
                         </div>
                     </div>
                     
-                    <div class="toggle-wrapper toggle-changelog hidden">
+                    <div class="toggle-wrapper toggle-changelog-pro hidden">
                         <a class="toggle" href="javascript:void(0)">Version 2.0.6 - 03 December 2014 <span class="icon"></span></a>
                         <div class="toggle-content">
                             <h6>New features:</h6>
@@ -109,7 +177,7 @@
                         </div>
                     </div>
                     
-                    <div class="toggle-wrapper toggle-changelog hidden">
+                    <div class="toggle-wrapper toggle-changelog-pro hidden">
                         <a class="toggle" href="javascript:void(0)">Version 2.0.5 - 06 November 2014 <span class="icon"></span></a>
                         <div class="toggle-content">
                             <h6>New features:</h6>
@@ -133,7 +201,7 @@
                         </div>
                     </div>
                     
-                    <div class="toggle-wrapper toggle-changelog hidden">
+                    <div class="toggle-wrapper toggle-changelog-pro hidden">
                         <a class="toggle" href="javascript:void(0)">Version 2.0.4 - 28 October 2014 <span class="icon"></span></a>
                         <div class="toggle-content">
                             <h6>New features:</h6>
@@ -170,7 +238,7 @@
                         </div>
                     </div>
                     
-                    <div class="toggle-wrapper toggle-changelog hidden">
+                    <div class="toggle-wrapper toggle-changelog-pro hidden">
                         <a class="toggle" href="javascript:void(0)">Version 2.0.3 - 28 August 2014 <span class="icon"></span></a>
                         <div class="toggle-content">
                             <h6>New features:</h6>
@@ -200,7 +268,7 @@
                         </div>
                     </div>
                     
-                    <div class="toggle-wrapper toggle-changelog hidden">
+                    <div class="toggle-wrapper toggle-changelog-pro hidden">
                         <a class="toggle" href="javascript:void(0)">Version 2.0.2 - 04 August 2014 <span class="icon"></span></a>
                         <div class="toggle-content">
                             <h6>New features:</h6>
@@ -227,7 +295,7 @@
                         </div>
                     </div>
                     
-                    <div class="toggle-wrapper toggle-changelog hidden">
+                    <div class="toggle-wrapper toggle-changelog-pro hidden">
                         <a class="toggle" href="javascript:void(0)">Version 2.0.1 - 25 July 2014 <span class="icon"></span></a>
                         <div class="toggle-content">
                             <h6>New features:</h6>
@@ -252,7 +320,7 @@
                         </div>
                     </div>
                     
-                    <div class="toggle-wrapper toggle-changelog hidden">
+                    <div class="toggle-wrapper toggle-changelog-pro hidden">
                         <a class="toggle" href="javascript:void(0)">Version 2.0 - 22 July 2014 <span class="icon"></span></a>
                         <div class="toggle-content">
                             <h6>New features:</h6>
@@ -316,7 +384,7 @@
                         </div>
                     </div>
 
-                    <div class="toggle-wrapper toggle-changelog hidden">
+                    <div class="toggle-wrapper toggle-changelog-pro hidden">
                         <a class="toggle" href="javascript:void(0)">Version 1.9.5 - 01 March 2014 <span class="icon"></span></a>
                         <div class="toggle-content">
                             <h6>New features:</h6>
@@ -337,7 +405,7 @@
                         </div>
                     </div>
 
-                    <div class="toggle-wrapper toggle-changelog hidden">
+                    <div class="toggle-wrapper toggle-changelog-pro hidden">
                         <a class="toggle" href="javascript:void(0)">Version 1.9 - 16 December 2013 <span class="icon"></span></a>
                         <div class="toggle-content">
                             <h6>New features:</h6>
@@ -373,7 +441,7 @@
                         </div>
                     </div>
 
-                    <div class="toggle-wrapper toggle-changelog hidden">
+                    <div class="toggle-wrapper toggle-changelog-pro hidden">
                         <a class="toggle" href="javascript:void(0)">Version 1.8 - 01 November 2013 <span class="icon"></span></a>
                         <div class="toggle-content">
                             <h6>New features:</h6>
@@ -402,7 +470,7 @@
                         </div>
                     </div>
 
-                    <div class="toggle-wrapper toggle-changelog hidden">
+                    <div class="toggle-wrapper toggle-changelog-pro hidden">
                         <a class="toggle" href="javascript:void(0)">Version 1.7 - 31 July 2013 <span class="icon"></span></a>
                         <div class="toggle-content">
                             <h6>New features:</h6>
@@ -435,7 +503,7 @@
                         </div>
                     </div>
 
-                    <div class="toggle-wrapper toggle-changelog hidden">
+                    <div class="toggle-wrapper toggle-changelog-pro hidden">
                         <a class="toggle" href="javascript:void(0)">Version 1.6 - 15 June 2013 <span class="icon"></span></a>
                         <div class="toggle-content">
                             <h6>New features:</h6>
@@ -458,7 +526,7 @@
                         </div>
                     </div>
 
-                    <div class="toggle-wrapper toggle-changelog hidden">
+                    <div class="toggle-wrapper toggle-changelog-pro hidden">
                         <a class="toggle" href="javascript:void(0)">Version 1.5 - 08 June 2013 <span class="icon"></span></a>
                         <div class="toggle-content">
                             <h6>New features:</h6>
@@ -477,7 +545,7 @@
                         </div>
                     </div>
 
-                    <div class="toggle-wrapper toggle-changelog hidden">
+                    <div class="toggle-wrapper toggle-changelog-pro hidden">
                         <a class="toggle" href="javascript:void(0)">Version 1.4 - 03 June 2013 <span class="icon"></span></a>
                         <div class="toggle-content">
                             <h6>New features:</h6>
@@ -508,7 +576,7 @@
                         </div>
                     </div>
 
-                    <div class="toggle-wrapper toggle-changelog hidden">
+                    <div class="toggle-wrapper toggle-changelog-pro hidden">
                         <a class="toggle" href="javascript:void(0)">Version 1.3 - 13 December 2012 <span class="icon"></span></a>
                         <div class="toggle-content">
                             <h6>New features:</h6>
@@ -529,7 +597,7 @@
                         </div>
                     </div>
 
-                    <div class="toggle-wrapper toggle-changelog hidden">
+                    <div class="toggle-wrapper toggle-changelog-pro hidden">
                         <a class="toggle" href="javascript:void(0)">Version 1.2 - 01 November 2012 <span class="icon"></span></a>
                         <div class="toggle-content">
                             <h6>New features:</h6>
@@ -554,7 +622,7 @@
                         </div>
                     </div>
 
-                    <div class="toggle-wrapper toggle-changelog hidden">
+                    <div class="toggle-wrapper toggle-changelog-pro hidden">
                         <a class="toggle" href="javascript:void(0)">Version 1.1 - 05 September 2012 <span class="icon"></span></a>
                         <div class="toggle-content">
                             <h6>New features:</h6>
@@ -581,11 +649,313 @@
                         </div>
                     </div>
 
-                    <div class="toggle-wrapper toggle-changelog hidden">
+                    <div class="toggle-wrapper toggle-changelog-pro hidden">
                         <a class="toggle" href="javascript:void(0)">Version 1.0 - 15 July 2012 <span class="icon"></span></a>
                         <div class="toggle-content">
                             <ul>
                                 <li>Initial release of Booking System PRO (WordPress Plugin).</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                
+                <section id="changelog-free">
+                    <h2>Free version changelog</h2>
+                    
+                    <a href="javascript:toggle('changelog-free', 'hide')" class="toggle-all hide">
+                        <span class="label">Close all</span>
+                        <span class="icon"></span>
+                    </a>
+                    <a href="javascript:toggle('changelog-free', 'display')" class="toggle-all display">
+                        <span class="label">Open all</span>
+                        <span class="icon"></span>
+                    </a>
+                    <br class="clear" />
+                    
+                    <div class="toggle-wrapper toggle-changelog-free displayed">
+                        <a class="toggle" href="javascript:void(0)">Version 2.1.2 - 07 December 2015 <span class="icon"></span></a>
+                        <div class="toggle-content">
+                            <h6>New features:</h6>
+                            <ul>
+                                <li>Add-ons' update class has been improved.</li>
+                                <li>WooCommerce functionalities have been changed. You can more easily attach Pinpoint to an WooCommerce product, variations are not needed anymore, availability is restored when an order is canceled and much more. Integration is much easier with multi vendor plugins types.</li>
+                            </ul>
+                            
+                            <h6>Repaired bugs:</h6>
+                            <ul>
+                                <li>The coupon code is not visible in JavaScript anymore, bug fixed.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="toggle-wrapper toggle-changelog-free hidden">
+                        <a class="toggle" href="javascript:void(0)">Version 2.1.1 - 10 September 2015 <span class="icon"></span></a>
+                        <div class="toggle-content">
+                            <h6>New features:</h6>
+                            <ul>
+                                <li>"Booking System" has been renamed "Pinpoint".</li>
+                                <li>API - List reservations added.</li>
+                                <li>Classes constructors have been modified to meet the PHP5 standards.</li>
+                            </ul>
+
+                            <h6>Repaired bugs:</h6>
+                            <ul>
+                                <li>Reservations list pagination display the correct reservations, bug fixed.</li>
+                                <li>Widgets constructor call has been modified to work in WordPress version 4.3.0 and higher.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="toggle-wrapper toggle-changelog-free hidden">
+                        <a class="toggle" href="javascript:void(0)">Version 2.1 - 29 June 2015 <span class="icon"></span></a>
+                        <div class="toggle-content">
+                            <h6>New features:</h6>
+                            <ul>
+                                <li>"Add-ons" & "Themes" load data also via cURL.</li>
+                                <li>API - Beta version released.</li>
+                                <li>Reservations list pagination added.</li>
+                                <li>WooCommerce "Add to cart" text added in translation.</li>
+                            </ul>
+
+                            <h6>Repaired bugs:</h6>
+                            <ul>
+                                <li>PayPal small bug fixed.</li>
+                                <li>Security bug fixed.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="toggle-wrapper toggle-changelog-free hidden">
+                        <a class="toggle" href="javascript:void(0)">Version 2.0 - 28 March 2015 <span class="icon"></span></a>
+                        <div class="toggle-content">
+                            <h6>New features:</h6>
+                            <ul>
+                                <li>"Add-ons" added. Increase and improve functionalities.</li>
+                                <li>"Coupons" added. Create voucher codes for your clients to use with their booking requests.</li>
+                                <li>"Dashboard" added. Display a landing page and server environment.</li>
+                                <li>"Discounts" added. Give discounts for the period booked, in different time periods.</li>
+                                <li>"Email templates" added. Customize your booking notifications directly from administration area.</li>
+                                <li>"Extras" added. Add amenities, services & other stuff, with price or not, to a booking/reservation.</li>
+                                <li>"Forms" added. Create your custom contact forms.</li>
+                                <li>"Rules" added. Currently you can set min/max time lapse for a booking request.</li>
+                                <li>"Settings" database has been updated.</li>
+                                <li>"Taxes & fees" added. Set taxes & fees that need to be paid (VAT tax for example) with the booking.</li>
+                                <li>"Themes" added. A collection of themes specially created for the booking system.</li>
+                                <li>"Tools" added. Tools to help you with some of the booking system needs.</li>
+                                <li>"Translation" page has been updated in WordPress admin.</li>
+                                <li>ACAO buster added.</li>
+                                <li>Add booking calendars in widgets.</li>
+                                <li>Add bookins/reservations in WordPress admin.</li>
+                                <li>Admin language is different for each user, in WordPress back end.</li>
+                                <li>AJAX requests no longer return 403, 404 errors in front end.</li>
+                                <li>All algorithms are improved and work faster. Install, save, search ...</li>
+                                <li>All WordPress back end CSS classes are unique.</li>
+                                <li>Approving/canceling a reservation modifies the booking calendar data.</li>
+                                <li>Armenian dram currency added.</li>
+                                <li>Back end UI/CSS has been changed. A new design has been created for WordPress administration area.</li>
+                                <li>Bangladesh Taka currency added.</li>
+                                <li>Billing & shipping address added.</li>
+                                <li>Booking calendar display even it is used twice on same page.</li>
+                                <li>Booking calendar loading time is improved.</li>
+                                <li>Booking notifications are sent in the language that was used when the reservation was created.</li>
+                                <li>Booking notifications are sent without SMTP if SMTP does not work.</li>
+                                <li>Booking notifications can be enabled/disabled in administration area.</li>
+                                <li>Booking notifications can be sent to multiple admins.</li>
+                                <li>Booking notifications can be sent using PHP mail function.</li>
+                                <li>Booking notifications can be sent using WordPress wp_mail function.</li>
+                                <li>Booking notifications can be set to use different methods to send emails to administrators and users.</li>
+                                <li>Booking notifications can use two SMTP servers, one for administrators and one for users.</li>
+                                <li>Booking notifications for administrators have Cc and Bcc fields, so that you can send them to multiple people.</li>
+                                <li>Booking notifications methods can be tested.</li>
+                                <li>Bookings can be limited to minutes.</li>
+                                <li>Bookings/reservations calendars jump to the last added/removed month.</li>
+                                <li>Bookings/reservations logic has been completly modified (search added, filters added, calendar & list view added).</li>
+                                <li>Calendar ID is removed from clients booking notification emails.</li>
+                                <li>Complete code core changes. Everything is OOP & commented.</li>
+                                <li>Config file added.</li>
+                                <li>Correct hours format is displayed, in front end booking calendar.</li>
+                                <li>Currencies can be added using hooks.</li>
+                                <li>Currency can be displayed with space when price is shown, both in booking calendars and WordPress back end.</li>
+                                <li>Currency can be positioned before or after price, in booking calendar.</li>
+                                <li>Data save/load speed & server memory usage has been optimized.</li>
+                                <li>Database class has been updated.</li>
+                                <li>Database indexes have been updated.</li>
+                                <li>Database is deleted when you delete the booking system plugin.</li>
+                                <li>Date select is repaired when minimum amount of days is set.</li>
+                                <li>Days availability is restored when you cancel a booking/reservation.</li>
+                                <li>Delete booking/reservation added.</li>
+                                <li>Deposit information is displayed correctly in email notifications.</li>
+                                <li>Different levels of checking availability have been added in the booking process.</li>
+                                <li>Discounts can be calculated including Extras price, in booking requests.</li>
+                                <li>Display calendar id & name in notifications emails.</li>
+                                <li>Display hours interval from current hour to next one.</li>
+                                <li>Display only an information calendar in front end.</li>
+                                <li>Displaying all translation initially in WordPress admin can be disabled in the configuration file.</li>
+                                <li>Email header is custom.</li>
+                                <li>Form data, that was entered when the a booking was requested, can be displayed in calendar information tooltip and/or day/hour body.</li>
+                                <li>Front end booking calendar info messages hide after a few seconds.</li>
+                                <li>Front end booking calendar is responsive.</li>
+                                <li>Front end booking calendar speed has been improved.</li>
+                                <li>Front end booking calendar's sidebar view is customizable.</li>
+                                <li>Front end calendar can start at any day you want.</li>
+                                <li>Front end fonts are loaded from Google using a secure connection (HTTPS).</li>
+                                <li>Front end UI/CSS has been changed. A new design has been created for front end booking calendar and all classes and ids are unique.</li>
+                                <li>Hooks added.</li>
+                                <li>Hours info is displayed on day hover, in booking calendar.</li>
+                                <li>Installation algorithms have been optimized.</li>
+                                <li>Kenya Shilling currency added.</li>
+                                <li>Language in admin is verified and set to default, if different errors appear.</li>
+                                <li>Language codes have been changed to international codes for: Albanian (al->sq), Basque (bs->eu), Belarusian (by->be), Chinese (cn->zh), Croatian (cr->hr), Czech (cz->cs), Danish (dk->da), Dutch (du->nl), Greek (gr->el), Haitian Creole(ha->ht), Irish (ir->ga), Malay (mg->ms), Maltese (ma->mt), Persian (pe->fa), Spanish (sp->es), Swedish (se->sv), Welsh (we->cy).</li>
+                                <li>Languages can be added using hooks.</li>
+                                <li>Languages can be enabled/disabled in WordPress back end.</li>
+                                <li>Major changes in booking hours logic and display.</li>
+                                <li>Major database changes. Column changes and more indexes created.</li>
+                                <li>Minimum booking period error message does not display randomly when you select only check in date, in booking calendar.</li>
+                                <li>Payment API has been added.</li>
+                                <li>PayPal API sandbox credentials have their own settings.</li>
+                                <li>PayPal transaction may be refunded when a reservation is canceled.</li>
+                                <li>PayPal works with both SSL and TLS, until SSL will be dropped.</li>
+                                <li>Payment transaction ID is displayed in booking notification emails.</li>
+                                <li>Pending reservations are displayed in back end if there is no payment required.</li>
+                                <li>PHP function mysql_insert_id() has been replaced with $wpdb->insert_id, in WordPress back end.</li>
+                                <li>PHPMailer class is used when sending booking notifications.</li>
+                                <li>Plugin paths updated.</li>
+                                <li>Plugin update has been optimized.</li>
+                                <li>Possibility to hide number of items select field has been added, in booking calendar.</li>
+                                <li>Possibility to select more than one group of days/hours in a booking/reservation has been added.</li>
+                                <li>Redirect after a booking has been made, has been added.</li>
+                                <li>Redirect after a booking has been payed with PayPal, has been added.</li>
+                                <li>Retina ready, both front end calendar & back end administration area.</li>
+                                <li>Reservations calendar has been added/improved, in WordPress back end.</li>
+                                <li>Reservations filters history is saved and is displayed when you revisit the page.</li>
+                                <li>Select first day of the week, in booking calendar.</li>
+                                <li>Set default database values before installation.</li>
+                                <li>Set default language for back end and/or front end before installation.</li>
+                                <li>Set the number of months to be initially displayed in the booking calendar.</li>
+                                <li>Stop bookings in advance added.</li>
+                                <li>Text on Settings page, in WordPress admin, has been changed.</li>
+                                <li>The translation is displayed in alphabetical order, when you want to edit it, in WordPress admin.</li>
+                                <li>Touch devices navigation has been enabled.</li>
+                                <li>TLS connection can be used with SMTP.</li>
+                                <li>Translation can repair itself.</li>
+                                <li>Translation edit has been optimized.</li>
+                                <li>Translation system has been updated.</li>
+                                <li>Translation works with special characters, both in booking calendar and WordPress admin.</li>
+                                <li>UAE Dirham currency added.</li>
+                                <li>Updating and fixing the translation database has been improved.</li>
+                                <li>Use prices lower than 1 in a booking request, added.</li>
+                                <li>User meta is deleted when the plugin is deleted.</li>
+                                <li>When a booking calendar is deleted the reservations area is removed.</li>
+                                <li>When hours are enabled, days details can be set manually or set depending on hours details on that current day.</li>
+                                <li>WooCommerce support has been added.</li>
+                                <li>You can set booking requests to by approved instantly, or not.</li>
+                                <li>You have the possibility to calculate the total price using the last hour selected value, or not.</li>
+                            </ul>
+
+                            <h6>Repaired bugs:</h6>
+                            <ul>
+                                <li>bbPress incompatibility, bug repaired.</li>
+                                <li>Booking calendar resize on hidden elements, bug repaired.</li>
+                                <li>Booking notifications message and language bugs have been repaired.</li>
+                                <li>Compatibility with PHP 5.3 or higher has been repaired.</li>
+                                <li>Cyrillic characters are displayed correctly in calendars tooltip, bug repaired.</li>
+                                <li>Datepicker & Google translate incompatibility, bug repaired in booking calendar.</li>
+                                <li>Datepicker bug fix, when you can select only one day, in booking calendar.</li>
+                                <li>IE bugs repaired.</li>
+                                <li>Indonesia Rupiah currency bug repaired.</li>
+                                <li>Information tooltip is displayed, bug repaired in front end booking calendar.</li>
+                                <li>Installation on XAMP server repaired.</li>
+                                <li>Localhost bugs repaired.</li>
+                                <li>Newly created booking forms display correct after PayPal Payment.</li>
+                                <li>Notifications are not sent two times when you use a SMTP, bug repaired.</li>
+                                <li>November & December months are displayed correctly in reservations, booking notifications ...</li>
+                                <li>PayPal payment calculates prices with decimal correctly, bug repaired.</li>
+                                <li>Price decimals ending in 0 display correctly in back end bookings/reservations and notifications, bug repaired.</li>
+                                <li>Select days from different months on front end booking calendar, bug repaired.</li>
+                                <li>Tables not created on Windows OS bug repaired.</li>
+                                <li>TinyMCE button incompatibility with some themes has been repaired.</li>
+                                <li>Touch devices freeze bug repaired.</li>
+                                <li>Unpaid reservations do not display in WordPress back end, bug repaired.</li>
+                                <li>Windows server mySQL text fields bug repaired.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="toggle-wrapper toggle-changelog-free hidden">
+                        <a class="toggle" href="javascript:void(0)">Version 1.4 - 14 August 2014 <span class="icon"></span></a>
+                        <div class="toggle-content">
+                            <h6>Repaired bugs:</h6>
+                            <ul>
+                                <li>Security issue fixed.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="toggle-wrapper toggle-changelog-free hidden">
+                        <a class="toggle" href="javascript:void(0)">Version 1.3.1 - 11 May 2014 <span class="icon"></span></a>
+                        <div class="toggle-content">
+                            <h6>Repaired bugs:</h6>
+                            <ul>
+                                <li>TinyMCE shortcodes bug fixed.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="toggle-wrapper toggle-changelog-free hidden">
+                        <a class="toggle" href="javascript:void(0)">Version 1.3 - 06 May 2014 <span class="icon"></span></a>
+                        <div class="toggle-content">
+                            <h6>Repaired bugs:</h6>
+                            <ul>
+                                <li>Security fixes.</li>
+                                <li>3.9 compatibilities fixed.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="toggle-wrapper toggle-changelog-free hidden">
+                        <a class="toggle" href="javascript:void(0)">Version 1.2.1 - 01 December 2012 <span class="icon"></span></a>
+                        <div class="toggle-content">
+                            <h6>Repaired bugs:</h6>
+                            <ul>
+                                <li>Calendar "is stuck" bug fixed.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="toggle-wrapper toggle-changelog-free hidden">
+                        <a class="toggle" href="javascript:void(0)">Version 1.2 - 29 August 2012 <span class="icon"></span></a>
+                        <div class="toggle-content">
+                            <h6>Repaired bugs:</h6>
+                            <ul>
+                                <li>Localhost bugs fixed.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="toggle-wrapper toggle-changelog-free hidden">
+                        <a class="toggle" href="javascript:void(0)">Version 1.1 - 28 August 2012 <span class="icon"></span></a>
+                        <div class="toggle-content">
+                            <h6>New features:</h6>
+                            <ul>
+                                <li>French Translation updated thanks to Asselin de Beauville Christophe - http://gegeek.net/</li>
+                                <li>German Translation updated thanks to Dieter Pfenning - dieter.pfenning@winball.de</li>
+                                <li>Polish Translation updated thanks to Kwasniewski Krzysztof - http://etechnologie.pl</li>
+                            </ul>
+
+                            <h6>Repaired bugs:</h6>
+                            <ul>
+                                <li>Access-Control-Allow-Origin Buster bug fixed.</li>
+                                <li>Small fixes.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="toggle-wrapper toggle-changelog-free hidden">
+                        <a class="toggle" href="javascript:void(0)">Version 1.0 - 28 July 2012 <span class="icon"></span></a>
+                        <div class="toggle-content">
+                            <h6>New features:</h6>
+                            <ul>
+                                <li>Initial release of Booking System (WordPress Plugin).</li>
                             </ul>
                         </div>
                     </div>

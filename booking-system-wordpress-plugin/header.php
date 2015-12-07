@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
     <head>
-        <title>Booking System WordPress Plugin</title>
+        <title>Pinpoint Booking System WordPress Plugin</title>
 
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta name="description" content="" />
@@ -13,7 +13,7 @@
     <body>
         <div id="wrapper">
             <div id="header">
-                <h1>Booking System WordPress Plugin</h1>
+                <h1>Pinpoint Booking System WordPress Plugin</h1>
                 <a href="http://envato-support.dotonpaper.net/forums/forum/booking-system-pro-wordpress-plugin/" target="_blank" id="support">
                     <span class="icon"></span>
                     <span class="title">Need SUPPORT?</span>

@@ -1,0 +1,918 @@
+            
+            <div id="main">
+                <section>
+                    <h2>Front end - The code</h2>
+                    
+                    <p>
+                        Add the plugin to a container (HTML tag, class or id).
+                    </p>
+                </section>
+                
+                <section>
+                    <h2>Simple Calendar example</h2>
+                    
+                    <p>
+                        To display the booking calendar please use the following example:
+                    </p>
+<pre>
+$('#frontend').DOPFrontendBookingCalendarPRO();
+</pre>
+                    
+                    <h2>Custom Calendar example</h2>
+                    
+                    <p>
+                        To display the booking calendar with custom settings please read the JSON section and use the following example:
+                    </p>
+<pre>
+$('#frontend').DOPFrontendBookingCalendarPRO({
+    'ID': 1,
+    'loadURL': 'dopbcp/php-database/load.php'
+});
+</pre>
+                </section>
+                
+                <section>
+                    <h2>JSON</h2>
+                    
+                    <p>
+                        You can add the following options to the front end version of the plugin:
+                    </p>
+                    <ul class="settings">
+                        <li>
+                            <div class="property">loadURL</div>
+                            <div class="info">Default value: 'dopbcp/php-file/load.php'.<br />URL from were JSON data is loaded.</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property">sendURL</div>
+                            <div class="info">Default value: 'dopbcp/php-file/send.php'.<br />URL from were JSON reservation data is saved.</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property">reinitialize</div>
+                            <div class="info">Default value: false.<br />reinitialize the calendar if already loaded.</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property">calendar</div>
+                            <div class="info">calendar contains 2 attributes: data and text</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property second">data</div>
+                            <div class="info">data is used to change calendar configuration</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property third">bookingStop</div>
+                            <div class="info">Default value: 0.<br /> Set the number of minutes before the booking is stopped in advance. For 1 hour you have 60 minutes, for 1 day you have 1440 minutes.</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property third">dateType</div>
+                            <div class="info">Default value: 0.<br /> Select date format: 0 for American (mm dd, yyyy) or 1 for European (dd mm yyyy).</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property third">language</div>
+                            <div class="info">Default value: en.<br /> Set your calendar language.</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property third">languages</div>
+                            <div class="info">Default value: [].<br /> Set your calendar languages.</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property third">view</div>
+                            <div class="info">Default value: false.<br /> Set true to display only booking information in calendar.</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property second">text</div>
+                            <div class="info">text is used to change calendar texts</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property third">addMonth</div>
+                            <div class="info">Default value: 'Add month view'.<br /> Add Month View button title (plus icon).</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property third">available</div>
+                            <div class="info">Default value: 'available'.<br /> available text</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property third">availableMultiple</div>
+                            <div class="info">Default value: 'available'.<br /> available multiple text</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property third">booked</div>
+                            <div class="info">Default value: 'booked'.<br /> Booked Day text.</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property third">nextMonth</div>
+                            <div class="info">Default value: 'Next month'.<br /> Next Month button title.</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property third">previousMonth</div>
+                            <div class="info">Default value: 'Previous month'.<br /> Previous Month button title.</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property third">removeMonth</div>
+                            <div class="info">Default value: 'Remove month view'.<br /> Remove Month View button title (minus icon).</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property third">unavailable</div>
+                            <div class="info">Default value: 'unavailable'.<br /> Unavailable Day text.</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property">currency</div>
+                            <div class="info">currency contains 2 attributes: data and text.</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property second">data</div>
+                            <div class="info">data is used to change currency configuration</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property third">code</div>
+                            <div class="info">Default value: 'USD'.<br /> Set calendar currency.</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property third">position</div>
+                            <div class="info">Default value: 'before'.<br /> Set your currency position.</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property third">sign</div>
+                            <div class="info">Default value: '$'.<br /> Set your currency sign.</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property">days</div>
+                            <div class="info">days contains 2 attributes: data and text.</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property second">data</div>
+                            <div class="info">data is used to change days configuration</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property third">available</div>
+                            <div class="info">Default value: [true, true, true, true, true, true, true].<br /> Set available/unavailable days starting with Monday.</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property third">first</div>
+                            <div class="info">Default value: 1.<br /> Set the first day of the week (1 = Monday, 2 = Tuesday, 3 = Wednesday, 4 = Thursday, 5 = Friday, 6 = Saturday, 7 = Sunday)</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property third">morningCheckOut</div>
+                            <div class="info">Default value: false.<br /> This option enables "Check in" in the afternoon of first day and "Check out" in the morning of the day after last day.</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property third">multipleSelect</div>
+                            <div class="info">Default value: true.<br /> Use Check in/Check out or select only one day.</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property second">text</div>
+                            <div class="info">text is used to change days texts</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property third">names</div>
+                            <div class="info">Default value: ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'].<br /> Weekdays long names.</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property third">shortNames</div>
+                            <div class="info">Default value: ['Su', 'Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa'].<br /> Weekdays short names.</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property">deposit</div>
+                            <div class="info">deposit contains 2 attributes: data and text.</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property second">data</div>
+                            <div class="info">data is used to change deposit configuration</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property third">deposit</div>
+                            <div class="info">Default value: 0.<br /> Deposit amount.</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property third">type</div>
+                            <div class="info">Default value: 'percent'.<br /> Deposit type can be percent or fixed.</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property second">text</div>
+                            <div class="info">text is used to change deposit texts</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property">discounts</div>
+                            <div class="info">discounts contains 2 attributes: data and text.</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property second">data</div>
+                            <div class="info">data is used to change discounts configuration</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property third">discount</div>
+                            <div class="info">A discount item contains the data for a booked time lapse.</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property last">position</div>
+                            <div class="info">Default value: '1'.<br /> Discount position</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property last">start_time_lapse</div>
+                            <div class="info">Default value: '1'.<br /> Enter the number of days for the begining of the time lapse.</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property last">end_time_lapse</div>
+                            <div class="info">Default value: '1'.<br /> Enter the number of days for the ending of the time lapse.</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property last">operation</div>
+                            <div class="info">Default value: '-'.<br /> Set item price operation. You can add or subtract a value.</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property last">price</div>
+                            <div class="info">Default value: '0'.<br /> Enter item price.</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property last">price_type</div>
+                            <div class="info">Default value: 'percent'.<br /> Set item price type. It can be a fixed value or a percent from price.</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property last">price_by</div>
+                            <div class="info">Default value: 'once'.<br /> Set item price by. The price can be calculated once or by day</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property last">translation</div>
+                            <div class="info">Default value: 'New item'.<br /> Item label.</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property last">rules</div>
+                            <div class="info">A discount item rule set the discounts for a specific time period.</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property lastone">position</div>
+                            <div class="info">Default value: '1'.<br /> Rule position</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property lastone">start_date</div>
+                            <div class="info">Default value: ''.<br /> Enter rule start date, when the discount item rule will start being used. Leave it blank to start today.</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property lastone">end_date</div>
+                            <div class="info">Default value: ''.<br /> Enter rule end date, when the discount item rule will stop being used. Leave it blank for the rule to never finish.</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property lastone">operation</div>
+                            <div class="info">Default value: '-'.<br /> Set rule price operation. You can add or subtract a value.</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property lastone">price</div>
+                            <div class="info">Default value: '0'.<br /> Set rule price.</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property lastone">price_type</div>
+                            <div class="info">Default value: 'percent'.<br /> Set rule price type. It can be a fixed value or a percent from price.</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property lastone">price_by</div>
+                            <div class="info">Default value: 'once'.<br /> Sett rule price by. The price can be calculated once or by day.</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property second">text</div>
+                            <div class="info">text is used to change discount texts</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property third">byDay</div>
+                            <div class="info">Default value: 'day'.<br /> By day text</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property third">title</div>
+                            <div class="info">Default value: 'Discount'.<br /> Discount title text</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property">extras</div>
+                            <div class="info">extras contains 2 attributes: data and text.</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property second">data</div>
+                            <div class="info">data is used to change extras configuration</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property third">extra</div>
+                            <div class="info">Add extra group</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property last">id</div>
+                            <div class="info">Default value: '1'.<br /> Extras group id</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property last">position</div>
+                            <div class="info">Default value: '1'.<br /> Extras group position</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property last">multiple_select</div>
+                            <div class="info">Default value: false.<br /> Set true if you want to select multiple options from the Extras group.</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property last">required</div>
+                            <div class="info">Default value: true.<br /> Set true if you want to be mandatory a selection from this Extras group.</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property last">translation</div>
+                            <div class="info">Default value: ''.<br />Change extras & services name.</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property last">group_items</div>
+                            <div class="info">Add an item to your Extras group</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property lastone">id</div>
+                            <div class="info">Default value: '1'.<br />Item id.</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property lastone">group_id</div>
+                            <div class="info">Default value: '1'.<br />Item group id.</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property lastone">position</div>
+                            <div class="info">Default value: '1'.<br />Item position id.</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property lastone">operation</div>
+                            <div class="info">Default value: '-'.<br />Set the type of operation you apply.</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property lastone">price</div>
+                            <div class="info">Default value: '0'.<br />Set the price for the Item.</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property lastone">price_type</div>
+                            <div class="info">Default value: 'fixed'.<br />Set the type of price 'fixed' or 'percent'.</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property lastone">price_by</div>
+                            <div class="info">Default value: 'once'.<br />Set how to apply the price: Once or Per day.</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property lastone">translation</div>
+                            <div class="info">Default value: ''.<br />Set the label.</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property second">text</div>
+                            <div class="info">text is used to change extras texts</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property third">byDay</div>
+                            <div class="info">Default value: 'day'.<br />By day text.</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property third">invalid</div>
+                            <div class="info">Default value: 'Select an option from'.<br />Error text.</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property third">title</div>
+                            <div class="info">Default value: 'Extras'.<br />Extras title text.</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property">fees</div>
+                            <div class="info">Taxes & Fees</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property second">data</div>
+                            <div class="info">data is used to change fees configuration</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property third">fees</div>
+                            <div class="info">Add taxes & fees</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property last">id</div>
+                            <div class="info">Default value: '1'.<br /> Fee id.</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property last">name</div>
+                            <div class="info">Default value: 'New Fee'.<br /> Fee name.</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property last">operation</div>
+                            <div class="info">Default value: '+'.<br /> Set the type of the Tax/fee operation.</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property last">price</div>
+                            <div class="info">Default value: '10'.<br /> Set the price.</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property last">price_type</div>
+                            <div class="info">Default value: 'fixed'.<br /> Set the type of price, fixed or percent.</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property last">price_by</div>
+                            <div class="info">Default value: 'once'.<br /> Set how the price is applied, Once or Per day.</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property last">included</div>
+                            <div class="info">Default value: 'false'.<br /> Set true if the Tax/fee price is Included in the price.</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property last">extras</div>
+                            <div class="info">Default value: 'true'.<br /> Set true if the Extra's prices be added in the calculations.</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property last">cart</div>
+                            <div class="info">Default value: 'false'.<br /> Set true if the Fees be displayed in the cart's total.</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property last">translation</div>
+                            <div class="info">Default value: 'New tax / fee label'.<br /> Fee label</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property second">text</div>
+                            <div class="info">text is used to change fees texts</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property third">byDay</div>
+                            <div class="info">Default value: 'day'.<br /> By day text.</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property third">included</div>
+                            <div class="info">Default value: 'Included in price'.<br /> 'Included in price' text.</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property third">title</div>
+                            <div class="info">Default value: 'Taxes & fees'.<br /> 'Taxes & fees' title text.</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property">form</div>
+                            <div class="info">Form</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property second">data</div>
+                            <div class="info">data is used to change form configuration</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property third">form</div>
+                            <div class="info">Form fields</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property last">id</div>
+                            <div class="info">Default value: '1'.<br /> Field id</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property last">form_id</div>
+                            <div class="info">Default value: '1'.<br /> Form id</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property last">type</div>
+                            <div class="info">Default value: 'text'.<br /> Field type</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property last">position</div>
+                            <div class="info">Default value: '1'.<br /> Field position</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property last">multiple_select</div>
+                            <div class="info">Default value: 'false'.<br /> Set true if you want to select multiple options from this field.</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property last">allowed_characters</div>
+                            <div class="info">Default value: ''.<br /> Enter the caracters allowed in this field. Leave it blank if all characters are allowed.</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property last">size</div>
+                            <div class="info">Default value: '0'.<br /> Enter the maximum number of characters allowed. Leave it blank for unlimited.</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property last">is_email</div>
+                            <div class="info">Default value: 'false'.<br /> Set true if you want this field to be verified if an email has been added or not.</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property last">required</div>
+                            <div class="info">Default value: 'true'.<br /> Set true if you want the field to be mandatory.</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property last">translation</div>
+                            <div class="info">Default value: 'New Field'.<br /> Field label</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property second">text</div>
+                            <div class="info">text is used to change form texts</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property third">checked</div>
+                            <div class="info">Default value: 'Checked'.<br /> Checked text</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property third">invalidEmail</div>
+                            <div class="info">Default value: 'is invalid. Please enter a valid email.'.<br /> Invalid email text</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property third">required</div>
+                            <div class="info">Default value: 'is required.'.<br /> Is required text</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property third">title</div>
+                            <div class="info">Default value: 'Contact information'.<br /> form title text</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property third">unchecked</div>
+                            <div class="info">Default value: 'Unchecked'.<br /> unchecked text</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property">ID</div>
+                            <div class="info">Default value: 0.<br /> Calendar ID. Change it if you have more then one calendar.</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property">months</div>
+                            <div class="info">Calendar months.</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property second">data</div>
+                            <div class="info">data is used to change months configuration</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property third">no</div>
+                            <div class="info">Default value: 1.<br /> Set the number of months initialy displayed.</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property second">text</div>
+                            <div class="info">text is used to change months texts</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property third">names</div>
+                            <div class="info">Default value: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'].<br /> Months long names.</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property third">shortNames</div>
+                            <div class="info">Default value: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'].<br /> Months short names.</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property">order</div>
+                            <div class="info">Order.</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property second">data</div>
+                            <div class="info">data is used to change order configuration</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property third">redirect</div>
+                            <div class="info">Default value: ''.<br /> Set the link where want to be redirected after booking is done. Leave it empty if you don't redirect.</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property third">terms</div>
+                            <div class="info">Default value: false.<br /> Set true if you want to enable terms and conditions.</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property third">termsLink</div>
+                            <div class="info">Default value: ''.<br /> Set the terms and condition link. Leave it empty if you don't want terms and condition.</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property second">text</div>
+                            <div class="info">text is used to change order texts</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property third">book</div>
+                            <div class="info">Default value: 'Book now'.<br /> book button</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property third">success</div>
+                            <div class="info">Default value: 'Reservation has been added!'.<br /> Reservation success message</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property third">terms</div>
+                            <div class="info">Default value: 'I accept to agree to the Terms & Conditions.'.<br /> Terms and conditions label</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property third">termsInvalid</div>
+                            <div class="info">Default value: 'You must agree with our Terms & Conditions to continue.'.<br /> Terms & condtions - error message</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property third">title</div>
+                            <div class="info">Default value: 'Order'.<br /> Order title</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property third">unavailable</div>
+                            <div class="info">Default value: 'The period you selected is not available anymore. The calendar will refresh to update the schedule.'.<br /> Error message for unavailable selected period</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property">reservation</div>
+                            <div class="info">Reservation.</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property second">text</div>
+                            <div class="info">text is used to change reservation texts</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property third">price</div>
+                            <div class="info">Default value: 'Price'.<br /> Reservation price text</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property third">priceChange</div>
+                            <div class="info">Default value: 'Price change'.<br /> Reservation Price change text</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property third">priceTotal</div>
+                            <div class="info">Default value: 'Total'.<br /> Reservation Total text</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property third">selectDays</div>
+                            <div class="info">Default value: 'Please select the days from calendar.'.<br /> Reservation select days text</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property third">title</div>
+                            <div class="info">Default value: 'Reservation'.<br /> Reservation title</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property third">titleDetails</div>
+                            <div class="info">Default value: 'Details'.<br /> Reservation Details title</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property">search</div>
+                            <div class="info">Search.</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property second">text</div>
+                            <div class="info">text is used to change search texts</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property third">noItems</div>
+                            <div class="info">Default value: 'No. book items'.<br /> No. book items text</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property third">noServices</div>
+                            <div class="info">Default value: 'There are no services available for the period you selected.'.<br /> No services available text</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property third">noServicesSplitGroup</div>
+                            <div class="info">Default value: 'You cannot add divided groups to a reservation.'.<br /> No split group text</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property third">title</div>
+                            <div class="info">Default value: 'Search.'.<br /> Search title.</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property">sidebar</div>
+                            <div class="info">Sidebar.</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property second">data</div>
+                            <div class="info">data is used to change sidebar configuration</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property third">noItems</div>
+                            <div class="info">Default value: true.<br /> Set true to display number of items you want to book in front end.</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property third">positions</div>
+                            <div class="info">positions is used to display position for : search, extras, reservation, cart, form, order</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property last">search</div>
+                            <div class="info">Search position in sidebar</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property lastone">column</div>
+                            <div class="info">Default value: '1'.<br /> Set Column position.Can be: 1 or 2</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property lastone">row</div>
+                            <div class="info">Default value: '1'.<br /> Set Row position.Can be: 1,2,3,4,5,6,7</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property last">extras</div>
+                            <div class="info">Extras position in sidebar</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property lastone">column</div>
+                            <div class="info">Default value: '1'.<br /> Set Column position.Can be: 1 or 2</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property lastone">row</div>
+                            <div class="info">Default value: '2'.<br /> Set Row position.Can be: 1,2,3,4,5,6,7</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property last">reservation</div>
+                            <div class="info">Reservation position in sidebar</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property lastone">column</div>
+                            <div class="info">Default value: '1'.<br /> Set Column position.Can be: 1 or 2</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property lastone">row</div>
+                            <div class="info">Default value: '4'.<br /> Set Row position.Can be: 1,2,3,4,5,6,7</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property last">cart</div>
+                            <div class="info">Cart position in sidebar</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property lastone">column</div>
+                            <div class="info">Default value: '1'.<br /> Set Column position.Can be: 1 or 2</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property lastone">row</div>
+                            <div class="info">Default value: '5'.<br /> Set Row position.Can be: 1,2,3,4,5,6,7</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property last">form</div>
+                            <div class="info">Form position in sidebar</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property lastone">column</div>
+                            <div class="info">Default value: '1'.<br /> Set Column position.Can be: 1 or 2</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property lastone">row</div>
+                            <div class="info">Default value: '5'.<br /> Set Row position.Can be: 1,2,3,4,5,6,7</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property last">form</div>
+                            <div class="info">Form position in sidebar</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property lastone">column</div>
+                            <div class="info">Default value: '1'.<br /> Set Column position.Can be: 1 or 2</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property lastone">row</div>
+                            <div class="info">Default value: '6'.<br /> Set Row position.Can be: 1,2,3,4,5,6,7</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property last">order</div>
+                            <div class="info">Order position in sidebar</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property lastone">column</div>
+                            <div class="info">Default value: '1'.<br /> Set Column position.Can be: 1 or 2</div>
+                            <br class="clear" />
+                        </li>
+                        <li>
+                            <div class="property lastone">row</div>
+                            <div class="info">Default value: '7'.<br /> Set Row position.Can be: 1,2,3,4,5,6,7</div>
+                            <br class="clear" />
+                        </li>
+                    </ul>
+                </section>
+            </div>

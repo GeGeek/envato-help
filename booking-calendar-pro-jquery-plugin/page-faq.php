@@ -1,7 +1,7 @@
             
             <div id="main">
                 <section>
-                    <h2>Back end - Discounts</h2>
+                    <h2>FAQ</h2>
                     
                     <p>
                         Under construction!
